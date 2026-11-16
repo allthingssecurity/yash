@@ -1,0 +1,14 @@
+{
+  "status": "RNA_NORMAL_SELF_AUDIT_VERIFIED",
+  "focal_RNA_regions": 4,
+  "altered_source_regions_searched": 24,
+  "matched_normal_focal_changes_with_no_qualifying_ALT": 4,
+  "excluded_region_ids": [
+    "REG_35621fc5dd92cf1c215d"
+  ],
+  "fresh_local_reference_search_performed": true,
+  "reference_queries": 1584,
+  "receipt_outputs_byte_verified": true,
+  "new_BAM_reading_in_this_verifier": false,
+  "normal_expression_or_presentation_proven": false
+}

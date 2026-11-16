@@ -1,6 +1,6 @@
 # Design #2 — detailed methods
 
-Design #2 is the lead: **24 distinct 25-amino-acid regions in a 724-aa protein**,
+Design #2 contains: **24 distinct 25-amino-acid regions in a 724-aa protein**,
 comprising 12 mutation, 5 splice, 5 cancer–testis antigen (CTA)/self and 2 fusion
 regions. It uses Yash’s tumour DNA and RNA, matched-normal white-blood-cell DNA,
 and supplied gene-expression values. [Design #1](../initial/methods.md) used no
@@ -282,11 +282,20 @@ no exact resolvable junction entry in the searched catalogs; it does not show
 absence from all healthy tissues or establish translation. Low support and
 motif disagreement remain visible.
 
-### Additional RNA changes in the splice sequences
+### RNA-supported amino-acid changes
 
-For **F5, MUC5B, MUC3A and MUC6**, reads show both an unusual splice join and an
-extra base change. The extra change makes the selected peptides different from
-the main reference proteins. [Sequence checks](review/splice-sequence-check.json)
+For **F5, MUC5B, MUC3A and MUC6**, tumour RNA reads contain nucleotide sequences
+predicted to encode **S→F, S→I, I→F and T→M**, respectively, relative to the
+nominated reference. These are RNA-supported amino-acid changes, not measured
+protein changes or confirmed RNA-editing events. The candidates were discovered
+through splice analysis, but repetitive sequence can make the nominated genomic
+placement and splice origin uncertain. The BAM check verifies the observed bases
+and recorded gapped alignments; it does not independently establish a unique
+alignment or a translated isoform.
+
+The additional changes account for the selected peptides' differences from the
+primary protein-coding reference; an unusual splice-coordinate entry alone is
+not evidence of a nonself peptide. [Sequence checks](review/splice-sequence-check.json)
 record those comparisons and the targeted MUC6 normal-DNA check, independently
 reproducing the reference comparison in [issue #1](https://github.com/popvax/yash/issues/1).
 
@@ -303,6 +312,12 @@ python designs/design-2/pipeline/check_splice_sequences.py \
 Normal DNA does not verify tumour-specific splicing. For CTA/self targets, it
 also does not establish normal-tissue expression or the exact translated patient
 isoform; **SPATA31A6 has particularly weak local RNA evidence**.
+
+The [broader normal-sequence review used by Design #3](../design-3/inputs/sequence-review/README.md)
+adds fresh normal-DNA checks for all four focal RNA changes and searches all
+Ensembl 103 translations, including alternative contigs and pseudogene
+translations. It excludes MUC6 from Design #3 because its full sequence has an
+alternative-reference match. The recorded Design #2 selection remains unchanged.
 
 ### The two fusion contexts
 

@@ -1,0 +1,18 @@
+{
+  "status": "RNA_POOL_OFFLINE_REPLAY_PASSED",
+  "windows": 752,
+  "peptide_occurrences": 21767,
+  "unique_normal_sites": 102,
+  "window_tiers": {
+    "PRIMARY": 505,
+    "EXCLUDE": 212,
+    "REVIEW_NORMAL_EVIDENCE": 35
+  },
+  "native_score_curve_checked": true,
+  "normal_classifications_recomputed": true,
+  "all_peptide_tiers_recomputed": true,
+  "window_scores_and_gene_ranking_recomputed": true,
+  "new_model_inference": false,
+  "new_BAM_reading": false,
+  "construct_changed": false
+}

@@ -1,0 +1,59 @@
+{
+  "annotation_identity": "window_id for SPLICE, otherwise region_id",
+  "construct_rebuilt": false,
+  "current_plan_regions": 30,
+  "distinct_region_ids": 191,
+  "exploratory_weighted_score": "Sum no-flank presentation scores over eligible target peptide occurrences and HLA pairs with affinity <=500 nM, times sqrt(supplied gene value). One best window per gene. Not a native Vaxrank score or a validated selection rule.",
+  "expression_weighted_presentation_source_context_top5": [
+    "F5",
+    "HLA-B",
+    "NBPF14",
+    "KMT2D",
+    "HSF1"
+  ],
+  "expression_weighted_presentation_top5": [
+    "F5",
+    "HLA-B",
+    "NBPF14",
+    "KMT2D",
+    "HSF1"
+  ],
+  "max_relative_fresh_vs_recorded_best_affinity_difference": 1.6515136862516044e-06,
+  "mutation_regions": 18,
+  "mutation_regions_with_reference_comparison": 17,
+  "original_splice_top5": [
+    "F5",
+    "HLA-B",
+    "HSF1",
+    "NBPF14",
+    "KMT2D"
+  ],
+  "peptide_allele_inference_rows": 16500,
+  "peptide_occurrence_annotation_rows": 8994,
+  "presentation_no_flanks_top5": [
+    "TSPY2",
+    "MUC5AC",
+    "F5",
+    "HLA-B",
+    "PLK5"
+  ],
+  "presentation_source_context_top5": [
+    "TSPY2",
+    "HLA-B",
+    "F5",
+    "MUC5AC",
+    "PLK5"
+  ],
+  "regions_annotated": 192,
+  "selection_changed": false,
+  "shared_top5_genes": [
+    "F5",
+    "HLA-B"
+  ],
+  "splice_genes": 10,
+  "splice_windows_compared": 167,
+  "status": "ANNOTATIONS_COMPLETE_SELECTION_UNCHANGED",
+  "unique_queries": 2750,
+  "vaccine_context_prediction_performed": false,
+  "weighted_presentation_keeps_all_five_gene_windows": true
+}

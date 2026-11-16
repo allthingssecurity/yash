@@ -1,0 +1,9 @@
+{
+  "remote": "/data/results/TN25-112103/rna-pool-screen-20261112/63be01e05729-9974379204b0",
+  "request_sha256": "63be01e057298b2c73be1c91cd7f088434959288f2f07ccc5efaa22c4f09f742",
+  "worker_bundle_sha256": "9974379204b0f3f6a1b236e2542fe5ad3c7c68e54f4b089e3624c099e10ac3ca",
+  "sandbox_id": "sb-01M780AC866CQHX950P67M623P",
+  "image_id": "im-hX1h6HknDMvasm9Z6q530H",
+  "exit_code": 0,
+  "status": "COMPLETED"
+}

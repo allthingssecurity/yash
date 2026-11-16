@@ -14,6 +14,7 @@ from pathlib import Path
 import re
 
 from .splice_evidence import verify as verify_source
+from .io import require_assertions
 
 
 def digest(path):
@@ -22,6 +23,11 @@ def digest(path):
         for block in iter(lambda: handle.read(8 * 1024 * 1024), b""):
             h.update(block)
     return h.hexdigest()
+
+
+def payload(name, body):
+    """Compare regenerated gzip products by content, preserving stored hashes."""
+    return gzip.decompress(body) if Path(name).suffix == '.gz' else body
 
 
 def load(path):
@@ -332,6 +338,7 @@ def input_hashes(source, checks):
 
 
 def apply(source, output):
+    require_assertions('Splice selection')
     source, output = Path(source), Path(output)
     assert source.resolve() != output.resolve()
     # The original numerical/HLA/reference/read-verification contracts must pass
@@ -352,6 +359,7 @@ def apply(source, output):
 
 
 def verify(source, output):
+    require_assertions('Splice replay verification')
     source, output = Path(source), Path(output)
     recorded = load(output / "verification.json")
     assert recorded["status"] == "PASS" and recorded["input_sha256"] == input_hashes(source, output)
@@ -360,7 +368,9 @@ def verify(source, output):
     products, summary = selection_products(source, output)
     for name, content in products.items():
         actual = (output / name).read_bytes()
-        assert actual == content, "Offline replay mismatch: " + name
+        # Container headers can vary across Python/zlib platforms. Stored files
+        # must still match their original byte hashes on the following line.
+        assert payload(name, actual) == payload(name, content), "Offline replay mismatch: " + name
         assert digest(output / name) == recorded["output_sha256"][name]
     assert summary == recorded["summary"]
     return dict(status="PASS", offline_replayed_files=len(products), every_window_checked=summary["source_windows"],

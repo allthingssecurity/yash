@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-12T12:49:54.494334+00:00",
+  "variants": 5,
+  "distinct_contexts": 5,
+  "worker_sha256": "97bc61f2556d78943f2816db56e8d54436f318f85d2ca5caead15bcb247fe8ce",
+  "patient_RNA_reconstruction_claimed": false,
+  "parent_inputs_unchanged": true,
+  "outputs": {
+    "contexts.json": {
+      "bytes": 21413,
+      "sha256": "c5a828414ef6f0c8b4683b7b5739861ca688802924755b1571b69aeee02f8f00"
+    },
+    "contexts.tsv": {
+      "bytes": 15034,
+      "sha256": "ef09f017d8c8eee40a6e5ea76afdb242933409a0cf77ba3f2331952c1fdfbec7"
+    },
+    "contexts.fasta": {
+      "bytes": 484,
+      "sha256": "203b81c52d263c1f4603ee4f133d5ca8b7141b1afaa4a17c1cf12f1473a0413c"
+    }
+  }
+}

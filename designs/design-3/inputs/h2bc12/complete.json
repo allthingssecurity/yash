@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETED",
+  "outputs": {
+    "result.json": {
+      "bytes": 1389,
+      "sha256": "8e3fd4ee81a0a2054fe6379c61d9f74ac9323b7d39cbd73dde0bb8c378a75dae"
+    }
+  }
+}

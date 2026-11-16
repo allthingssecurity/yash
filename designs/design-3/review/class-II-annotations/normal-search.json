@@ -1,0 +1,73 @@
+{
+  "algorithm": "Exact substring search, first witness per catalog",
+  "healthy_translation_or_presentation_measured": false,
+  "personal_normal_catalog_designed_max_peptide_length": 11,
+  "personal_normal_caveat": "Existing local haplotype clusters and flanks were constructed for <=11-aa targets. Positive long-peptide matches are witnesses; negative long-peptide searches do not establish complete genotype-compatible class-II coverage.",
+  "personal_normal_negative_is_complete_for_classII": false,
+  "queries": 3424,
+  "query_lengths": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "sources": [
+    {
+      "expected_records": 115262,
+      "name": "ensembl103",
+      "path": "/data/raft/references/homo_sapiens/pyensembl/GRCh38/ensembl103/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "query_peptides_with_hits": 1358,
+      "records_searched": 115262,
+      "scope": {},
+      "sha256": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505"
+    },
+    {
+      "expected_records": 20652,
+      "name": "uniprot_canonical",
+      "path": "/data/results/TN25-112103/provider-cache/uniprot/6eb652c50cb74379/UP000005640_9606.fasta.gz",
+      "query_peptides_with_hits": 1358,
+      "records_searched": 20652,
+      "scope": {},
+      "sha256": "9ff6719ed2f8cd86614277fec86e729d26c3cd1f8edd95e8f8d44b219f9bee01"
+    },
+    {
+      "expected_records": 265365,
+      "name": "uniprot_additional",
+      "path": "/data/results/TN25-112103/provider-cache/uniprot/6eb652c50cb74379/UP000005640_9606_additional.fasta.gz",
+      "query_peptides_with_hits": 969,
+      "records_searched": 265365,
+      "scope": {},
+      "sha256": "c6ce12f943c6be6b2f72676d97d82051ba47d501cb355b2ee0e340082533b246"
+    },
+    {
+      "expected_records": 245535,
+      "name": "ensembl115",
+      "path": "/data/results/TN25-112103/provider-cache/ensembl115/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "query_peptides_with_hits": 1358,
+      "records_searched": 245535,
+      "scope": {},
+      "sha256": "7991ab37d09986eefdb5c77032b15370ab0e99918b78f235f3230c0302851c96"
+    },
+    {
+      "expected_records": 112353,
+      "name": "personal_normal",
+      "path": "/data/results/TN25-112103/matched-normal-20261107/normal-self/normal-sequence-contexts.fasta",
+      "query_peptides_with_hits": 87,
+      "records_searched": 112353,
+      "scope": {
+        "frameshifts_include_downstream_coding_variants": true,
+        "local_cluster_separation_coding_nt": 33,
+        "maximum_local_combinations": 4096,
+        "maximum_target_peptide_length": 11,
+        "negative_result": "No hit in the searched genotyped coding models; not proof of normal-tissue absence",
+        "normal_expression_or_HLA_presentation_measured": false,
+        "reference_proteome_searched_separately": true,
+        "unphased_combinations": "Potential self; conservatively exclude hits, do not claim measured phase",
+        "unresolved_cases_retained": true
+      },
+      "sha256": "6777d5a6513bc98719032d7fbbadd4e6d779099acd8c8072e630cb2867528dac"
+    }
+  ]
+}

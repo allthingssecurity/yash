@@ -1,0 +1,14 @@
+{
+  "reference": "Homo_sapiens.GRCh38.pep.all.fa.gz",
+  "sha256": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505",
+  "primary_coding_translations": 85968,
+  "all_provider_translations": 115262,
+  "extended_scope": "All Ensembl 103 peptide translations, including alternative contigs and pseudogene annotations; these are predicted sequences, not demonstrated healthy-tissue proteins",
+  "patient_normal_scope": "Recorded bounded normal-coding-genotype and typed-HLA sequence models; not exhaustive normal proteome or complete repeat haplotypes",
+  "normal_bam_sha256": "1d864150551f6d47260050c52105c88b7b9f4120d005be33656094767326ce18",
+  "normal_bam_bytes": 143294724201,
+  "normal_coding_receipt_sha256": "fcecb2c2d2277a69be551fcf753b3b3253a1cb25e80ba1ab2919c2d5972202f0",
+  "reference_genome": "/data/results/TN25-112103/mutect2-tumour-only-20261029/resources/reference.fa",
+  "RNA_support_scope": "Existing full-window reconstruction and BAM verification receipts; fresh direct pileups only at the sequence-difference positions",
+  "CTA_self_scope": "Intentionally reference-derived CTA/self candidates are outside this altered-peptide novelty audit"
+}

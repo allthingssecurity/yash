@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETED",
+  "new_model_inference": true,
+  "model_files_verified": true,
+  "model_manifest_sha256": "94bb5bc4711f59e46b7ae6e25cf4a48db3be15e23052c9f2524b090b5246b860",
+  "model_files": 44,
+  "request_sha256": "23359f2b363a3fb5b5dad4ff3325ccd95d454da134c7f3402f5cff08a28b99df",
+  "prediction_sha256": "6aeb00ccd754913ec4af70e3601e2965117cebd2a7c40e461192f0652f600d7c",
+  "worker_sha256": "be472fa0b0710145046a9985fb5e1c3f3b55c34e0e20e98ff8dfe4af4078df04",
+  "versions": {
+    "mhcflurry": "2.3.14",
+    "numpy": "2.4.6",
+    "torch": "2.14.1+cu130"
+  },
+  "GPU": "NVIDIA A10",
+  "elapsed_seconds": 10.916796534,
+  "queries": 2750,
+  "prediction_rows": 16500,
+  "context_is_part_of_query_identity": true,
+  "uses_RNA_count_or_expression_as_model_input": false,
+  "models_redistributed": false
+}

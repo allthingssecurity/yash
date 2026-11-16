@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "scope": "Screen reconstructed RNA windows before choosing additional splice-source genes; do not change a construct automatically.",
+  "input_pool": "Recorded windows passing native RNA/frame/peptide review, existing HLA-I admission, coordinate-normal ND and limited strand checks.",
+  "normal_change_dependent_targets": "Require resolved reference-supported or present-in-normal calls for peptide-overlapping nonsynonymous differences and at least one reference-supported difference when novelty relies on the RNA changes. A normal-carried background change does not by itself disqualify a separate RNA change. Missing/conflicting or solely normal-carried changes remain in the review tier. These are nominated-locus checks, not proof of unique repeat origin.",
+  "junction_context_targets": "When the same recorded alignment path translated with reference bases is already nonself, normal-DNA changes are reported separately; no somatic-DNA requirement is invented for an RNA junction.",
+  "all_recorded_paths": true,
+  "normal_min_fragments": 20,
+  "normal_min_GQ": 20,
+  "normal_ALT_below": 3,
+  "minimum_mapping_quality": 20,
+  "minimum_base_quality": 20,
+  "peptide_lengths": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "admission_affinity_nm": 500,
+  "reference_scope": "All Ensembl 103 translations, UniProt UP000005640 canonical/additional isoforms and recorded bounded patient-normal coding/HLA models.",
+  "expression": "Positive supplied transformed gene value; affinity contribution sum times its square root. No raw-read abundance or splice-fraction multiplier.",
+  "binding": "Reuse checksum-pinned MHCflurry 2.3.14 affinity predictions and native Vaxrank 3.46.0 contributions; no new model inference.",
+  "hydropathy": "19-aa Kyte-Doolittle mean strictly greater than 1.6 is excluded.",
+  "ranking": "Best eligible window per event, then gene; original event/window tie-break. No top-N quota or automatic construct additions.",
+  "limits": "RNA sequence support does not prove protein translation, unique genomic placement, RNA editing, tumour specificity, HLA presentation or immunogenicity. Normal catalog ND is coordinate-specific."
+}

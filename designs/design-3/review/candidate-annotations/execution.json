@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "finished_utc": "2026-11-15T19:11:45.218506+00:00",
+  "request_sha256": "23359f2b363a3fb5b5dad4ff3325ccd95d454da134c7f3402f5cff08a28b99df",
+  "sandbox_id": "sb-zb1Yx1RQV4VBWUVzrmz96H",
+  "started_utc": "2026-11-15T19:10:53.298133+00:00",
+  "terminated": true,
+  "worker_sha256": "be472fa0b0710145046a9985fb5e1c3f3b55c34e0e20e98ff8dfe4af4078df04"
+}

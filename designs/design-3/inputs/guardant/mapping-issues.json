@@ -1,0 +1,9 @@
+[
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000260943",
+    "status": "TRANSCRIPT_MAPPING_REQUIRES_REVIEW",
+    "error": "TypeError(\"object of type 'NoneType' has no len()\")"
+  }
+]

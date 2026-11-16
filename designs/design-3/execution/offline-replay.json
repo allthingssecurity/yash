@@ -1,0 +1,62 @@
+{
+  "status": "DESIGN3_FINAL_DESIGN_OFFLINE_REPLAY_PASSED",
+  "regions": 30,
+  "protein_length_aa": 885,
+  "selection_and_RNA_admission_verified": true,
+  "all_solver_phases_optimal": true,
+  "protein_and_components_identical": true,
+  "known_nucleotide_and_GenBank_outputs_identical": [
+    "cds.fasta",
+    "mrna-segments.fasta",
+    "template-segments.fasta",
+    "template-segments.gb",
+    "components.tsv"
+  ],
+  "included_output_files_byte_verified": 25,
+  "hash_only_native_outputs": [
+    {
+      "file": "designs/design-3/final/construct/all-inference/predictions.tsv",
+      "bytes": 52975692,
+      "sha256": "85faa1e1331a524656c4acf53f1d6a1b0961bd8f1758872da490c48ace18d311",
+      "verification": "HASH_ONLY_NATIVE_OUTPUT_NOT_DOWNLOADED"
+    }
+  ],
+  "new_inference_performed": false,
+  "BAMs_reread": false,
+  "retained_parent_regions": 24,
+  "added_H2BC12": true,
+  "H2BC12_newer_reference_check_verified": true,
+  "RNA_genes": [
+    "F5",
+    "HLA-B",
+    "HSF1",
+    "NBPF14",
+    "KMT2D"
+  ],
+  "PolyA": "unspecified",
+  "hydrophobicity": {
+    "policy": {
+      "id": "kyte_doolittle_19_gt_1_6",
+      "scale": "Kyte\u2013Doolittle (1982)",
+      "window_aa": 19,
+      "weighting": "uniform; no edge padding",
+      "exclude_mean_strictly_greater_than": 1.6,
+      "coordinates": "zero based, end exclusive",
+      "scale_source": "https://web.expasy.org/protscale/pscale/Hydropath.Doolittle.html",
+      "method_source": "https://doi.org/10.1016/0022-2836(82)90515-0",
+      "scope": "Construct-compatibility heuristic, not proof of membrane insertion or its absence."
+    },
+    "status": "PASS",
+    "protein_length_aa": 885,
+    "windows_scanned": 867,
+    "antigen_linker_windows": 786,
+    "unexpected_high_windows": 0,
+    "max_antigen_linker_mean_kd": 0.8736842105263158,
+    "high_window_classifications": {
+      "ROUTING_BOUNDARY_REVIEW": 8,
+      "INTENTIONAL_ROUTING_DOMAIN": 10
+    },
+    "routing_boundary_policy": "Report all unmasked scores; SEC/MITD overlaps are not excluded. This does not validate boundary topology.",
+    "all_antigen_regions_individually_pass": true
+  }
+}

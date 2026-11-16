@@ -1,0 +1,11 @@
+{
+  "exit_code": 0,
+  "finished_utc": "2026-11-16T04:39:09.440346+00:00",
+  "remote": "/data/results/TN25-112103/class-II-annotations-9f649b8a8d85-f9f8e197aca3-20261116T043722Z",
+  "request_sha256": "9f649b8a8d85f958c60ef27894e3e1c693cbbe33daf3dbabc67413af8feb8241",
+  "sandbox_id": "sb-fmwLKQe2RoVmNOZUVyqw9f",
+  "started_utc": "2026-11-16T04:37:30.662048+00:00",
+  "status": "COMPLETED",
+  "terminated": true,
+  "worker_sha256": "f9f8e197aca36f6f0b79de63caa3381250c6e9319f12f18dce8ae8ed66c579a4"
+}

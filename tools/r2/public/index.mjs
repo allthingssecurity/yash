@@ -2,7 +2,8 @@
 export default {
   "schema_version": 1,
   "case": "TN25-112103",
-  "lead_design": "design-2",
+  "lead_design": "design-3",
+  "lead_design_url": "https://github.com/popvax/yash/tree/main/designs/design-3",
   "repository_url": "https://github.com/popvax/yash",
   "snapshot_date": "2026-11-09",
   "private_bucket": true,

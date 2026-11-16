@@ -1,8 +1,8 @@
 # Start here
 
 Read README.md, then data/README.md for datasets or docs/usage.md for code. This is a research handoff: shared evidence,
-our runnable implementation and vaccine designs. **Design #2 is the lead** in
-designs/design-2/ and uses matched-normal DNA. Design #1 in designs/initial/ was
+our runnable implementation and vaccine designs. **Design #3 is the lead** in
+designs/design-3/ and uses matched-normal DNA. Design #1 in designs/initial/ was
 generated without matched-normal DNA and is retained for comparison. Independent methods,
 antigen selections, scoring models and construct designs are welcome.
 
@@ -19,10 +19,10 @@ antigen selections, scoring models and construct designs are welcome.
 
 ## Lead design and earlier implementation
 
-- Start with designs/design-2/README.md and methods.md for the lead design.
+- Start with designs/design-3/README.md and methods.md for the lead design.
   Verify collected results with `yash-vaccine verify`;
   replay selection, recorded-cost assembly, junction checks and RNA with
-  `yash-vaccine reproduce --output work/design-2-replay`. These default to the lead.
+  `yash-vaccine reproduce --output work/design-3-replay`. These default to the lead.
   These are offline checks. Raw-read/prediction reruns require the documented
   Modal inputs and explicit --execute. Keep recorded evidence and checksums intact. Historical project source/docs are archived
   under provenance/snapshots/. Three full upstream RNA modules are not bundled;
@@ -33,6 +33,47 @@ antigen selections, scoring models and construct designs are welcome.
   historical execution receipts identify the actual run; the current repository
   directory is designs/design-2/. Do not rename recorded remote data or rewrite
   native receipts just to change the design's display name.
+
+## Design #3
+
+- `designs/design-3/` is the only Design #3 directory: 30 regions and an 885-aa
+  protein. The canonical selection, construct, policy, methods and run/replay
+  entry points are directly in that directory. Design #3 is the default lead.
+- Thirteen mutation regions have paired-DNA/RNA evidence, including H2BC12 with
+  expression left missing. Five Guardant additions are reference-derived VUS
+  hypotheses, not full-window RNA reconstructions. Retain AR's normal-coverage
+  exception and the in-frame fusion's binding exception.
+- RNA selection uses `data/shared-rna/splicing/junction-only/selected.json`:
+  F5, HLA-B, HSF1, NBPF14 and KMT2D. Preserve the original alignment, support,
+  frame/native/normal-ND/strand rules and broad self exclusion. Every 25-aa window
+  must match reference bases translated across the same join on every recorded
+  supporting path; synonymous differences are allowed. No additional mapper,
+  distinct-pattern or contextual-error gate is part of this recipe.
+- Verify with `python designs/design-3/selection.py --verify`; replay with
+  `python designs/design-3/run.py --replay --output work/design-3-replay` using a
+  fresh output. Keep source measurements, selected sequence bytes and native
+  receipts intact. Native paths are resolved to current inputs only on read.
+- `tools/rna_evidence/normal_peptides.py` gates RNA selection. Intentional CTA/self
+  regions are outside the altered-peptide novelty gate. Unknown targets or stale
+  scores stop selection. All 167 eligible windows remain available for analysis.
+- `tools/candidate_annotations/` records focal-reference affinity ratios and
+  context-keyed class-I presentation; `class_ii.py` adds CapHLA 15–20-aa annotations.
+  Both have offline `--verify` modes and explicit fresh-run modes. Never reuse
+  a processing score across different peptide/flank contexts. Annotation scores
+  do not select regions or change the assembly objective.
+- Class II uses two primary DRB1 targets and eight exploratory unphased DQ/DP
+  combinations. DRB3 is excluded as requested; typing evidence is retained.
+  Equivalent DRA binding domains map four chain pairings to two model targets.
+  Do not claim measured phase, binding-core novelty, a complete long-peptide
+  personal-normal exclusion or a T-cell response. `data/hla/class-II.json` records
+  T1K calls and separately attributed PR #7 normal-WGS corroboration.
+- The interactive view lives on the main website at https://rnafoundry.com/yash/#vaccine,
+  not in this research repo. `tools/candidate_annotations/site_data.py --output PATH`
+  exports verified annotations for that site; add `--verify` to check freshness.
+  Keep website HTML/CSS/JS in the RNA Foundry website repository.
+- Keep private reviews, superseded builds and unused alternatives under ignored
+  `work/`. Do not add them to the catalog, documentation links or future commits.
+  Preserve Designs #1/#2 and the 145 published data objects unchanged.
 
 ## Design #1 and optional helpers
 
@@ -63,10 +104,10 @@ antigen selections, scoring models and construct designs are welcome.
   see docs/recipe-runner.md. These are limitations of that helper, not rules for
   other designs. Do not silently bypass its evidence/cache checks.
   This helper uses Design #1's tumour-only evidence, not the matched-normal lead.
-  For changes to Design #2, create a plain workspace with `init NAME`, start from
-  its inputs/integrated/candidate-pool.tsv, selection/selected.tsv and methods.md,
+  For changes to Design #3, create a plain workspace with `init NAME`, start from
+  its selection/selected.tsv and methods.md, plus the shared and Design #2 source evidence,
   and implement/document the changed analysis and any new predictions yourself.
-- `compare` reads the two complete recorded designs or compatible recipe-runner outputs. Independent analyses can use
+- `compare` reads the three complete recorded designs or compatible recipe-runner outputs. Independent analyses can use
   their own comparisons. When reusing our regions, compare region_id values;
   AG01-style labels are local to one selection.
 

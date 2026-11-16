@@ -1,0 +1,26 @@
+{
+  "status": "VERIFIED",
+  "transcript_id": "ENST00000260943",
+  "gene": "ERBB4",
+  "reported_change": "D113V",
+  "cDNA_coding_sequence_available": false,
+  "CDS_prefix_matches_protein_through_reported_position": true,
+  "partial_first_amino_acid": true,
+  "first_complete_codon_offset": 2,
+  "reference_codon": "GAT",
+  "codon_positions": [
+    211947514,
+    211947513,
+    211947512
+  ],
+  "compatible_alleles": [
+    [
+      "chr2",
+      211947513,
+      "T",
+      "A"
+    ]
+  ],
+  "interpretation": "Unavailable cDNA string resolved using GTF CDS positions, recorded reference genome and the matching protein prefix; same allele as the two cDNA-mapped transcripts",
+  "worker_sha256": "ad8caa430bab77ae2df3c34929d94f910341be06c86b6bb830b44f707c7c5312"
+}

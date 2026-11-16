@@ -1,0 +1,5 @@
+gene	reference_amino_acid	RNA_inferred_amino_acid	reference_RNA_codon	observed_RNA_codon	chromosome	position_1based	normal_reference_fragments	normal_alternate_fragments	native_genotype_status	minimum_native_GQ	primary_nonself_target_peptides	broad_and_personal_nonself_target_peptides	decision
+F5	S	F	UCU	UUU	chr1	169541395	50	0	NORMAL_TARGET_ALLELE_NOT_CALLED	99	26	26	RETAIN_RNA_SEQUENCE_HYPOTHESIS
+MUC5B	S	I	AGC	AUC	chr11	1247169	52	0	NORMAL_TARGET_ALLELE_NOT_CALLED	99	22	22	RETAIN_RNA_SEQUENCE_HYPOTHESIS
+MUC3A	I	F	AUC	UUC	chr7	100954276	74	0	NORMAL_TARGET_ALLELE_NOT_CALLED	99	18	18	RETAIN_RNA_SEQUENCE_HYPOTHESIS
+MUC6	T	M	ACG	AUG	chr11	1017576	150	0	NORMAL_TARGET_ALLELE_NOT_CALLED	99	23	0	EXCLUDE_REFERENCE_MATCH

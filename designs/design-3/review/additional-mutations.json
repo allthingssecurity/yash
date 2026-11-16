@@ -1,0 +1,687 @@
+{
+  "scope": "Read-only review of two omitted DNA-derived regions; no new DNA calling or HLA inference; no construct change.",
+  "candidates": [
+    {
+      "gene": "H2BC12",
+      "sequence": "LLPGELAKHAVSKGTKAVTKYTSAK",
+      "target_start": 12,
+      "target_end": 13,
+      "target_peptides": 38,
+      "eligible_nonself_target_peptides": 38,
+      "best_prediction": {
+        "peptide": "AVSKGTKAV",
+        "allele": "HLA-C*01:02",
+        "affinity_nm": 136.46428237205683
+      },
+      "matches": {
+        "KGTKAVTKYT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "LAKHAVSKG": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "GELAKHAVSK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KHAVSKGT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "ELAKHAVSKGT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "SKGTKAVTKYT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "VSKGTKAVTKY": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KHAVSKGTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AVSKGTKAV": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "SKGTKAVT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AKHAVSKGTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KGTKAVTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "VSKGTKAV": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "HAVSKGTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KHAVSKGTKAV": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AKHAVSKGT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KGTKAVTKY": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "GELAKHAVSKG": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "SKGTKAVTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "LAKHAVSKGT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AKHAVSKGTKA": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "PGELAKHAVSK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "LAKHAVSKGTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "VSKGTKAVT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KGTKAVTKYTS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AVSKGTKAVTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "LAKHAVSK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AVSKGTKA": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "SKGTKAVTKY": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "ELAKHAVSK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "VSKGTKAVTK": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AKHAVSKG": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "KHAVSKGTKA": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "HAVSKGTKAVT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "HAVSKGTKAV": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AVSKGTKAVT": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "HAVSKGTKA": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "ELAKHAVSKG": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        }
+      },
+      "reference_sha256": {
+        "Ensembl": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505",
+        "UniProt": "6eb652c50cb7437976889b1f809ae6088d8ba076cec462f98e63a45965967667"
+      },
+      "new_model_inference": false,
+      "variant_id": "mn_chr6_27146459_C_T",
+      "protein_change": "p.E114K",
+      "primary_DNA_eligible": true,
+      "DNA_depth": 2464,
+      "DNA_AD": [
+        1615,
+        849
+      ],
+      "normal_classification": "NORMAL_REFERENCE_SUPPORTED",
+      "normal_ref_fragments": 54,
+      "normal_alt_fragments": 0,
+      "RNA_alt_fragments": 11,
+      "RNA_total_fragments": 57,
+      "added_to_design": false
+    },
+    {
+      "gene": "FES",
+      "sequence": "EQCWAYEPGQWPSFS",
+      "target_start": 10,
+      "target_end": 11,
+      "target_peptides": 20,
+      "eligible_nonself_target_peptides": 20,
+      "best_prediction": {
+        "peptide": "AYEPGQWPSF",
+        "allele": "HLA-C*07:02",
+        "affinity_nm": 94.54417009015648
+      },
+      "matches": {
+        "WAYEPGQWP": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AYEPGQWPS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "QCWAYEPGQWP": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "CWAYEPGQW": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "EQCWAYEPGQW": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "WAYEPGQWPSF": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "WAYEPGQW": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AYEPGQWPSF": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "EPGQWPSFS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "YEPGQWPSFS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "PGQWPSFS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "EPGQWPSF": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "QCWAYEPGQW": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "WAYEPGQWPS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "CWAYEPGQWP": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "YEPGQWPSF": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "CWAYEPGQWPS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AYEPGQWP": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "AYEPGQWPSFS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        },
+        "YEPGQWPS": {
+          "Ensembl_all": null,
+          "UniProt_all": null,
+          "patient_normal": {
+            "matches": [],
+            "occurs_in_searched_models": false,
+            "interpretation": "NO_HIT_IN_SEARCHED_NORMAL_CODING_AND_TYPED_HLA_MODELS",
+            "proves_normal_tissue_absence": false
+          }
+        }
+      },
+      "reference_sha256": {
+        "Ensembl": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505",
+        "UniProt": "6eb652c50cb7437976889b1f809ae6088d8ba076cec462f98e63a45965967667"
+      },
+      "new_model_inference": false,
+      "variant_id": "mn_chr15_90895499_C_T",
+      "protein_change": "p.R804W",
+      "primary_DNA_eligible": true,
+      "DNA_depth": 869,
+      "DNA_AD": [
+        524,
+        345
+      ],
+      "normal_classification": "NORMAL_REFERENCE_SUPPORTED",
+      "normal_ref_fragments": 51,
+      "normal_alt_fragments": 0,
+      "RNA_alt_fragments": 2,
+      "RNA_total_fragments": 9,
+      "added_to_design": false
+    }
+  ],
+  "sources": {
+    "designs/design-2/inputs/mutations/variant-evidence.json": {
+      "bytes": 2026539,
+      "sha256": "7b7ea39bed2c6f8aefabc203044503a3e94567d071389b459c7689d7bb62da89"
+    },
+    "designs/design-2/inputs/rna/rna-evidence.tsv": {
+      "bytes": 80920,
+      "sha256": "1e3d702dc8dcd97342948f1efdef3636b1548a97b3e88cd41b4ca562ddcb60af"
+    },
+    "designs/design-2/inputs/rna/primary-proteins.tsv": {
+      "bytes": 5978,
+      "sha256": "306204981e804c304edb43b8f311e629a1944fb3b89b3edb82b3af582b2d382d"
+    },
+    "designs/design-2/inputs/predictions/mutations/all-ranked-regions.tsv": {
+      "bytes": 6231,
+      "sha256": "c3b271671f60cce87c9cf82e62f0fd3f9ceeda7a2f8787a1c85e5ab8b1bccd57"
+    },
+    "designs/design-3/review/additional-mutation-affinities.tsv": {
+      "bytes": 20638,
+      "sha256": "ac110d9bab591624a001a62a0bb755dee1497457b144523e40f64f94edbb05ad"
+    }
+  },
+  "native_prediction_source": {
+    "remote": "/data/results/TN25-112103/matched-normal-20261107/rank/peptide-HLA-affinity.tsv",
+    "bytes": 218497,
+    "sha256": "b8e4c3d3dc008e8ca54c4bb49e3c5807be45ec98e70016d506c74ad66342bf95",
+    "subset": "58 target-overlapping peptides across six alleles, included here; parent cache not copied"
+  },
+  "personal_model_source": {
+    "remote": "/data/results/TN25-112103/matched-normal-20261107/rank/patient-normal-peptide-matches.json",
+    "sha256": "f45230b338d75c88bd3a2677a3230d2aa63844222e6f046b9b8886a693e4272f",
+    "scope": "Bounded normal coding and typed HLA models; not an exhaustive healthy-tissue proteome"
+  },
+  "reference_metadata": "../../../designs/design-3/inputs/sequence-review/uniprot-reference-check.json"
+}

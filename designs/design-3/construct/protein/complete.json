@@ -1,0 +1,54 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-16T06:08:41.877507+00:00",
+  "all_antigens_exactly_once": true,
+  "independent_full_chain_scan": true,
+  "all_solver_phases_optimal": true,
+  "worker_sha256": "883ea275e043536b479d094777e12a8b4c8794fa45f0822220f53bc4ab03614c",
+  "outputs": {
+    "cassette.fasta": {
+      "bytes": 925,
+      "sha256": "93ed528789b1f460f5b4554ebd838b3887ba19b197f2c17f15283acfd26b4d53"
+    },
+    "components.tsv": {
+      "bytes": 4181,
+      "sha256": "520bc429fa31728f9106dc8130a3aad985910f0befeeccd98a8d3967862712f3"
+    },
+    "junctions.tsv": {
+      "bytes": 4113,
+      "sha256": "d03a38c8642f43461bbbd77df1f5752aaa63c34e3ecd73b977eeb997f1bb2ad2"
+    },
+    "boundary-predictions.tsv": {
+      "bytes": 606270,
+      "sha256": "c39432633c8e106b7b4493c2fea978283f0bf92f515a1b410b087a9dc54fed1c"
+    },
+    "edge-costs.tsv": {
+      "bytes": 2065800,
+      "sha256": "bf5fa43bc2e0e621190edc16dffb1a744adb0833a9ddff9379bdae6f685f2293"
+    },
+    "by-category.tsv": {
+      "bytes": 302,
+      "sha256": "89880b86f894dec734d42e7e7fe65f0d39711aacb73185a1cbede94516f26f0e"
+    },
+    "antigen-order.tsv": {
+      "bytes": 2022,
+      "sha256": "b3280b23a89e82e313acd3c7621b8f36dee2b56ccabcdd2b6c29d1d88a0f6034"
+    },
+    "construct.json": {
+      "bytes": 3734,
+      "sha256": "ab6c4b86e9b4e2cde155faa52fd4d47d1acb80349157521eb53eb5a834109c0a"
+    },
+    "verification-request.json": {
+      "bytes": 27593,
+      "sha256": "3e7d2759dd0675b71104eb62713eb43cff895f90f85ec487b3a807e8f0aa13fb"
+    },
+    "hydrophobicity-windows.tsv": {
+      "bytes": 69302,
+      "sha256": "339d6a086bf5c34f0129ce3b551e0882273a33958e21983385ef241f454d2fab"
+    },
+    "hydrophobicity.json": {
+      "bytes": 1008,
+      "sha256": "ef98d311957cf78f3cb50c2e4b5c685a339ead48c19e0385cf1336d7718f2ee1"
+    }
+  }
+}

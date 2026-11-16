@@ -1,0 +1,104 @@
+{
+  "name": "Design #3 \u2014 final 30-region construct",
+  "regions": 30,
+  "source_counts": {
+    "MUTATION": 18,
+    "SPLICE": 5,
+    "CTA/SELF": 5,
+    "FUSION": 2
+  },
+  "retained_parent_nonsplice_regions": 24,
+  "added_H2BC12": true,
+  "H2BC12_expression_missing": true,
+  "RNA_genes": [
+    "F5",
+    "HLA-B",
+    "HSF1",
+    "NBPF14",
+    "KMT2D"
+  ],
+  "RNA_admission": {
+    "status": "RNA_SELF_PEPTIDE_GATE_PASSED",
+    "windows": 752,
+    "eligible_windows": 167,
+    "reference_join_translation_required": true,
+    "eligible_windows_before_reference_join_filter": 505,
+    "reference_join_matching_windows": 218,
+    "eligible_events": 18,
+    "eligible_genes": 10,
+    "queried_target_peptides": 2034,
+    "exact_self_target_peptides": 911,
+    "additional_primary_occurrences_removed": 0,
+    "catalogs": [
+      {
+        "name": "ensembl103",
+        "records": 115262,
+        "matches": 6695,
+        "sha256": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505"
+      },
+      {
+        "name": "uniprot_canonical",
+        "records": 20652,
+        "matches": 6391,
+        "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606.fasta.gz",
+        "bytes": 7740211,
+        "sha256": "9ff6719ed2f8cd86614277fec86e729d26c3cd1f8edd95e8f8d44b219f9bee01"
+      },
+      {
+        "name": "uniprot_additional",
+        "records": 265365,
+        "matches": 5290,
+        "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606_additional.fasta.gz",
+        "bytes": 57853826,
+        "sha256": "c6ce12f943c6be6b2f72676d97d82051ba47d501cb355b2ee0e340082533b246"
+      },
+      {
+        "name": "ensembl115",
+        "records": 245535,
+        "matches": 6745,
+        "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+        "bytes": 19621018,
+        "sha256": "7991ab37d09986eefdb5c77032b15370ab0e99918b78f235f3230c0302851c96"
+      },
+      {
+        "name": "personal_normal",
+        "records": 112353,
+        "matches": 2262,
+        "sha256": "6777d5a6513bc98719032d7fbbadd4e6d779099acd8c8072e630cb2867528dac",
+        "scope": {
+          "maximum_local_combinations": 4096,
+          "maximum_target_peptide_length": 11,
+          "local_cluster_separation_coding_nt": 33,
+          "frameshifts_include_downstream_coding_variants": true,
+          "reference_proteome_searched_separately": true,
+          "unphased_combinations": "Potential self; conservatively exclude hits, do not claim measured phase",
+          "negative_result": "No hit in the searched genotyped coding models; not proof of normal-tissue absence",
+          "unresolved_cases_retained": true,
+          "normal_expression_or_HLA_presentation_measured": false
+        }
+      }
+    ],
+    "measured_search_receipts": {
+      "data/shared-rna/splicing/sequence-screen/complete.json": "1bcb0a50a78409cd260ac9576db6354d33ba7638a9c060389bf539898366327a",
+      "data/shared-rna/splicing/independent-assessment/protein-screen/complete.json": "af6af08b651b4d56141e9884dec8d1db93dac359e50b8b6c33ab3cda8862d623"
+    },
+    "independent_mapper_or_pattern_gates_applied": false,
+    "new_reference_search": false,
+    "new_model_inference": false,
+    "normal_tissue_expression_or_presentation_measured": false,
+    "scope": "Exact altered-target peptide matches, including alternate contigs, pseudogenes, isoforms and bounded personal-normal models. CTA/self targets are outside this gate.",
+    "selected_RNA_regions": 5,
+    "genes": [
+      "F5",
+      "HLA-B",
+      "HSF1",
+      "NBPF14",
+      "KMT2D"
+    ],
+    "other_source_regions_not_assessed": 0
+  },
+  "class_I_II_annotations_do_not_select": true,
+  "lead_changed": false,
+  "new_variant_calling": false,
+  "new_raw_read_processing": false
+}

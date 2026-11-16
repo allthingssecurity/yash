@@ -1,0 +1,424 @@
+{
+  "status": "TOP_FIVE_ORIGINAL_ALIGNMENT_REVIEW",
+  "read_evidence_basis": "Original supplied RNA alignment; recorded reconstruction/frame/native/normal-ND/strand rules. No remapping or distinct-pattern/contextual-error requirements.",
+  "selection_sha256": "1da98cfd9200fe2290ace91bda5415a0cd9998893c32fd369c8fa93324b77330",
+  "original_reconstruction": {
+    "path": "data/shared-rna/splicing/reconstruction/patient-windows.jsonl.gz",
+    "bytes": 40783688,
+    "sha256": "b2d962796a1942f974bb61a70952fea6140200bed4773ce03f8d8d98c714e9d2"
+  },
+  "original_BAM_verification": {
+    "path": "data/shared-rna/splicing/read-verification/verification.json",
+    "sha256": "97411cdd0acd2c44c0e9bef4b25649a742ba639071f86fa4bc900c8c48124d67",
+    "status": "PASS"
+  },
+  "selected_original_windows": {
+    "path": "original-rna-windows.jsonl.gz",
+    "bytes": 3427,
+    "sha256": "8d0b78b0a8f093f73fed3b9a54c941448cc0342ab7ea7342ee3a7870845ec204",
+    "extraction": "Unchanged JSONL record bodies for the five selected window IDs from the original reconstruction."
+  },
+  "reference_search_receipts": {
+    "data/shared-rna/splicing/sequence-screen/complete.json": "1bcb0a50a78409cd260ac9576db6354d33ba7638a9c060389bf539898366327a",
+    "data/shared-rna/splicing/independent-assessment/protein-screen/complete.json": "af6af08b651b4d56141e9884dec8d1db93dac359e50b8b6c33ab3cda8862d623"
+  },
+  "reference_catalogs": [
+    {
+      "name": "ensembl103",
+      "records": 115262,
+      "matches": 6695,
+      "sha256": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505"
+    },
+    {
+      "name": "uniprot_canonical",
+      "records": 20652,
+      "matches": 6391,
+      "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606.fasta.gz",
+      "bytes": 7740211,
+      "sha256": "9ff6719ed2f8cd86614277fec86e729d26c3cd1f8edd95e8f8d44b219f9bee01"
+    },
+    {
+      "name": "uniprot_additional",
+      "records": 265365,
+      "matches": 5290,
+      "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606_additional.fasta.gz",
+      "bytes": 57853826,
+      "sha256": "c6ce12f943c6be6b2f72676d97d82051ba47d501cb355b2ee0e340082533b246"
+    },
+    {
+      "name": "ensembl115",
+      "records": 245535,
+      "matches": 6745,
+      "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "bytes": 19621018,
+      "sha256": "7991ab37d09986eefdb5c77032b15370ab0e99918b78f235f3230c0302851c96"
+    },
+    {
+      "name": "personal_normal",
+      "records": 112353,
+      "matches": 2262,
+      "sha256": "6777d5a6513bc98719032d7fbbadd4e6d779099acd8c8072e630cb2867528dac",
+      "scope": {
+        "maximum_local_combinations": 4096,
+        "maximum_target_peptide_length": 11,
+        "local_cluster_separation_coding_nt": 33,
+        "frameshifts_include_downstream_coding_variants": true,
+        "reference_proteome_searched_separately": true,
+        "unphased_combinations": "Potential self; conservatively exclude hits, do not claim measured phase",
+        "negative_result": "No hit in the searched genotyped coding models; not proof of normal-tissue absence",
+        "unresolved_cases_retained": true,
+        "normal_expression_or_HLA_presentation_measured": false
+      }
+    }
+  ],
+  "distinct_scored_target_peptides": 39,
+  "exact_self_matches": 0,
+  "selection_gate": "RNA_SELF_PEPTIDE_GATE_PASSED",
+  "entries": [
+    {
+      "selection": {
+        "window_id": "RNA_SPLICE_de3577be74252545fecc",
+        "context_id": "RNA_SPLICE_de3577be74252545fecc",
+        "region_id": "REG_6a492ad25bc739969e40",
+        "event_id": "ENSG00000198734:E28.3_169541199-E28.3_169541117",
+        "gene_id": "ENSG00000198734",
+        "gene": "F5",
+        "source": "SPLICE",
+        "sequence": "HTTLSLDFSQTNLSPELSHTTLSLD",
+        "coding_sequence": "CATACAACCCTTTCTCTAGACTTCAGCCAGACAAACCTCTCTCCAGAACTCAGCCATACAACCCTTTCTCTAGAC",
+        "window_start": 0,
+        "window_end": 25,
+        "fragment_count": 2,
+        "supplied_transformed_gene_tpm": 470.59834,
+        "expression_proxy_left": 470.59834,
+        "target_start_in_window": 16,
+        "target_end_in_window": 16,
+        "target_peptides": [
+          "ELSHTTLSL",
+          "LSPELSHTT",
+          "LSPELSHTTL",
+          "NLSPELSHTTL",
+          "SPELSHTTL",
+          "SPELSHTTLSL"
+        ],
+        "native_affinity_sum": 7.265582245214045,
+        "weighted_score_left": 157.6143004366202,
+        "best_target_peptide": "LSPELSHTTL",
+        "best_target_allele": "HLA-C*01:02",
+        "best_target_affinity_nm": 23.57988164401779,
+        "eligible_before_reference_join_filter": true,
+        "reference_join_translation_matches": true,
+        "reference_join_path_count": 1,
+        "reference_join_translations": [
+          "HTTLSLDFSQTNLSPELSHTTLSLD"
+        ],
+        "primary_window_eligible": true,
+        "reason": "PASS",
+        "gene_rank": 1
+      },
+      "original_alignment_evidence": {
+        "full_window_fragment_names": 2,
+        "expected_fragment_names": 2,
+        "opposing_fragment_names": 0,
+        "native_review_tier": "PASS",
+        "native_review_score": 100,
+        "native_review_flags": [],
+        "normal_junction_detection": "NOT_DETECTED_IN_SEARCHED_REFERENCE",
+        "original_path_and_frame_witnesses_file": "original-rna-windows.jsonl.gz"
+      },
+      "normal_protein_search": {
+        "scored_target_peptides": [
+          "ELSHTTLSL",
+          "LSPELSHTT",
+          "LSPELSHTTL",
+          "NLSPELSHTTL",
+          "SPELSHTTL",
+          "SPELSHTTLSL"
+        ],
+        "scored_target_peptides_count": 6,
+        "exact_self_matches": [],
+        "passed": true
+      }
+    },
+    {
+      "selection": {
+        "window_id": "RNA_SPLICE_de2328085e66ea5701c0",
+        "context_id": "RNA_SPLICE_de2328085e66ea5701c0",
+        "region_id": "REG_43c17f5844fb05456835",
+        "event_id": "ENSG00000234745:E1.9_31356237-I5.1_31271142",
+        "gene_id": "ENSG00000234745",
+        "gene": "HLA-B",
+        "source": "SPLICE",
+        "sequence": "EAAREAEQRSLPGGHVRGVAPQIPG",
+        "coding_sequence": "GAGGCGGCCCGTGAGGCGGAGCAGCGGAGCCTACCTGGAGGGCACGTGCGTGGAGTGGCTCCGCAGATACCTGGA",
+        "window_start": 0,
+        "window_end": 25,
+        "fragment_count": 3,
+        "supplied_transformed_gene_tpm": 185.95777,
+        "expression_proxy_left": 185.95777,
+        "target_start_in_window": 11,
+        "target_end_in_window": 12,
+        "target_peptides": [
+          "EQRSLPGGHVR",
+          "LPGGHVRGV",
+          "QRSLPGGHV",
+          "QRSLPGGHVR",
+          "RSLPGGHVR",
+          "RSLPGGHVRGV",
+          "SLPGGHVR",
+          "SLPGGHVRGV"
+        ],
+        "native_affinity_sum": 3.2405614219382106,
+        "weighted_score_left": 44.19034806340896,
+        "best_target_peptide": "EQRSLPGGHVR",
+        "best_target_allele": "HLA-A*33:03",
+        "best_target_affinity_nm": 66.1645333869851,
+        "eligible_before_reference_join_filter": true,
+        "reference_join_translation_matches": true,
+        "reference_join_path_count": 1,
+        "reference_join_translations": [
+          "EAAREAEQRSLPGGHVRGVAPQIPG"
+        ],
+        "primary_window_eligible": true,
+        "reason": "PASS",
+        "gene_rank": 2
+      },
+      "original_alignment_evidence": {
+        "full_window_fragment_names": 3,
+        "expected_fragment_names": 3,
+        "opposing_fragment_names": 0,
+        "native_review_tier": "PASS",
+        "native_review_score": 100,
+        "native_review_flags": [],
+        "normal_junction_detection": "NOT_DETECTED_IN_SEARCHED_REFERENCE",
+        "original_path_and_frame_witnesses_file": "original-rna-windows.jsonl.gz"
+      },
+      "normal_protein_search": {
+        "scored_target_peptides": [
+          "EQRSLPGGHVR",
+          "LPGGHVRGV",
+          "QRSLPGGHV",
+          "QRSLPGGHVR",
+          "RSLPGGHVR",
+          "RSLPGGHVRGV",
+          "SLPGGHVR",
+          "SLPGGHVRGV"
+        ],
+        "scored_target_peptides_count": 8,
+        "exact_self_matches": [],
+        "passed": true
+      }
+    },
+    {
+      "selection": {
+        "window_id": "RNA_SPLICE_dfffafab89cf697bf26f",
+        "context_id": "RNA_SPLICE_dfffafab89cf697bf26f",
+        "region_id": "REG_463147fb26e0938a4cc4",
+        "event_id": "ENSG00000185122:E12.2_144313640-I12.1_144313717",
+        "gene_id": "ENSG00000185122",
+        "gene": "HSF1",
+        "source": "SPLICE",
+        "sequence": "FSVDTSALLDVSGAPPPRLPAPPPR",
+        "coding_sequence": "TTCAGCGTGGACACCAGTGCCCTGCTGGACGTGAGTGGAGCCCCGCCGCCCCGCCTCCCCGCCCCGCCTCCCCGC",
+        "window_start": 0,
+        "window_end": 25,
+        "fragment_count": 2,
+        "supplied_transformed_gene_tpm": 21.84034,
+        "expression_proxy_left": 21.84034,
+        "target_start_in_window": 18,
+        "target_end_in_window": 18,
+        "target_peptides": [
+          "APPPRLPA",
+          "APPPRLPAP",
+          "APPPRLPAPP",
+          "APPPRLPAPPP",
+          "DVSGAPPPRL",
+          "DVSGAPPPRLP",
+          "GAPPPRLPA",
+          "GAPPPRLPAP",
+          "GAPPPRLPAPP",
+          "PPPRLPAPPP",
+          "PPPRLPAPPPR",
+          "PPRLPAPPPR",
+          "PRLPAPPPR",
+          "SGAPPPRL",
+          "SGAPPPRLP",
+          "SGAPPPRLPA",
+          "SGAPPPRLPAP",
+          "VSGAPPPRL",
+          "VSGAPPPRLPA"
+        ],
+        "native_affinity_sum": 8.480930093711853,
+        "weighted_score_left": 39.63448148337858,
+        "best_target_peptide": "VSGAPPPRL",
+        "best_target_allele": "HLA-C*01:02",
+        "best_target_affinity_nm": 44.45199645574247,
+        "eligible_before_reference_join_filter": true,
+        "reference_join_translation_matches": true,
+        "reference_join_path_count": 1,
+        "reference_join_translations": [
+          "FSVDTSALLDVSGAPPPRLPAPPPR"
+        ],
+        "primary_window_eligible": true,
+        "reason": "PASS",
+        "gene_rank": 3
+      },
+      "original_alignment_evidence": {
+        "full_window_fragment_names": 2,
+        "expected_fragment_names": 2,
+        "opposing_fragment_names": 0,
+        "native_review_tier": "PASS",
+        "native_review_score": 100,
+        "native_review_flags": [],
+        "normal_junction_detection": "NOT_DETECTED_IN_SEARCHED_REFERENCE",
+        "original_path_and_frame_witnesses_file": "original-rna-windows.jsonl.gz"
+      },
+      "normal_protein_search": {
+        "scored_target_peptides": [
+          "APPPRLPA",
+          "APPPRLPAP",
+          "APPPRLPAPP",
+          "APPPRLPAPPP",
+          "DVSGAPPPRL",
+          "DVSGAPPPRLP",
+          "GAPPPRLPA",
+          "GAPPPRLPAP",
+          "GAPPPRLPAPP",
+          "PPPRLPAPPP",
+          "PPPRLPAPPPR",
+          "PPRLPAPPPR",
+          "PRLPAPPPR",
+          "SGAPPPRL",
+          "SGAPPPRLP",
+          "SGAPPPRLPA",
+          "SGAPPPRLPAP",
+          "VSGAPPPRL",
+          "VSGAPPPRLPA"
+        ],
+        "scored_target_peptides_count": 19,
+        "exact_self_matches": [],
+        "passed": true
+      }
+    },
+    {
+      "selection": {
+        "window_id": "RNA_SPLICE_63ad26a57e2e2b74ce43",
+        "context_id": "RNA_SPLICE_63ad26a57e2e2b74ce43",
+        "region_id": "REG_0a914a772ba5bd2a7738",
+        "event_id": "ENSG00000270629:E10.1_148592547-E15.1_148586249",
+        "gene_id": "ENSG00000270629",
+        "gene": "NBPF14",
+        "source": "SPLICE",
+        "sequence": "QEQLAEGCRLAQHLVQKLSPGKVAI",
+        "coding_sequence": "CAAGAACAGCTGGCTGAGGGGTGTAGACTGGCACAGCACCTTGTCCAAAAGCTCAGCCCAGGTAAGGTGGCCATA",
+        "window_start": 0,
+        "window_end": 25,
+        "fragment_count": 6,
+        "supplied_transformed_gene_tpm": 133.82139,
+        "expression_proxy_left": 133.82139,
+        "target_start_in_window": 22,
+        "target_end_in_window": 22,
+        "target_peptides": [
+          "KLSPGKVAI",
+          "LSPGKVAI"
+        ],
+        "native_affinity_sum": 2.9053907740302374,
+        "weighted_score_left": 33.60990782310671,
+        "best_target_peptide": "KLSPGKVAI",
+        "best_target_allele": "HLA-C*01:02",
+        "best_target_affinity_nm": 44.529403462058305,
+        "eligible_before_reference_join_filter": true,
+        "reference_join_translation_matches": true,
+        "reference_join_path_count": 1,
+        "reference_join_translations": [
+          "QEQLAEGCRLAQHLVQKLSPGKVAI"
+        ],
+        "primary_window_eligible": true,
+        "reason": "PASS",
+        "gene_rank": 4
+      },
+      "original_alignment_evidence": {
+        "full_window_fragment_names": 6,
+        "expected_fragment_names": 4,
+        "opposing_fragment_names": 2,
+        "native_review_tier": "PASS",
+        "native_review_score": 100,
+        "native_review_flags": [],
+        "normal_junction_detection": "NOT_DETECTED_IN_SEARCHED_REFERENCE",
+        "original_path_and_frame_witnesses_file": "original-rna-windows.jsonl.gz"
+      },
+      "normal_protein_search": {
+        "scored_target_peptides": [
+          "KLSPGKVAI",
+          "LSPGKVAI"
+        ],
+        "scored_target_peptides_count": 2,
+        "exact_self_matches": [],
+        "passed": true
+      }
+    },
+    {
+      "selection": {
+        "window_id": "RNA_SPLICE_335695e305c0bc6b7cfb",
+        "context_id": "RNA_SPLICE_335695e305c0bc6b7cfb",
+        "region_id": "REG_43525196a04b74490f29",
+        "event_id": "ENSG00000167548:E12.1_49051363-E12.1_49051335",
+        "gene_id": "ENSG00000167548",
+        "gene": "KMT2D",
+        "source": "SPLICE",
+        "sequence": "HLSPQPEEPHLSPQAEGPHLSPQPE",
+        "coding_sequence": "CACCTGTCCCCCCAGCCTGAGGAGCCACACTTGTCCCCCCAGGCTGAGGGACCACATCTGTCCCCTCAGCCTGAG",
+        "window_start": 0,
+        "window_end": 25,
+        "fragment_count": 3,
+        "supplied_transformed_gene_tpm": 40.50225,
+        "expression_proxy_left": 40.50225,
+        "target_start_in_window": 5,
+        "target_end_in_window": 6,
+        "target_peptides": [
+          "HLSPQPEEPHL",
+          "LSPQPEEPHL",
+          "PQPEEPHL",
+          "SPQPEEPHL"
+        ],
+        "native_affinity_sum": 3.979379683127812,
+        "weighted_score_left": 25.32532068152054,
+        "best_target_peptide": "LSPQPEEPHL",
+        "best_target_allele": "HLA-C*01:02",
+        "best_target_affinity_nm": 85.57173670176661,
+        "eligible_before_reference_join_filter": true,
+        "reference_join_translation_matches": true,
+        "reference_join_path_count": 1,
+        "reference_join_translations": [
+          "HLSPQPEEPHLSPQAEGPHLSPQPE"
+        ],
+        "primary_window_eligible": true,
+        "reason": "PASS",
+        "gene_rank": 5
+      },
+      "original_alignment_evidence": {
+        "full_window_fragment_names": 3,
+        "expected_fragment_names": 3,
+        "opposing_fragment_names": 0,
+        "native_review_tier": "PASS",
+        "native_review_score": 85,
+        "native_review_flags": [
+          "READ_END_BIAS"
+        ],
+        "normal_junction_detection": "NOT_DETECTED_IN_SEARCHED_REFERENCE",
+        "original_path_and_frame_witnesses_file": "original-rna-windows.jsonl.gz"
+      },
+      "normal_protein_search": {
+        "scored_target_peptides": [
+          "HLSPQPEEPHL",
+          "LSPQPEEPHL",
+          "PQPEEPHL",
+          "SPQPEEPHL"
+        ],
+        "scored_target_peptides_count": 4,
+        "exact_self_matches": [],
+        "passed": true
+      }
+    }
+  ]
+}

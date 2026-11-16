@@ -1,0 +1,43 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-12T08:43:29.561465+00:00",
+  "inputs": {
+    "guardant_collection_date": "2025-10-14",
+    "tumour_collection_date": "2025-01-15",
+    "normal_collection_date": "2026-10-30",
+    "normal_bam": "/data/results/TN25-112103/matched-normal-20261107/bqsr/apply/normal.recal.bam",
+    "normal_bam_sha256_from_recorded_receipt": "1d864150551f6d47260050c52105c88b7b9f4120d005be33656094767326ce18",
+    "normal_bam_full_hash_recomputed": false,
+    "normal_bam_size_verified": 143294724201,
+    "normal_GVCF_sha256_verified": "757b9d9d352ecfa4a3c786f7624b8670e9164d71fac4c00fa045230cc2a97455",
+    "genome_config": {
+      "reference_name": "GRCh38",
+      "annotation_name": "Ensembl",
+      "annotation_version": 103,
+      "gtf_path_or_url": "/data/raft/references/homo_sapiens/pyensembl/GRCh38/ensembl103/Homo_sapiens.GRCh38.103.gtf",
+      "transcript_fasta_paths_or_urls": [
+        "/data/raft/references/homo_sapiens/pyensembl/GRCh38/ensembl103/Homo_sapiens.GRCh38.cdna.all.fa.gz",
+        "/data/raft/references/homo_sapiens/pyensembl/GRCh38/ensembl103/Homo_sapiens.GRCh38.ncrna.fa.gz"
+      ],
+      "protein_fasta_paths_or_urls": [
+        "/data/raft/references/homo_sapiens/pyensembl/GRCh38/ensembl103/Homo_sapiens.GRCh38.pep.all.fa.gz"
+      ],
+      "cache_directory_path": "/data/results/TN25-112103/mutation-evidence-v2-20261102/reference-cache/ensembl103"
+    },
+    "genome_config_sha256": "67ef3633fb6e62ce9a98e382b9ee4f14ee83383b1896c2c3bc3788f321820dac"
+  },
+  "versions": {
+    "pyensembl": "2.27.3",
+    "varcode": "10.16.0",
+    "isovar": "1.57.1",
+    "pysam": "0.23.3"
+  },
+  "worker_sha256": "165be3a9e406d1453ed38aa22534ed1a9076cf62fcbcc79acb7e134d322f7a9d",
+  "helper_sha256": "fcf3e5fd913dee3dac30dd094d64a8408524a345f9878698e2e940e444e9382e",
+  "queries": 8,
+  "compatible_alleles": 8,
+  "mapping_issues": 1,
+  "controls_roundtrip_passed": true,
+  "normal_absence_is_not_proof_of_tumour_origin": true,
+  "existing_case_outputs_modified": false
+}

@@ -1,0 +1,59 @@
+{
+  "queries": 13830,
+  "actual_target_peptides": 13126,
+  "sources": [
+    {
+      "name": "ensembl103",
+      "records": 115262,
+      "matches": 6695,
+      "sha256": "f8df3d7cfc85718e9161579bd9168a3598547ee50022b5e1c272ed66293f0505"
+    },
+    {
+      "name": "uniprot_canonical",
+      "records": 20652,
+      "matches": 6391,
+      "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606.fasta.gz",
+      "bytes": 7740211,
+      "sha256": "9ff6719ed2f8cd86614277fec86e729d26c3cd1f8edd95e8f8d44b219f9bee01",
+      "path": "/data/results/TN25-112103/provider-cache/uniprot/6eb652c50cb74379/UP000005640_9606.fasta.gz"
+    },
+    {
+      "name": "uniprot_additional",
+      "records": 265365,
+      "matches": 5290,
+      "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606_additional.fasta.gz",
+      "bytes": 57853826,
+      "sha256": "c6ce12f943c6be6b2f72676d97d82051ba47d501cb355b2ee0e340082533b246",
+      "path": "/data/results/TN25-112103/provider-cache/uniprot/6eb652c50cb74379/UP000005640_9606_additional.fasta.gz"
+    },
+    {
+      "name": "ensembl115",
+      "records": 245535,
+      "matches": 6745,
+      "url": "https://ftp.ensembl.org/pub/release-115/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz",
+      "bytes": 19621018,
+      "sha256": "7991ab37d09986eefdb5c77032b15370ab0e99918b78f235f3230c0302851c96",
+      "path": "/data/results/TN25-112103/provider-cache/ensembl115/Homo_sapiens.GRCh38.pep.all.fa.gz"
+    },
+    {
+      "name": "personal_normal",
+      "records": 112353,
+      "matches": 2262,
+      "sha256": "6777d5a6513bc98719032d7fbbadd4e6d779099acd8c8072e630cb2867528dac",
+      "scope": {
+        "maximum_local_combinations": 4096,
+        "maximum_target_peptide_length": 11,
+        "local_cluster_separation_coding_nt": 33,
+        "frameshifts_include_downstream_coding_variants": true,
+        "reference_proteome_searched_separately": true,
+        "unphased_combinations": "Potential self; conservatively exclude hits, do not claim measured phase",
+        "negative_result": "No hit in the searched genotyped coding models; not proof of normal-tissue absence",
+        "unresolved_cases_retained": true,
+        "normal_expression_or_HLA_presentation_measured": false
+      }
+    }
+  ],
+  "algorithm": "Aho-Corasick exact substring search, no similarity threshold; first witness per catalog retained",
+  "self_match_policy": "Union of recorded broad references, newer annotation and scoped personal-normal models; not a healthy-tissue expression measurement",
+  "negative_search_is_not_normal_tissue_absence": true
+}

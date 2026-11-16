@@ -82,12 +82,17 @@ def _read_complete(path):
     if path.name=='design-2':
         from .lead import verify
         source_scope=verify(repo)['source_snapshot_verification']
+    elif path.name=='design-3':
+        from .current import verify
+        result=verify(repo)
+        source_scope={'included_outputs_byte_verified':result['included_outputs_byte_verified'],
+                      'hash_only_native_outputs':result['hash_only_native_outputs']}
     elif path.name=='initial':
         manifest=json.loads((resolve_input(path/'candidate.json')).read_text());recorded=RecordedSource(repo)
         recorded.verify_files({str((path/name).resolve().relative_to(repo)):dict(sha256=digest)
                                for name,digest in manifest['artifact_sha256'].items()})
         source_scope=recorded.verification_scope()
-    else:raise ValueError('Complete-design comparison currently supports designs/initial and designs/design-2')
+    else:raise ValueError('Complete-design comparison supports designs/initial, designs/design-2 and designs/design-3')
     selected=list(rows(path/'selection/selected.tsv'))
     index={r['region_id']:r for r in selected}
     if len(index)!=len(selected):raise ValueError('Duplicate region_id in '+str(path))

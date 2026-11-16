@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "region_length_aa": 25,
+  "top_genes": 5,
+  "reference_join_identity": "Observed amino-acid sequence must equal the reference-base translation across the same proposed join on every recorded supporting path.",
+  "synonymous_changes_allowed": true,
+  "reference_translation_is_not_a_normal_transcript": true,
+  "read_evidence_basis": "Original supplied RNA alignment and recorded reconstruction/frame/native/strand rules only.",
+  "unchanged": "Recorded RNA support/frame/native review, coordinate-normal ND, strand, exact self exclusions, <=500 nM native-PASS admission, positive supplied expression and hydropathy rules.",
+  "score": "Native Vaxrank affinity contribution sum * sqrt(supplied transformed gene value)",
+  "ranking": "Descending weighted score, then ascending event_id and region_id; best passing window per gene, one region per gene.",
+  "mapper_pattern_contextual_error_gates_required": false,
+  "no_automatic_construct_rebuild": true
+}

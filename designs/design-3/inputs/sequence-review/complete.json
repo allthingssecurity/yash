@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-12T12:41:31.963843+00:00",
+  "request_sha256": "b04490d358c0ce1127055205c86f298b31bd6ce58d1edcbc56bf010a79a018a6",
+  "worker_sha256": "1836316c70cd961fee8746b90e9577b1e0dec8ce2f57ac844c745fbfb366e9b6",
+  "outputs": {
+    "normal-dna.json": {
+      "bytes": 21853,
+      "sha256": "c17ffb04d06b6d953717689b908ddb8ad3c0b8e9546a2ef7c78c21c95dee73ee"
+    },
+    "reference-matches.json": {
+      "bytes": 1050591,
+      "sha256": "417cf917c29d996af37040d22bea4d680e4fea0b7ef2d2e45112d996d131dd9d"
+    },
+    "reference-scope.json": {
+      "bytes": 1176,
+      "sha256": "8100fb2eb738f25f9828ca6d0745b69ed3e882de88315ccd3b74353fa11eadab"
+    },
+    "summary.json": {
+      "bytes": 15264,
+      "sha256": "8c5c42108b8bd8d4d46d7f154e426139d05547fe3484ba427aae5cc68271e04d"
+    },
+    "windows.json": {
+      "bytes": 123083,
+      "sha256": "d59eff45f9f760112b19ba6f4054855cb74c811353ffad0ece103ed0ece1fc1c"
+    }
+  }
+}

@@ -4,7 +4,7 @@ This design used Yash’s tumour DNA, tumour RNA and supplied gene-expression va
 It contains **29 regions of 25 amino acids: 17 mutation, 5 splice, 5 CTA/self and
 2 CDH1::NRG1 fusion regions**, assembled into an **852-aa protein**.
 
-It is retained for comparison. **[Design #2 is the lead](../design-2/README.md)**
+It is retained for comparison. **[Design #3 is the lead](../design-3/README.md)**
 and adds matched-normal DNA to the mutation analysis.
 
 ## How we made it

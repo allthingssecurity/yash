@@ -1,0 +1,132 @@
+{
+  "code/cassette.py": {
+    "repository_path": "designs/design-3/final/pipeline/cassette.py",
+    "bytes": 24114,
+    "sha256": "883ea275e043536b479d094777e12a8b4c8794fa45f0822220f53bc4ab03614c"
+  },
+  "code/common.py": {
+    "repository_path": "designs/design-3/final/pipeline/common.py",
+    "bytes": 1731,
+    "sha256": "f9aba41c7acc08a0f2af0b7d8d5f5d9d2b3c51fb45f05e2da84f39c13a9ef886"
+  },
+  "policy.json": {
+    "repository_path": "designs/design-3/final/policy.json",
+    "bytes": 3382,
+    "sha256": "71fd6b031ea2093b01d434c246a81fb15e5461f6aeb2bf54efa5adbbf3e21709"
+  },
+  "integrate/complete.json": {
+    "repository_path": "designs/design-3/final/selection/complete.json",
+    "bytes": 760,
+    "sha256": "41673328e53be4a9ad897f6bf6a884dd300213243824e8f3329e58ea90ce65d4"
+  },
+  "integrate/selected.fasta": {
+    "repository_path": "designs/design-3/final/selection/selected.fasta",
+    "bytes": 1896,
+    "sha256": "de85cb5266e4c7249a565055cfd3bc489b65da2a2f2cb25ccfbdad4e9948abcf"
+  },
+  "integrate/selected.json": {
+    "repository_path": "designs/design-3/final/selection/selected.json",
+    "bytes": 57579,
+    "sha256": "3436a374b81e784b2918b5839b28bb50a869c5c6a3ffc29fb0dc561d7cf401b1"
+  },
+  "integrate/selected.tsv": {
+    "repository_path": "designs/design-3/final/selection/selected.tsv",
+    "bytes": 28838,
+    "sha256": "8c7d3e4fe6aaf80e112aafb36c63e0cd387990c657cb997d5a3549402c8d0110"
+  },
+  "integrate/summary.json": {
+    "repository_path": "designs/design-3/final/selection/summary.json",
+    "bytes": 3946,
+    "sha256": "0b07f65007e509316bbcc121e1ea0422a812dbc9f0ec759a37989e6516cb9c84"
+  },
+  "case.json": {
+    "repository_path": "designs/design-3/final/inputs/case.json",
+    "bytes": 811,
+    "sha256": "b09820bd7cae9c84cd21901eed696ee089481bcd3f24768a9f2e47ea8a2e9f9a"
+  },
+  "frozen/src/yash_vaccine/__init__.py": {
+    "repository_path": "src/yash_vaccine/__init__.py",
+    "bytes": 80,
+    "sha256": "f474a474033a43d252ee7d232614ab5a6eee51cce5546bdd13364534372ed919"
+  },
+  "frozen/src/yash_vaccine/hydrophobicity.py": {
+    "repository_path": "src/yash_vaccine/hydrophobicity.py",
+    "bytes": 6122,
+    "sha256": "6c5d2941b4cd0ff8eea5e1bf23e26ee07577a49da19463bedcee01c3557d17ce"
+  },
+  "frozen/src/yash_vaccine/io.py": {
+    "repository_path": "src/yash_vaccine/io.py",
+    "bytes": 1740,
+    "sha256": "e7fb2a43144bb55e0bacb1fd23df862551787115ee0d6fec3e15dfcecac4804c"
+  },
+  "frozen/src/yash_vaccine/paths.py": {
+    "repository_path": "src/yash_vaccine/paths.py",
+    "bytes": 1746,
+    "sha256": "cecc32fe4aa676701e9cbbf1b7a1ae32235f022931b1df22268beca2a7c33efd"
+  },
+  "frozen/config/linkers.json": {
+    "repository_path": "config/linkers.json",
+    "bytes": 1142,
+    "sha256": "f278652c72fc1f464a1e7d5fe2b2e3bc00f54c2e107294601dba51363c138353"
+  },
+  "frozen/designs/initial/construct/architecture.json": {
+    "repository_path": "designs/initial/construct/architecture.json",
+    "bytes": 2143,
+    "sha256": "32a5b30670a758551e33b3e2205877545191ee69a469940fff5c278d335ae50b"
+  },
+  "frozen/designs/initial/construct/predict.py": {
+    "repository_path": "designs/initial/construct/predict.py",
+    "bytes": 6480,
+    "sha256": "539bea2d184c3b0235f074e78f2488fb8ce38074fd7a3dfdf29d6c12e2719e99"
+  },
+  "frozen/designs/initial/construct/optimize.py": {
+    "repository_path": "designs/initial/construct/optimize.py",
+    "bytes": 3789,
+    "sha256": "f1b2688446d7f14a32016ac42db9106236af771c96f656271af817c0d30b962b"
+  },
+  "frozen/designs/initial/construct/mrna/run.py": {
+    "repository_path": "designs/initial/construct/mrna/run.py",
+    "bytes": 18536,
+    "sha256": "dd5c8389a6f56174e34c97f60debac00b94865399443e6d47c4e18a59fb09e8c"
+  },
+  "frozen/designs/initial/construct/mrna/optimizer.py": {
+    "repository_path": "designs/initial/construct/mrna/optimizer.py",
+    "bytes": 47203,
+    "sha256": "17ba21e5e504e65865d2a9eaa02888ee3f44cf149bac4c176ec87dc13907c766"
+  },
+  "frozen/designs/initial/construct/mrna/genbank.py": {
+    "repository_path": "designs/initial/construct/mrna/genbank.py",
+    "bytes": 18129,
+    "sha256": "bac46dc1db85d30652baa697f84dcfa46e75628062066df166c808a3946924c2"
+  },
+  "frozen/designs/initial/construct/mrna/backbone.json": {
+    "repository_path": "designs/initial/construct/mrna/backbone.json",
+    "bytes": 6979,
+    "sha256": "dd9b9f7b782133974adcb92a487ff784f53ad2c51f6d67574591c0305b4ee7d9"
+  },
+  "frozen/designs/initial/construct/mrna/annotation-sources.json": {
+    "repository_path": "designs/initial/construct/mrna/annotation-sources.json",
+    "bytes": 4260,
+    "sha256": "38661c20c01c1c76e958ceb2110a636dd6e47c5ec0dbee8565b8462b63f614ea"
+  },
+  "frozen/designs/initial/construct/mrna/human-codon-usage.json": {
+    "repository_path": "designs/initial/construct/mrna/human-codon-usage.json",
+    "bytes": 1962,
+    "sha256": "37424bbef68ec34bd0af49b19f191f41bf461a458f171607a6cc70271ade376d"
+  },
+  "frozen/designs/initial/construct/mrna/requirements.txt": {
+    "repository_path": "designs/initial/construct/mrna/requirements.txt",
+    "bytes": 75,
+    "sha256": "e1149e02fb84a571f2bdfd447675fe53d263f81b7dd92aaf292c26f802a5123c"
+  },
+  "frozen/data/checkpoints/provenance/construct-inference.json": {
+    "repository_path": "designs/initial/inputs/checkpoints/provenance/construct-inference.json",
+    "bytes": 1394,
+    "sha256": "1048fd7d3404b6bfea8b60eac6f0f477a100fd6eb728447c5af1340999b5090c"
+  },
+  "frozen/data/checkpoints/provenance/construct-model-files.json": {
+    "repository_path": "designs/initial/inputs/checkpoints/provenance/construct-model-files.json",
+    "bytes": 8112,
+    "sha256": "94bb5bc4711f59e46b7ae6e25cf4a48db3be15e23052c9f2524b090b5246b860"
+  }
+}

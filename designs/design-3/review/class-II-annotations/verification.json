@@ -1,0 +1,29 @@
+{
+  "analysis_sha256": "27ce7e8fc0d750c6a2269fb9707593d4f150cca75336c8f81bceba4d8e7816ee",
+  "every_occurrence_target_replayed": true,
+  "output_sha256": {
+    "current-plan.tsv": "81fbd70e57cc9c7f6fecee77ea529d6978dbcee3afc37cec34b115a82a0c65e1",
+    "hla-coverage.tsv": "ddeb0f868dc060da74e93dd94e802f88894fccb9b9367839d10ca0961efe715b",
+    "inference.json": "483c3759eb8b7cd9930d31faa20c3603de3d111f84526e7d106479b5ac3a5892",
+    "normal-search.json": "6272a141759a5ce36df4fa06f184d92a027c843f3e8d0967e870909d7b2b4a8b",
+    "peptide-annotations.tsv.gz": "20aaa65009d71d31e4350c9692f3789fbc8b18e090153379722593b809047b28",
+    "peptide-length-coverage.tsv": "0fb8441e454b637e54b2fca533cf77a7c72e2331e1dd9c9a754475a2649b8892",
+    "predictions.tsv.gz": "7fd07d96858b98c0290813d1ec7f86b70e951e6610a093e5f0a676538a9d2053",
+    "reference-matches.json.gz": "56537176340c89031fcd10c2cf80d5bf18b6352fd5f25bf88a34dcd54801373b",
+    "region-annotations.tsv": "0f0047dc7225963b9a6f422a920530dd377b3ba4788f5a673a9ca1d0bb1bbf6a",
+    "region-target-annotations.tsv": "de1858241b89c025396e427ee40dee8713c8b4a662083d7ddb844931636d2f28",
+    "request.json": "9f649b8a8d85f958c60ef27894e3e1c693cbbe33daf3dbabc67413af8feb8241",
+    "summary.json": "275cda09845ce7fc4fffc054f88cffca924976ba73bd9d38a34a4fabe74a687b"
+  },
+  "selection_changed": false,
+  "source_sha256": {
+    "data/hla/class-II.json": "d3b3a843b73c4f0c4e11c8f38b0db08c0ffdf412d7ecc10482eeb33dbd8c6327",
+    "data/shared-rna/splicing/independent-assessment/protein-screen/protein-screen.json": "0377e9fbb5aadf5a40c10d98af99308cc08248662a437c81d15d4b22724fe187",
+    "designs/design-3/review/candidate-annotations/current-plan.tsv": "0a9a74f521d216836ea2d66732fa3e6083c409cbfd8e93ef975a7c57d5bc931c",
+    "designs/design-3/review/candidate-annotations/region-annotations.tsv": "d243a40eca8f6c1b8e50eb33fde390c46305a46922d43580616d6b01bea6cea8",
+    "designs/design-3/review/candidate-annotations/request.json": "23359f2b363a3fb5b5dad4ff3325ccd95d454da134c7f3402f5cff08a28b99df",
+    "designs/design-3/review/candidate-annotations/verification.json": "dfc97ae24124e7bf61b0ee2a29a7507968bf30a9622b23a740fbd0c455078f02",
+    "tools/candidate_annotations/caphla-manifest.json": "d04750a7a3625f0cbc3ad090b219554e1fe101f790f06c67a957759465e1634e"
+  },
+  "status": "PASS"
+}

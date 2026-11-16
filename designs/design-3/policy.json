@@ -1,0 +1,42 @@
+{
+  "name": "Design #3 \u2014 final 30-region construct",
+  "run_id": "design-3-final-20261116",
+  "parent_design": "designs/design-2",
+  "scientific_inputs": {
+    "designs/design-3/inputs/source-regions.json": "54d87f6ab603f9be57dba09828e7b4816f61f84ad6437b0d4203387960b7d08a",
+    "designs/design-3/inputs/h2bc12/source-regions.json": "045b69377bfd3d5c873276f6d5ce2517042756a9de8a1869878604e6c3d0f1b9",
+    "designs/design-3/review/additional-mutations.json": "c6c4b1bf27822bf108f2a5a582788582c5e4d8afd6644328848bad93dde48a5d",
+    "designs/design-3/inputs/h2bc12/result.json": "8e3fd4ee81a0a2054fe6379c61d9f74ac9323b7d39cbd73dde0bb8c378a75dae",
+    "designs/design-3/inputs/h2bc12/complete.json": "4cb469a8ca326fe7cdd86bfbc78b2ea3fce8ffd3135e49b228342ed0458b74fc",
+    "data/shared-rna/splicing/junction-only/selected.json": "1da98cfd9200fe2290ace91bda5415a0cd9998893c32fd369c8fa93324b77330",
+    "data/shared-rna/splicing/junction-only/verification.json": "d60935ec307445d1c51064aae644e8f46f5f263432c144187590a2df6d8384f9",
+    "data/shared-rna/splicing/junction-only/manual-evidence.json": "b67bdfc3f57d0a4f752966870230b1491c8f4d2ce4ede38d6673ae1e098c01ec",
+    "designs/design-3/review/candidate-annotations/request.json": "23359f2b363a3fb5b5dad4ff3325ccd95d454da134c7f3402f5cff08a28b99df",
+    "config/linkers.json": "f278652c72fc1f464a1e7d5fe2b2e3bc00f54c2e107294601dba51363c138353",
+    "designs/initial/construct/architecture.json": "32a5b30670a758551e33b3e2205877545191ee69a469940fff5c278d335ae50b"
+  },
+  "source_counts": {
+    "MUTATION": 18,
+    "SPLICE": 5,
+    "CTA/SELF": 5,
+    "FUSION": 2
+  },
+  "selection": "Eighteen mutation regions (thirteen paired-DNA/RNA plus five Guardant additions), five reference-join splice regions, five CTA/self regions and two fusion hypotheses.",
+  "RNA_genes": [
+    "F5",
+    "HLA-B",
+    "HSF1",
+    "NBPF14",
+    "KMT2D"
+  ],
+  "RNA_gate": "Original alignment/frame/native/normal-ND/strand and broad self rules, plus exact full-window reference-join amino-acid identity on every recorded path; no independent remapping/pattern gates.",
+  "H2BC12_expression": "Missing; explicitly included without imputation or an expression-weighted score.",
+  "FES": "Excluded; no extension of its 15-aa context.",
+  "Guardant_additions": "Five reference-derived VUS retained with their original RNA-evidence limitations and AR normal-coverage exception.",
+  "routing_elements": "Existing patient-supported SEC and MITD.",
+  "assembly": "Same 11 linker choices and affinity-percentile objective; fresh all-option and selected-junction predictions; full-chain hydropathy.",
+  "annotations": "Class-I presentation, focal-reference affinity and CapHLA class-II scores are annotations, not new selection/assembly objectives.",
+  "encoding": "Same pinned PopRNA settings, UTRs and three stops. PolyA and downstream extension unspecified.",
+  "make_lead": false,
+  "website_update": false
+}

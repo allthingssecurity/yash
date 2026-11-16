@@ -1,0 +1,45 @@
+{
+  "status": "REFERENCE_JOIN_SELECTION_ARTIFACTS_VERIFIED",
+  "files": {
+    "policy.json": {
+      "bytes": 981,
+      "sha256": "2c1c497229762dd3bdedd74a900781a364d2428d2754cf1d6244c9e6c0907e6e"
+    },
+    "summary.json": {
+      "bytes": 4606,
+      "sha256": "65a97f256d6dbe0e701dc4fc710885ef133e63863a85992abc04fce23a3aab00"
+    },
+    "selected.json": {
+      "bytes": 6867,
+      "sha256": "1da98cfd9200fe2290ace91bda5415a0cd9998893c32fd369c8fa93324b77330"
+    },
+    "selected.tsv": {
+      "bytes": 3266,
+      "sha256": "0c3a7fa65f5077312a14fb443df62af9197903b7f1836eb523269b80dc901219"
+    },
+    "gene-ranking.tsv": {
+      "bytes": 5812,
+      "sha256": "58ae6d75b59b296a291592dd00dccd69a182c881c73e810866bcd6a6b8e66da5"
+    },
+    "selected.fasta": {
+      "bytes": 447,
+      "sha256": "013a6ad667b962e882b21a6ee6bfe4ee50b9025d3350a7fa3edcb1fec1fa5243"
+    },
+    "all-windows.tsv.gz": {
+      "bytes": 68529,
+      "sha256": "08ab48bd9438646a01153921b59351fd38b85435ed573d23b9ca493ec086d0cb"
+    },
+    "README.md": {
+      "bytes": 2501,
+      "sha256": "488ac92cf6c12caef13fb4e63f185f9464273002a657e78add4f48ec6f4b001d"
+    }
+  },
+  "source_sha256": "8b6c73eae093bfa625453c56fa341c8e4d0b0383dffab81813a11a91b46dd006",
+  "selected_regions": 5,
+  "exact_translation_and_all_paths_checked": true,
+  "quota_and_original_tie_break_applied": true,
+  "source_measurements_verified": true,
+  "new_inference": false,
+  "BAMs_reread": false,
+  "construct_changed": false
+}

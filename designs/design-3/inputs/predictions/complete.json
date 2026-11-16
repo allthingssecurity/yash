@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-12T12:52:26.976404+00:00",
+  "worker_sha256": "97bc61f2556d78943f2816db56e8d54436f318f85d2ca5caead15bcb247fe8ce",
+  "selected_additions": 5,
+  "windows": 125,
+  "outputs": {
+    "all-windows.tsv": {
+      "bytes": 52564,
+      "sha256": "7d3c8fa68747a20fa40938eeee7fd3656d9dde12621693ce7b1aa9b2fd531689"
+    },
+    "inference.json": {
+      "bytes": 4182,
+      "sha256": "423c6b5f3713c4fc08bca39efc7e1d70f91f92cb8985e64bd0a2c7a83e1a8a39"
+    },
+    "patient-normal-matches.json": {
+      "bytes": 38503,
+      "sha256": "ce4a0b4781a49a6dfe9b2313823e4921259da019f81991f7f7ed87ba2ca539b8"
+    },
+    "peptide-HLA-affinity.tsv": {
+      "bytes": 67627,
+      "sha256": "25e0a98762863e2a271ff743dfa437895118ac075d42ddf3a4abad733b72c185"
+    },
+    "peptide-occurrences.tsv": {
+      "bytes": 10903,
+      "sha256": "dd4b3a468b887edac538b5b7823757543381c25ce29cee7afa28e35fa18408b2"
+    },
+    "reference-matches.json": {
+      "bytes": 46603,
+      "sha256": "dfd4a1bbd353b7432e411d135594a89763ff10016647d17f598e43f919db06fa"
+    },
+    "selected-additions.json": {
+      "bytes": 11994,
+      "sha256": "c7db51449baa6f413c1024810b3e4438699adfe3f845771f42b279acc73ffec4"
+    },
+    "selected-additions.tsv": {
+      "bytes": 5843,
+      "sha256": "3db929101116c052efe01a09a3369dd81804553b3f0c5656dc4324c3df700582"
+    }
+  }
+}

@@ -7,9 +7,9 @@ is recorded in data/catalog/access.json. Full upstream RNA modules are not
 bundled; minimal patches plus original/target hashes reconstruct provider source
 locally. The offline design replay does not require these dependencies.
 
-## Lead Design #2: paired tumour–normal workflow
+## Paired tumour–normal discovery for Designs #2 and #3
 
-The current lead uses paired Mutect2 discovery, measured normal genotypes/reads,
+Both designs use paired Mutect2 discovery, measured normal genotypes/reads,
 bounded personal-normal sequence models, tumour-RNA reconstruction and HLA-I
 affinity screening. Start with [Design #2 methods](../designs/design-2/methods.md)
 and its [controller/runtime guide](../designs/design-2/pipeline/README.md).

@@ -1,0 +1,64 @@
+{
+  "revision": "33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831",
+  "upstream": "https://github.com/changyunjian/CapHLA",
+  "license": "MIT",
+  "model_files": {
+    "params/ba_fold0.params": {
+      "sha256": "a96e352b9056a032d11a2541998f15048c387f719dc0439148a8f0f0e67fe7b5",
+      "bytes": 3718417
+    },
+    "params/ba_fold1.params": {
+      "sha256": "7387cb99bd121225a57c0f41c1281b2a4468b35376cf89c1c8487e592d5d3a65",
+      "bytes": 3718417
+    },
+    "params/ba_fold2.params": {
+      "sha256": "f5efd924831d94f7848fa53f0a0eec79b2f7ad30afcdec744e320755e4102c9b",
+      "bytes": 3718417
+    },
+    "params/ba_fold3.params": {
+      "sha256": "1221a09e64fad01b228125e10a5c21c16737d48fd19c42407429b57e9ff086fd",
+      "bytes": 3718417
+    },
+    "params/ba_fold4.params": {
+      "sha256": "320fde2a57bf8d8a9e8000247d93e1b34fc438f95c467029ce052150ba0ab85a",
+      "bytes": 3718417
+    },
+    "params/el_fold0.params": {
+      "sha256": "30c982f52dac87d58a307a2c7705d91e73dd54c210947b78e567c5a6c229abe9",
+      "bytes": 5270865
+    },
+    "params/el_fold1.params": {
+      "sha256": "adfa8482c11b4a52836c0decec454a8799668d37b8e78cdc846cf3ecc3d5c06e",
+      "bytes": 5270865
+    },
+    "params/el_fold2.params": {
+      "sha256": "ee7a70a32d13a6fdc3bea06fa8780ff1a864ea20a4e904fb549a24f24160d38f",
+      "bytes": 5270865
+    },
+    "params/el_fold3.params": {
+      "sha256": "0c4e0708806a8c890ff043dcad9e01c6c00fea2c81c585a58a0c63fa1d3b1b99",
+      "bytes": 5270865
+    },
+    "params/el_fold4.params": {
+      "sha256": "b7e05440856f0bcbd1d4437f424b1627c09147c6bc7fddd3c584e012e0c394be",
+      "bytes": 5270865
+    },
+    "HLA_library.csv": {
+      "sha256": "dbbe8225da6bd2e4eab4b036b22d05d5c7af8ddfa6ab8ea5e2b14102696065c9",
+      "bytes": 830782
+    },
+    "EL_model.py": {
+      "sha256": "e809b38d56c6cf433b192c1a6055442cf323d54e38952f21ab912fee223068e9",
+      "bytes": 5185
+    },
+    "BA_model.py": {
+      "sha256": "3b590b08142fd4168eee5c6bb34d84982da9066bfda1d8d8900f7e14d237fa2c",
+      "bytes": 5306
+    },
+    "LICENSE": {
+      "sha256": "274a5ef6217eca44b1dc85a6647cc60bfad9275baad04615ad8ab4816cf48a29",
+      "bytes": 1070
+    }
+  },
+  "mhctools_caphla_wrapper_sha256": "0b30f2208bb670ec19f2f7dd2421a5668d2862113ec446effecc7fa3f481b644"
+}

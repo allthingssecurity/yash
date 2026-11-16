@@ -1,4 +1,4 @@
-# Design #2 — lead design
+# Design #2
 
 This design uses Yash’s **matched-normal white-blood-cell DNA**, tumour DNA,
 tumour RNA and supplied gene-expression values. It contains **24 regions of
@@ -8,6 +8,8 @@ regions**, assembled into a **724-aa protein**.
 [Design #1](../initial/README.md) was made without matched-normal DNA. Seven of
 its mutation targets were detected in normal DNA and excluded here; AQP3 and
 TGFBR2 were added. All twelve splice, CTA and fusion regions were retained.
+
+The current lead is [Design #3](../design-3/README.md). This earlier design is retained for comparison.
 
 ## How we made it
 
@@ -41,8 +43,13 @@ TGFBR2 were added. All twelve splice, CTA and fusion regions were retained.
    extensions remain unspecified**.
 
 [Detailed methods](methods.md) document the thresholds and limitations, including
-the additional RNA changes in four splice candidates. Binding predictions do
+RNA-supported amino-acid changes in four splice-source candidates whose exact
+splice origin is uncertain. Binding predictions do
 not establish tumour-cell presentation or a T-cell response.
+
+The [broader sequence review](../design-3/inputs/sequence-review/README.md) finds
+an alternative-reference match for MUC6. Design #3 excludes it; this recorded
+Design #2 selection is retained unchanged for comparison.
 
 ## Results and evidence
 
@@ -61,7 +68,7 @@ From the repository root, with Python 3.11 or 3.12:
 ```sh
 python -m pip install -e '.[mrna]'
 yash-vaccine verify
-yash-vaccine reproduce --output work/design-2-replay
+yash-vaccine reproduce designs/design-2 --output work/design-2-replay
 ```
 
 `verify` checks recorded evidence and outputs. `reproduce` reselects regions,

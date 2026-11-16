@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-12T13:53:07.604083+00:00",
+  "worker_sha256": "aca0a51870fd3b243f5843b7dd244fbb82e01b27afcebd81968aacd4273763c1",
+  "request_sha256": "63be01e057298b2c73be1c91cd7f088434959288f2f07ccc5efaa22c4f09f742",
+  "outputs": {
+    "event-ranking.tsv": {
+      "bytes": 16562,
+      "sha256": "b39d89c0be178f2b82df5bed910b25c9e609222ee6d0cf0a467f19121681c2e0"
+    },
+    "gene-ranking.tsv": {
+      "bytes": 7655,
+      "sha256": "cb3fa350bd8fdcffb213a8a0a38eb4e3cecc5dc8559d292b103f584a2351dbcf"
+    },
+    "normal-sites.json.gz": {
+      "bytes": 12162,
+      "sha256": "1f28a371578af854b0f8379786f9f65aafb1c8f66e715890ef3b0d7ba2243e5e"
+    },
+    "peptides.tsv.gz": {
+      "bytes": 469180,
+      "sha256": "b04e24cc0d051e9cfb5643773e8dd454ca2fdf417a091f3462caf274819a0ceb"
+    },
+    "reference-matches.json.gz": {
+      "bytes": 421315,
+      "sha256": "8250d97b316658c1a2cf25bc621e4b5d48d373d5810b8f1893df8c41b8169e87"
+    },
+    "review-gene-ranking.tsv": {
+      "bytes": 7655,
+      "sha256": "cb3fa350bd8fdcffb213a8a0a38eb4e3cecc5dc8559d292b103f584a2351dbcf"
+    },
+    "summary.json": {
+      "bytes": 5106,
+      "sha256": "a4ad24d849f0b1898bc72c615135a3ac4d8411611ae38168e3141d4fe02521d6"
+    },
+    "window-evidence.json.gz": {
+      "bytes": 84098,
+      "sha256": "b10e6d1defbabeab0861180b0414f99df01c734b6160a2457998ec4001ec2b9c"
+    },
+    "windows.tsv.gz": {
+      "bytes": 60130,
+      "sha256": "2e81155a96d2320a0216e1d9a8fc9c2a31d0e0f108e0a0784d94aa6f368e8241"
+    }
+  }
+}

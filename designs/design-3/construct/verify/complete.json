@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED",
+  "completed_utc": "2026-11-16T06:11:09.652358+00:00",
+  "worker_sha256": "883ea275e043536b479d094777e12a8b4c8794fa45f0822220f53bc4ab03614c",
+  "all_checks_pass": true,
+  "outputs": {
+    "final-check.json": {
+      "bytes": 1954,
+      "sha256": "ee414ed83edf5bece5a2f1dd8cf91da7305819b476c0bc163079091b6d5f730b"
+    }
+  }
+}

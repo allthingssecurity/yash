@@ -380,7 +380,7 @@ design choices, not experimentally established optimal counts.
 Every selected splice event was ND in both catalogs. These fragment counts do
 not demonstrate independent original molecules or rule out another normal
 transcript producing the same peptide. Subsequent sequence interpretation is
-explained in the lead design’s [splice sequence checks](../design-2/methods.md#additional-rna-changes-in-the-splice-sequences).
+explained in Design #2’s [splice sequence checks](../design-2/methods.md#rna-supported-amino-acid-changes).
 
 The CTA genes were **PRAME, SPATA31A6, LRRC36, YBX2 and TEKT5**. Mutation genes,
 in descriptive score order, were **KLF5, SF1, KMT2D, RXRA, HSPG2, PARP3, CAST,

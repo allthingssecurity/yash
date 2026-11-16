@@ -1,0 +1,238 @@
+{
+  "RNA_contexts_sha256": "306204981e804c304edb43b8f311e629a1944fb3b89b3edb82b3af582b2d382d",
+  "entries": {
+    "REG_0a914a772ba5bd2a7738": {
+      "candidate": "QEQLAEGCRLAQHLVQKLSPGKVAI",
+      "gene": "NBPF14",
+      "join_nt_offset": 66,
+      "source": "SPLICE",
+      "target_end": 22,
+      "target_start": 22,
+      "variants": [
+        {
+          "deleted_coding_nt": null,
+          "effect": "different_downstream_sequence",
+          "reference": "QEQLAEGCRLAQHLVQKLSPENDED",
+          "transcript_intervals": [
+            {
+              "end_aa": 169,
+              "start_aa": 145,
+              "transcript_id": "ENST00000614999.4"
+            },
+            {
+              "end_aa": 169,
+              "start_aa": 145,
+              "transcript_id": "ENST00000619423.4"
+            },
+            {
+              "end_aa": 169,
+              "start_aa": 145,
+              "transcript_id": "ENST00000581201.5"
+            },
+            {
+              "end_aa": 169,
+              "start_aa": 145,
+              "transcript_id": "ENST00000621070.4"
+            },
+            {
+              "end_aa": 169,
+              "start_aa": 145,
+              "transcript_id": "ENST00000611826.4"
+            },
+            {
+              "end_aa": 134,
+              "start_aa": 110,
+              "transcript_id": "ENST00000620240.1"
+            }
+          ],
+          "transcripts": [
+            "ENST00000614999.4",
+            "ENST00000619423.4",
+            "ENST00000581201.5",
+            "ENST00000621070.4",
+            "ENST00000611826.4",
+            "ENST00000620240.1"
+          ]
+        }
+      ],
+      "window_id": "RNA_SPLICE_63ad26a57e2e2b74ce43"
+    },
+    "REG_43525196a04b74490f29": {
+      "candidate": "HLSPQPEEPHLSPQAEGPHLSPQPE",
+      "gene": "KMT2D",
+      "join_nt_offset": 16,
+      "source": "SPLICE",
+      "target_end": 6,
+      "target_start": 5,
+      "variants": [
+        {
+          "candidate_codon": "P",
+          "deleted_coding_nt": 27,
+          "effect": "in_frame_deletion",
+          "prefix": "HLSPQ",
+          "reference": "HLSPQPEEPCLCAVPEEPHLSPQAEGPHLSPQPE",
+          "reference_codon": "P",
+          "removed": "EEPCLCAVP",
+          "removed_aa": 9,
+          "suffix": "EEPHLSPQAEGPHLSPQPE",
+          "transcript_intervals": [
+            {
+              "end_aa": 802,
+              "start_aa": 769,
+              "transcript_id": "ENST00000301067.12"
+            }
+          ],
+          "transcripts": [
+            "ENST00000301067.12"
+          ]
+        }
+      ],
+      "window_id": "RNA_SPLICE_335695e305c0bc6b7cfb"
+    },
+    "REG_43c17f5844fb05456835": {
+      "candidate": "EAAREAEQRSLPGGHVRGVAPQIPG",
+      "gene": "HLA-B",
+      "join_nt_offset": 34,
+      "source": "SPLICE",
+      "target_end": 12,
+      "target_start": 11,
+      "variants": [
+        {
+          "deleted_coding_nt": null,
+          "effect": "different_downstream_sequence",
+          "reference": "EAAREAEQRRAYLEGECVEWLRRYL",
+          "transcript_intervals": [
+            {
+              "end_aa": 196,
+              "start_aa": 172,
+              "transcript_id": "ENST00000412585.7"
+            },
+            {
+              "end_aa": 207,
+              "start_aa": 183,
+              "transcript_id": "ENST00000434333.1"
+            }
+          ],
+          "transcripts": [
+            "ENST00000412585.7",
+            "ENST00000434333.1"
+          ]
+        }
+      ],
+      "window_id": "RNA_SPLICE_de2328085e66ea5701c0"
+    },
+    "REG_463147fb26e0938a4cc4": {
+      "candidate": "FSVDTSALLDVSGAPPPRLPAPPPR",
+      "gene": "HSF1",
+      "join_nt_offset": 54,
+      "source": "SPLICE",
+      "target_end": 18,
+      "target_start": 18,
+      "variants": [
+        {
+          "deleted_coding_nt": null,
+          "effect": "different_downstream_sequence",
+          "reference": "FSVDTSALLDIQELLSPQEPPRPPE",
+          "transcript_intervals": [
+            {
+              "end_aa": 459,
+              "start_aa": 435,
+              "transcript_id": "ENST00000400780.8"
+            }
+          ],
+          "transcripts": [
+            "ENST00000400780.8"
+          ]
+        },
+        {
+          "deleted_coding_nt": null,
+          "effect": "different_downstream_sequence",
+          "reference": "FSVDTSALLDLFSPSVTVPDMSLPD",
+          "transcript_intervals": [
+            {
+              "end_aa": 431,
+              "start_aa": 407,
+              "transcript_id": "ENST00000528838.6"
+            }
+          ],
+          "transcripts": [
+            "ENST00000528838.6"
+          ]
+        }
+      ],
+      "window_id": "RNA_SPLICE_dfffafab89cf697bf26f"
+    },
+    "REG_6a492ad25bc739969e40": {
+      "candidate": "HTTLSLDFSQTNLSPELSHTTLSLD",
+      "gene": "F5",
+      "join_nt_offset": 48,
+      "source": "SPLICE",
+      "target_end": 16,
+      "target_start": 16,
+      "variants": [
+        {
+          "candidate_codon": "",
+          "deleted_coding_nt": 81,
+          "effect": "in_frame_deletion",
+          "prefix": "HTTLSLDFSQTNLSPE",
+          "reference": "HTTLSLDFSQTNLSPELSHMTLSPELSQTNLSPALGQMPISPDLSHTTLSLD",
+          "reference_codon": "",
+          "removed": "LSHMTLSPELSQTNLSPALGQMPISPD",
+          "removed_aa": 27,
+          "suffix": "LSHTTLSLD",
+          "transcript_intervals": [
+            {
+              "end_aa": 1333,
+              "start_aa": 1282,
+              "transcript_id": "ENST00000367797.9"
+            },
+            {
+              "end_aa": 1338,
+              "start_aa": 1287,
+              "transcript_id": "ENST00000367796.3"
+            }
+          ],
+          "transcripts": [
+            "ENST00000367797.9",
+            "ENST00000367796.3"
+          ]
+        }
+      ],
+      "window_id": "RNA_SPLICE_de3577be74252545fecc"
+    },
+    "REG_f4ca2bba236d14d54d3f": {
+      "candidate": "EPPFGSKVREHPCVESMKDKRVERS",
+      "gene": "TGFBR2",
+      "source": "MUTATION",
+      "variants": [
+        {
+          "effect": "frameshift",
+          "reference": "EPPFGSKVREHPCVESMKDNVLRDR",
+          "transcript_intervals": [
+            {
+              "end_aa": 495,
+              "start_aa": 471,
+              "transcript_id": "ENST00000295754.10"
+            },
+            {
+              "end_aa": 520,
+              "start_aa": 496,
+              "transcript_id": "ENST00000359013.4"
+            }
+          ],
+          "transcripts": [
+            "ENST00000295754.10",
+            "ENST00000359013.4"
+          ]
+        }
+      ]
+    }
+  },
+  "normal_RNA_measured": false,
+  "original_windows_sha256": "8d0b78b0a8f093f73fed3b9a54c941448cc0342ab7ea7342ee3a7870845ec204",
+  "reference": "GENCODE 37 / GRCh38 annotated protein transcripts",
+  "reference_models_sha256": "d4c745ccfaba370e851be9adf77eb5e8e7d212a9bfecaf83f1c4f0b1a743c1d6",
+  "schema_version": 1,
+  "selected_sha256": "3436a374b81e784b2918b5839b28bb50a869c5c6a3ffc29fb0dc561d7cf401b1",
+  "selection_changed": false
+}

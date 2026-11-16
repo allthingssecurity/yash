@@ -1,0 +1,40 @@
+{
+  "name": "Design #3",
+  "parent_design": "designs/design-2",
+  "parent_selected_sha256": "32b6954b18d67e9131ec09c4a69f0e91fa2128bf5152fb13172f77c21c6ad7e2",
+  "parent_regions_retained": 23,
+  "additional_guardant_variants": 5,
+  "region_length_aa": 25,
+  "addition_policy": "Include one reference-derived mutant region for each of the five named Guardant VUS; inclusion is explicit, not a claim of passing Design #2 DNA/RNA requirements.",
+  "guardant_collection_date": "2025-10-14",
+  "normal_collection_date": "2026-10-30",
+  "expression_policy": "Annotate supplied gene values; do not use cfDNA AF as an RNA fraction or expression multiplier. All five additions are explicitly included.",
+  "window_objective": "Maximum native Vaxrank HLA-I affinity contribution sum after reference/patient-self exclusion among hydropathy-compatible 25-aa windows; deterministic centering tie-break.",
+  "affinity_gate_nm": 500,
+  "affinity_gate_for_additions": "Report-only; any exception must be explicit because all five variants are user-selected.",
+  "AR_normal_coverage_exception": "0 ALT of 19 qualifying fragments plus reference genotype; below the existing 20-fragment rule, retained by explicit user decision.",
+  "somatic_status": "Guardant-reported plasma calls; not established by matched-normal absence alone.",
+  "altered_sequence_basis": "Reference protein plus the inferred single-nucleotide substitution; not reconstructed from patient tumour RNA.",
+  "linkers": "config/linkers.json",
+  "polyA": "unspecified",
+  "make_lead": false,
+  "excluded_parent_region_ids": [
+    "REG_35621fc5dd92cf1c215d"
+  ],
+  "excluded_parent_region_reason": "MUC6: every nominated target peptide has an exact match among all Ensembl 103 peptide translations, including the alternative-reference polymorphic-pseudogene translation ENSP00000487059.1. Removed under the conservative broad-reference novelty rule.",
+  "sequence_review_inputs": "inputs/sequence-review",
+  "altered_peptide_novelty_policy": "Exclude exact matches in all 115262 Ensembl 103 peptide translations, including alternative contigs/pseudogene translations, and the recorded bounded patient-normal sequence models. This is a conservative sequence exclusion, not a claim of measured healthy-tissue expression. CTA/self antigens intentionally lie outside this novelty requirement.",
+  "RNA_sequence_description": "RNA-supported amino-acid changes relative to a nominated reference; source SPLICE records discovery, not a proven splice mechanism or RNA-editing event.",
+  "supplementary_reference_check": {
+    "path": "inputs/sequence-review/uniprot-reference-check.json",
+    "sha256": "02e1973907a018bd2612dbe1ba76a0ee8426aa51492257fc3450afed1b004d4c",
+    "scope": "UniProt human reference proteome UP000005640 canonical and additional/isoform sequences; 286017 translations in provider files last modified 2026-11-04. No additional nonself target matches were found.",
+    "phase": "Post-build confirmation with the same retained sequences; enforced before subsequent replay or new execution."
+  },
+  "RNA_pool_admission": {
+    "path": "data/shared-rna/splicing/sequence-screen",
+    "exports_sha256": "0bdd5f3073e9da5e7a615935b1963c2d78a762f2ce433617c0f67b03fb23cb75",
+    "scope": "Four retained RNA-source regions must match the primary checked pool. This gate does not assess mutation, fusion or intentional CTA/self branches.",
+    "phase": "Post-build full-pool screening; enforced before subsequent replay or execution. No sequence or antigen selection changed."
+  }
+}

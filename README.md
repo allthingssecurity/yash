@@ -6,9 +6,9 @@ In January 2025, 32-year-old Yashdeep Bindal was diagnosed with stage IV pancrea
 
 At the RNA Foundry, we are developing a personalized cancer vaccine for Yash. We’re sharing his tumour DNA, tumour RNA, matched-normal DNA and vaccine designs so that other researchers can help refine the work.
 
-![Lead candidate, shown over two rows: 5′ UTR, SEC, 24 antigen regions and linkers, MITD, stop codons, 3′ UTR and unspecified PolyA; the encoded protein is 724 amino acids.](designs/design-2/preview.png)
+![Lead candidate, shown over two rows: 5′ UTR, SEC, 30 antigen regions and linkers, MITD, stop codons, 3′ UTR and unspecified PolyA; the encoded protein is 885 amino acids.](designs/design-3/preview.png)
 
-**[Get the data](data/README.md) · [See the lead design](designs/design-2/README.md) · [Run the code](docs/usage.md) · [Contribute](CONTRIBUTING.md)**
+**[Get the data](data/README.md) · [See the lead design](designs/design-3/README.md) · [Run the code](docs/usage.md) · [Contribute](CONTRIBUTING.md)**
 
 ## Data
 
@@ -35,13 +35,15 @@ The [data guide](data/README.md) describes each dataset, sample and reference sc
 
 ## See the lead design
 
-**[Design #2](designs/design-2/README.md) is the lead design**, generated using matched-normal white-blood-cell DNA alongside tumour DNA and RNA. It contains **24 antigen regions in a 724-aa protein**: 12 mutation, 5 splice, 5 CTA/self and 2 fusion regions.
+**[Design #3](designs/design-3/README.md) is the lead design:** 30 antigen regions in an 885-aa protein, using tumour DNA and RNA, matched-normal white-blood-cell DNA and Guardant plasma findings.
 
-- [Selected antigens](designs/design-2/selection/selected.tsv) · [protein](designs/design-2/construct/protein/cassette.fasta) · [antigen order](designs/design-2/construct/protein/antigen-order.tsv).
-- [RNA segment](designs/design-2/construct/mrna/mrna-segments.fasta) · [coding DNA](designs/design-2/construct/mrna/cds.fasta) · [annotated DNA segment](designs/design-2/construct/mrna/template-segments.gb).
-- [Methods](designs/design-2/methods.md) · [antigen-by-antigen review](designs/design-2/review/antigen-review.md).
+It contains 13 paired-DNA/RNA mutation regions, five reference-derived Guardant mutation hypotheses, five splice regions, five CTA/self regions and two CDH1::NRG1 fusion hypotheses. H2BC12 is included with expression left missing. Class-I presentation and CapHLA class-II predictions are annotations; selection and assembly remain affinity-based.
 
-PolyA and any downstream extension are unspecified; nucleotide files contain the known segments. [Design #1](designs/initial/README.md), generated without matched-normal DNA, is retained for comparison.
+- [Explore the lead candidate](https://rnafoundry.com/yash/#vaccine) · [selected antigens](designs/design-3/selection/selected.tsv) · [methods](designs/design-3/methods.md).
+- [Protein](designs/design-3/construct/protein/cassette.fasta) · [antigen order](designs/design-3/construct/protein/antigen-order.tsv).
+- [Known RNA segment](designs/design-3/construct/mrna/mrna-segments.fasta) · [coding DNA](designs/design-3/construct/mrna/cds.fasta) · [annotated DNA segment](designs/design-3/construct/mrna/template-segments.gb).
+
+PolyA and any downstream extension are unspecified; nucleotide files contain the known segments. Earlier [Design #2](designs/design-2/README.md), which uses matched-normal DNA, and [Design #1](designs/initial/README.md), generated without it, remain available for comparison.
 
 ## Verify and reproduce
 
@@ -52,10 +54,10 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[mrna]'
 yash-vaccine verify
-yash-vaccine reproduce --output work/design-2-replay
+yash-vaccine reproduce --output work/design-3-replay
 ```
 
-These commands check and replay the lead design using bundled evidence and recorded predictions. They need no sequencing downloads or cloud account. The [usage guide](docs/usage.md) explains replay and alternative designs; the [pipeline guide](designs/design-2/pipeline/README.md) covers new raw-read processing and inference.
+These commands check and replay the lead design using bundled evidence and recorded predictions. They need no sequencing downloads or cloud account. The [usage guide](docs/usage.md) explains replay and alternative designs; the [paired-DNA pipeline guide](designs/design-2/pipeline/README.md) covers raw-read processing; the [Design #3 methods](designs/design-3/methods.md) cover the full lead workflow.
 
 ## Make another candidate
 

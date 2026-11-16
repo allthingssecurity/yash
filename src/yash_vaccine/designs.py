@@ -40,7 +40,7 @@ def referenced(recipe_path,value):return resolve_input(Path(recipe_path).parent/
 def load(repo,path,*,check_cache=True):
     repo=Path(repo).resolve();path=resolve_recipe(path)
     if not resolve_input(path).is_file():
-        raise ValueError('No optional recipe at '+str(path)+'. The lead uses yash-vaccine reproduce designs/design-2. Start an independent design with yash-vaccine init NAME, or copy the Design #1 recipe with --from designs/initial/selection.')
+        raise ValueError('No optional recipe at '+str(path)+'. The lead uses yash-vaccine reproduce designs/design-3. Start an independent design with yash-vaccine init NAME, or copy the Design #1 recipe with --from designs/initial/selection.')
     recipe=json.loads(resolve_input(path).read_text())
     expected={'schema_version','name','description','evidence','selection','linkers','prediction_cache','optimization'}
     if not isinstance(recipe,dict) or set(recipe)!=expected or recipe['schema_version']!=1:
@@ -90,9 +90,9 @@ def create(repo,name,source=None):
         (out/'README.md').write_text('# '+name+'\n\n'
             'Describe your question, approach and findings here. Use any method or tools you need.\n\n'
             '## Starting point\n\n'
-            'The lead is [Design #2](../design-2/README.md), generated with matched-normal DNA.\n'
-            'Reuse its [candidate pool](../design-2/inputs/integrated/candidate-pool.tsv),\n'
-            '[selected regions](../design-2/selection/selected.tsv) and [methods](../design-2/methods.md)\n'
+            'The lead is [Design #3](../design-3/README.md), using matched-normal DNA and additional RNA/plasma candidates.\n'
+            'Reuse its [selected antigens](../design-3/selection/selected.tsv),\n'
+            '[source evidence](../design-2/inputs/integrated/candidate-pool.tsv) and [methods](../design-3/methods.md)\n'
             'where useful. This workspace does not copy either design\'s analysis.\n\n'
             '## Inputs\n\nList the data, software versions and any additional downloads needed.\n'
             'Shared data and access instructions are in ../../data/README.md.\n\n'
@@ -124,7 +124,7 @@ def create(repo,name,source=None):
     (out/'README.md').write_text('# '+name+'\n\n'
         'This candidate copies the optional Design #1 tumour-only recipe. It varies selection\n'
         'and the internal cassette, before SEC/MITD and RNA encoding. It does not use the\n'
-        'matched-normal evidence or full construct workflow of lead Design #2.\n'
+        'matched-normal evidence or full construct workflow of lead Design #3.\n'
         'For an alternative to the lead, use a plain workspace from `yash-vaccine init NAME`\n'
         'and [Design #2\'s methods and evidence](../design-2/README.md) in your own script.\n\n'
         'Describe your question and changes here. You can also replace this approach with your own script.\n\n'
@@ -201,7 +201,10 @@ def run(repo,path,out=None,prediction_cache=None):
 
 def reproduce(repo,path=None,out=None):
     repo=Path(repo).resolve()
-    if path is None or Path(path).resolve()==repo/"designs/design-2":
+    if path is None or Path(path).resolve()==repo/"designs/design-3":
+        from .current import reproduce as reproduce_current
+        return reproduce_current(repo,out)
+    if Path(path).resolve()==repo/"designs/design-2":
         from .lead import reproduce as reproduce_lead
         return reproduce_lead(repo,out)
     if Path(path).resolve()==repo/"designs/initial":

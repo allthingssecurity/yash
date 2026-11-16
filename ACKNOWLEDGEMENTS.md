@@ -28,3 +28,12 @@ Ivo Hofacker, Peter Stadler, Walter Fontana, Stefan Wuchty, Stephan Bernhart,
 Ulli Mueckstein and Ronny Lorenz, and the Institute for Theoretical Chemistry
 of the University of Vienna, as required by the
 [ViennaRNA license](https://raw.githubusercontent.com/ViennaRNA/ViennaRNA/v2.7.2/COPYING).
+
+## UniProt
+
+Supplementary exact peptide matching used UniProtKB human reference proteome
+UP000005640, including canonical and additional/isoform sequences. The provider
+files and derived match results are identified in
+[the sequence review](designs/design-3/inputs/sequence-review/uniprot-reference-check.json).
+UniProt database content is provided under
+[CC BY 4.0](https://www.uniprot.org/help/license).

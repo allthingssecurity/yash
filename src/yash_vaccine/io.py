@@ -4,7 +4,18 @@ import csv
 import gzip
 import hashlib
 import json
+import os
 from pathlib import Path
+
+def require_assertions(context):
+    """Refuse assertion-based verification when Python has removed its checks."""
+    if not __debug__:
+        raise ValueError(context+' uses integrity checks that -O/PYTHONOPTIMIZE disables. '
+                         'Rerun without -O/PYTHONOPTIMIZE so the evidence is checked.')
+
+def child_env():
+    """Run recorded verification workers with their assertions enabled."""
+    return {name:value for name,value in os.environ.items() if name!='PYTHONOPTIMIZE'}
 
 def open_text(path):
     path=Path(path)

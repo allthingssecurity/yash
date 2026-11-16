@@ -1,0 +1,527 @@
+[
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000612452",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chrX",
+        67643302,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000374690",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chrX",
+        67643302,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000514029",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chrX",
+        67643302,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000613054",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "N"
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000504326",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chrX",
+        67643302,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000513847",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000396044",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chrX",
+        67643302,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "AR",
+    "change": "P555S",
+    "transcript_id": "ENST00000396043",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000496811",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr3",
+        154315170,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000308361",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr3",
+        154315170,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000495598",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000329463",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr3",
+        154315170,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000477549",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000479934",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000481941",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "D"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000460695",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000469977",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "C"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000481332",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000460875",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000462464",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "DHX36",
+    "change": "R160K",
+    "transcript_id": "ENST00000491011",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000342788",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr2",
+        211947513,
+        "T",
+        "A"
+      ]
+    ]
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000402597",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "L"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000436443",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr2",
+        211947513,
+        "T",
+        "A"
+      ]
+    ]
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000484594",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000260943",
+    "status": "TRANSCRIPT_MAPPING_REQUIRES_REVIEW",
+    "error": "TypeError(\"object of type 'NoneType' has no len()\")"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000463121",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000484474",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000435846",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "P"
+  },
+  {
+    "gene": "ERBB4",
+    "change": "D113V",
+    "transcript_id": "ENST00000459774",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000301067",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr12",
+        49039222,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000526209",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000552391",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000549743",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000549799",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000550356",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "KMT2D",
+    "change": "R2789Q",
+    "transcript_id": "ENST00000650290",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000251849",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr3",
+        12585187,
+        "C",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000442415",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "E"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000432427",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000423275",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000471449",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000465826",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000475353",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000494557",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000460610",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000491290",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000416093",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RAF1",
+    "change": "G535S",
+    "transcript_id": "ENST00000492690",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RXRA",
+    "change": "A214S",
+    "transcript_id": "ENST00000484822",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RXRA",
+    "change": "A214S",
+    "transcript_id": "ENST00000481739",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "D"
+  },
+  {
+    "gene": "RXRA",
+    "change": "A214S",
+    "transcript_id": "ENST00000356384",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "RXRA",
+    "change": "A214S",
+    "transcript_id": "ENST00000672570",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr9",
+        134417268,
+        "G",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "RXRA",
+    "change": "A214S",
+    "transcript_id": "ENST00000649020",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "JUN",
+    "change": "R276*",
+    "transcript_id": "ENST00000678696",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr1",
+        58782245,
+        "T",
+        "A"
+      ]
+    ]
+  },
+  {
+    "gene": "JUN",
+    "change": "R276*",
+    "transcript_id": "ENST00000371222",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr1",
+        58782245,
+        "T",
+        "A"
+      ]
+    ]
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000295408",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr2",
+        111945051,
+        "G",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000421804",
+    "status": "MAPPED",
+    "alleles": [
+      [
+        "chr2",
+        111945051,
+        "G",
+        "T"
+      ]
+    ]
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000616902",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "A"
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000409780",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "S"
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000439966",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000473065",
+    "status": "NO_PROTEIN_OR_POSITION_OUT_OF_RANGE"
+  },
+  {
+    "gene": "MERTK",
+    "change": "E192*",
+    "transcript_id": "ENST00000449344",
+    "status": "REFERENCE_AMINO_ACID_MISMATCH",
+    "observed": "A"
+  }
+]

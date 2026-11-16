@@ -1,0 +1,62 @@
+{
+  "root": "/data/results/TN25-112103/design-3-final-20261116/attempt-01",
+  "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+  "stages": {
+    "prepare": {
+      "sandbox_id": "sb-01M7HFBAD82EQTJ1ZQTW0ZD6A1",
+      "status": "COMPLETED",
+      "image_id": "im-hX1h6HknDMvasm9Z6q530H",
+      "gpu": null,
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "1b677caa88fd9129173373f1090273632e24d9962f28f72557e6edc0f0e02d36"
+    },
+    "predict": {
+      "sandbox_id": "sb-qShm7UcECgzPbgH7E1JY6d",
+      "status": "COMPLETED",
+      "image_id": "im-DBMghmAQfB3Oz7McdNZeic",
+      "gpu": "A10",
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "c7d3b8fee28c3f6c1d01565abf26f4babbdddc5920c7087c16e48de0892e649c"
+    },
+    "solve": {
+      "sandbox_id": "sb-01M7HFHCRC1N9PDN6G7PADSAE5",
+      "status": "COMPLETED",
+      "image_id": "im-bgDqBGTPmD1LPQS5T4tfm8",
+      "gpu": null,
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "16c31eaf964ee005da1b824153ec2e2a22a7f111098a47832564734e19c3824c"
+    },
+    "predict-selected": {
+      "sandbox_id": "sb-UukbL72LAcvy2wIeLJEXvF",
+      "status": "COMPLETED",
+      "image_id": "im-DBMghmAQfB3Oz7McdNZeic",
+      "gpu": "A10",
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "74397d0aef60c23c1a7e2c59b7d083ec916d2ea51813fe04e831f08e5c725c1e"
+    },
+    "verify": {
+      "sandbox_id": "sb-01M7HFP22XVY3KDSZKN7H6D018",
+      "status": "COMPLETED",
+      "image_id": "im-hX1h6HknDMvasm9Z6q530H",
+      "gpu": null,
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "7f19426a88f9e1ae8fd796a09940a9b255c3171dc089ccbddef43d3b920e7e6a"
+    },
+    "encode": {
+      "sandbox_id": "sb-01M7HFQ7K0DWEFW9K6RH5MZXCP",
+      "status": "COMPLETED",
+      "image_id": "im-yWdXWgFXTigt4nutlA984S",
+      "gpu": null,
+      "source_bundle_sha256": "f86aee0c30bffba6671108b06abf68e084637e7fdcbd8e9140bb6856129b86c4",
+      "last_poll_exit_code": 0,
+      "receipt_sha256": "cdb03e8c682e2283a89a4d7f040a47e113cd349009f1fa19039533eb5b608d7a"
+    }
+  },
+  "uploaded": true,
+  "status": "COMPLETED"
+}

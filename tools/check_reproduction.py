@@ -1,4 +1,4 @@
-"""Reproduce lead Design #2 in a disposable directory."""
+"""Reproduce lead Design #3 in a disposable directory."""
 import json,sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]

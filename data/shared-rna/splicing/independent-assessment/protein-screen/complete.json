@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETED",
+  "phase": "protein-screen",
+  "completed_utc": "2026-11-12T15:38:04.446343+00:00",
+  "request_sha256": "0b78f692b4416e5bbe986b1f8d33bc4370676f4afe0c151340e14314fb65dc7c",
+  "source_files": {
+    "alignments.py": "b57f18a55e72f7542b845852006ad48e62a0d95dbabfc867096ed7c25c9f64f2",
+    "assets.py": "1853b000514d9970e283901d68d030340ca3c3e1e2c9f24cb27ec50adbe08d06",
+    "check_measurements.py": "229e69f51322cf5c95058ad5b484cbd68d63eb7b07a8b9e292f6be3a46fef467",
+    "common.py": "7d5840317d04cce85d02e8346b20ca29e77b45b113c974a62b2465694a0f8991",
+    "evidence.py": "fd6708d9ba806902b96055148d6c013e98bb9f2863219af855c6399cf71b1aff",
+    "frames.py": "31744d2adeee38b286418b4f2514cff58f56edcd0244dced0fb93a2b2e695aeb",
+    "normal.py": "5acdc46c8a03b5d31fff442a8b1c06b324c9bbda5701bee6baa78ac9d5d2208b",
+    "normal_evidence.py": "fcf3e5fd913dee3dac30dd094d64a8408524a345f9878698e2e940e444e9382e",
+    "policy.json": "edccff2cba7f1526f8c8b8bcd1d5bc1ca16166737a0a1704f92185cfbe45667e",
+    "request.py": "9e5c0718f4036ed63d1ea36d7bc1ae5df3be6792504942ecbfe7d895c894ff02",
+    "run.py": "25849bbb1cb0148c649dfb9a685f0651e9d3ac255b728b297ca9ec5223ded778",
+    "self_search.py": "f189793651898eb137e5ef3254e2edf6dc9faac4d15ecbd9615bb678ba031f52",
+    "splice_rna.py": "f5f4f7ef15c3852746e3e79d3928e6b8859df57d29472b91b32bc7ad1fd625ba",
+    "stage.py": "10426f5ade2b6c8aa493d8314c3a7e5c1643609f26bd5f585d8da75138c495b8",
+    "uniprot-reference-check.json": "02e1973907a018bd2612dbe1ba76a0ee8426aa51492257fc3450afed1b004d4c",
+    "worker.py": "1836316c70cd961fee8746b90e9577b1e0dec8ce2f57ac844c745fbfb366e9b6"
+  },
+  "outputs": {
+    "protein-matches.json.gz": {
+      "bytes": 742982,
+      "sha256": "6ab27b11e33405739d151a47bf616ce4c3889a8b58a8f82d8714153961b5b5b0"
+    },
+    "counterfactuals.json.gz": {
+      "bytes": 218941,
+      "sha256": "a6b41c5a65737c58ed3a68f5f3e8962a7fbc69494f48a07ad45a3875cf65a6b4"
+    },
+    "protein-screen.json": {
+      "bytes": 2749,
+      "sha256": "0377e9fbb5aadf5a40c10d98af99308cc08248662a437c81d15d4b22724fe187"
+    }
+  },
+  "details": {}
+}

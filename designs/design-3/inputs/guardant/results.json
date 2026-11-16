@@ -1,0 +1,2094 @@
+[
+  {
+    "gene": "AR",
+    "reported_protein_change": "P555S",
+    "October_cfDNA_percent": 0.4,
+    "scope": "unmatched",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chrX",
+          67643302,
+          "C",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000612452",
+            "protein_id": "ENSP00000484033",
+            "strand": "+",
+            "reference_codon": "CCA",
+            "alternate_codon": "TCA",
+            "codon_genomic_positions": [
+              67643302,
+              67643303,
+              67643304
+            ],
+            "local_reference_protein": "DHVLPIDYYFPPQKTCLICGD"
+          },
+          {
+            "transcript_id": "ENST00000374690",
+            "protein_id": "ENSP00000363822",
+            "strand": "+",
+            "reference_codon": "CCA",
+            "alternate_codon": "TCA",
+            "codon_genomic_positions": [
+              67643302,
+              67643303,
+              67643304
+            ],
+            "local_reference_protein": "DHVLPIDYYFPPQKTCLICGD"
+          },
+          {
+            "transcript_id": "ENST00000514029",
+            "protein_id": "ENSP00000425199",
+            "strand": "+",
+            "reference_codon": "CCA",
+            "alternate_codon": "TCA",
+            "codon_genomic_positions": [
+              67643302,
+              67643303,
+              67643304
+            ],
+            "local_reference_protein": "DHVLPIDYYFPPQKTCLICGD"
+          },
+          {
+            "transcript_id": "ENST00000504326",
+            "protein_id": "ENSP00000421155",
+            "strand": "+",
+            "reference_codon": "CCA",
+            "alternate_codon": "TCA",
+            "codon_genomic_positions": [
+              67643302,
+              67643303,
+              67643304
+            ],
+            "local_reference_protein": "DHVLPIDYYFPPQKTCLICGD"
+          },
+          {
+            "transcript_id": "ENST00000396044",
+            "protein_id": "ENSP00000379359",
+            "strand": "+",
+            "reference_codon": "CCA",
+            "alternate_codon": "TCA",
+            "codon_genomic_positions": [
+              67643302,
+              67643303,
+              67643304
+            ],
+            "local_reference_protein": "DHVLPIDYYFPPQKTCLICGD"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000374690",
+            "protein_change": "p.P555S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000396044",
+            "protein_change": "p.P555S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000504326",
+            "protein_change": "p.P555S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000396043",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000513847",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000514029",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000612452",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "AR",
+            "transcript_id": "ENST00000613054",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "UNRESOLVED_NORMAL_EVIDENCE",
+          "adequate_qualifying_normal_fragments": false,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 19,
+            "usable_fragment_names": 19,
+            "fragment_counts": {
+              "REF": 19
+            },
+            "quality_passing_observations": {
+              "REF": 29
+            },
+            "quality_assessment_counts": {
+              "passed": 29,
+              "failed": 1
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 67643297,
+                "ref": "A",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 67643304,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 29,
+                  "GQ": 81,
+                  "MIN_DP": 28,
+                  "PL": [
+                    0,
+                    81,
+                    1215
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "C": 19
+          },
+          "qualifying_names": 19,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 465,
+          "usable_fragment_names": 465,
+          "fragment_counts": {
+            "REF": 465
+          },
+          "quality_passing_observations": {
+            "REF": 808
+          },
+          "quality_assessment_counts": {
+            "passed": 808,
+            "failed": 11
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "C": 465
+          },
+          "qualifying_names": 465,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 19,
+          "usable_fragment_names": 19,
+          "fragment_counts": {
+            "REF": 18,
+            "ALT": 1
+          },
+          "quality_passing_observations": {
+            "REF": 36,
+            "ALT": 2
+          },
+          "quality_assessment_counts": {
+            "passed": 38
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": []
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "DHX36",
+    "reported_protein_change": "R160K",
+    "October_cfDNA_percent": 0.2,
+    "scope": "unmatched",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr3",
+          154315170,
+          "C",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000496811",
+            "protein_id": "ENSP00000417078",
+            "strand": "-",
+            "reference_codon": "AGA",
+            "alternate_codon": "AAA",
+            "codon_genomic_positions": [
+              154315171,
+              154315170,
+              154315169
+            ],
+            "local_reference_protein": "QEKKMFRIRNRSYIDRDSEYL"
+          },
+          {
+            "transcript_id": "ENST00000308361",
+            "protein_id": "ENSP00000309296",
+            "strand": "-",
+            "reference_codon": "AGA",
+            "alternate_codon": "AAA",
+            "codon_genomic_positions": [
+              154315171,
+              154315170,
+              154315169
+            ],
+            "local_reference_protein": "QEKKMFRIRNRSYIDRDSEYL"
+          },
+          {
+            "transcript_id": "ENST00000329463",
+            "protein_id": "ENSP00000330113",
+            "strand": "-",
+            "reference_codon": "AGA",
+            "alternate_codon": "AAA",
+            "codon_genomic_positions": [
+              154315171,
+              154315170,
+              154315169
+            ],
+            "local_reference_protein": "QEKKMFRIRNRSYIDRDSEYL"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "DHX36",
+            "transcript_id": "ENST00000308361",
+            "protein_change": "p.R160K",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "DHX36",
+            "transcript_id": "ENST00000329463",
+            "protein_change": "p.R160K",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "DHX36",
+            "transcript_id": "ENST00000496811",
+            "protein_change": "p.R160K",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "DHX36",
+            "transcript_id": "ENST00000491011",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "DHX36",
+            "transcript_id": "ENST00000481941",
+            "protein_change": "incomplete",
+            "consequence": "IncompleteTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 34,
+            "usable_fragment_names": 34,
+            "fragment_counts": {
+              "REF": 34
+            },
+            "quality_passing_observations": {
+              "REF": 54
+            },
+            "quality_assessment_counts": {
+              "passed": 54,
+              "failed": 2
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 154314946,
+                "ref": "T",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 154315283,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 47,
+                  "GQ": 99,
+                  "MIN_DP": 38,
+                  "PL": [
+                    0,
+                    105,
+                    1111
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "C": 34
+          },
+          "qualifying_names": 34,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 53,
+          "usable_fragment_names": 53,
+          "fragment_counts": {
+            "REF": 53
+          },
+          "quality_passing_observations": {
+            "REF": 88
+          },
+          "quality_assessment_counts": {
+            "failed": 7,
+            "passed": 88
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "C": 53
+          },
+          "qualifying_names": 53,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 7,
+          "usable_fragment_names": 7,
+          "fragment_counts": {
+            "REF": 7
+          },
+          "quality_passing_observations": {
+            "REF": 14
+          },
+          "quality_assessment_counts": {
+            "passed": 14
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": []
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "ERBB4",
+    "reported_protein_change": "D113V",
+    "October_cfDNA_percent": 0.3,
+    "scope": "unmatched",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr2",
+          211947513,
+          "T",
+          "A"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000342788",
+            "protein_id": "ENSP00000342235",
+            "strand": "-",
+            "reference_codon": "GAT",
+            "alternate_codon": "GTT",
+            "codon_genomic_positions": [
+              211947514,
+              211947513,
+              211947512
+            ],
+            "local_reference_protein": "RIIRGTKLYEDRYALAIFLNY"
+          },
+          {
+            "transcript_id": "ENST00000436443",
+            "protein_id": "ENSP00000403204",
+            "strand": "-",
+            "reference_codon": "GAT",
+            "alternate_codon": "GTT",
+            "codon_genomic_positions": [
+              211947514,
+              211947513,
+              211947512
+            ],
+            "local_reference_protein": "RIIRGTKLYEDRYALAIFLNY"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000342788",
+            "protein_change": "p.D113V",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000436443",
+            "protein_change": "p.D113V",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000484474",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000484594",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000260943",
+            "protein_change": "incomplete",
+            "consequence": "IncompleteTranscript"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000402597",
+            "protein_change": "incomplete",
+            "consequence": "IncompleteTranscript"
+          },
+          {
+            "gene": "ERBB4",
+            "transcript_id": "ENST00000435846",
+            "protein_change": "incomplete",
+            "consequence": "IncompleteTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 34,
+            "usable_fragment_names": 34,
+            "fragment_counts": {
+              "REF": 34
+            },
+            "quality_passing_observations": {
+              "REF": 53
+            },
+            "quality_assessment_counts": {
+              "passed": 53
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 211947448,
+                "ref": "C",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 211947716,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 56,
+                  "GQ": 99,
+                  "MIN_DP": 39,
+                  "PL": [
+                    0,
+                    108,
+                    1172
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "T": 34
+          },
+          "qualifying_names": 34,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 871,
+          "usable_fragment_names": 871,
+          "fragment_counts": {
+            "REF": 870,
+            "ALT": 1
+          },
+          "quality_passing_observations": {
+            "REF": 1577,
+            "ALT": 2
+          },
+          "quality_assessment_counts": {
+            "passed": 1579,
+            "failed": 9
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "T": 870,
+            "A": 1
+          },
+          "qualifying_names": 871,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 22,
+          "usable_fragment_names": 22,
+          "fragment_counts": {
+            "REF": 22
+          },
+          "quality_passing_observations": {
+            "REF": 40
+          },
+          "quality_assessment_counts": {
+            "passed": 40
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": []
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "KMT2D",
+    "reported_protein_change": "R2789Q",
+    "October_cfDNA_percent": 3.2,
+    "scope": "unmatched",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr12",
+          49039222,
+          "C",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000301067",
+            "protein_id": "ENSP00000301067",
+            "strand": "-",
+            "reference_codon": "CGG",
+            "alternate_codon": "CAG",
+            "codon_genomic_positions": [
+              49039223,
+              49039222,
+              49038989
+            ],
+            "local_reference_protein": "ATPSSMDVNSRQLVGGSQAFY"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "KMT2D",
+            "transcript_id": "ENST00000301067",
+            "protein_change": "p.R2789Q",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "KMT2D",
+            "transcript_id": "ENST00000549799",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 59,
+            "usable_fragment_names": 59,
+            "fragment_counts": {
+              "REF": 59
+            },
+            "quality_passing_observations": {
+              "REF": 86
+            },
+            "quality_assessment_counts": {
+              "passed": 86,
+              "failed": 1
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 49039122,
+                "ref": "C",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 49040290,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 78,
+                  "GQ": 99,
+                  "MIN_DP": 54,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "C": 59
+          },
+          "qualifying_names": 59,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 2563,
+          "usable_fragment_names": 2563,
+          "fragment_counts": {
+            "REF": 2560,
+            "ALT": 3
+          },
+          "quality_passing_observations": {
+            "REF": 4185,
+            "ALT": 5
+          },
+          "quality_assessment_counts": {
+            "passed": 4190,
+            "failed": 40
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "C": 2560,
+            "T": 3
+          },
+          "qualifying_names": 2563,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 139,
+          "usable_fragment_names": 139,
+          "fragment_counts": {
+            "REF": 139
+          },
+          "quality_passing_observations": {
+            "REF": 251
+          },
+          "quality_assessment_counts": {
+            "passed": 251,
+            "failed": 1
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": []
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "RAF1",
+    "reported_protein_change": "G535S",
+    "October_cfDNA_percent": 0.2,
+    "scope": "unmatched",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr3",
+          12585187,
+          "C",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000251849",
+            "protein_id": "ENSP00000251849",
+            "strand": "-",
+            "reference_codon": "GGC",
+            "alternate_codon": "AGC",
+            "codon_genomic_positions": [
+              12585187,
+              12585186,
+              12585185
+            ],
+            "local_reference_protein": "FSFQSDVYSYGIVLYELMTGE"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "RAF1",
+            "transcript_id": "ENST00000251849",
+            "protein_change": "p.G535S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "RAF1",
+            "transcript_id": "ENST00000442415",
+            "protein_change": "p.G555S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "MKRN2",
+            "transcript_id": "ENST00000676541",
+            "protein_change": "3' UTR",
+            "consequence": "ThreePrimeUTR"
+          },
+          {
+            "gene": "MKRN2",
+            "transcript_id": "ENST00000677142",
+            "protein_change": "3' UTR",
+            "consequence": "ThreePrimeUTR"
+          },
+          {
+            "gene": "MKRN2",
+            "transcript_id": "ENST00000677816",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "MKRN2",
+            "transcript_id": "ENST00000677941",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "RAF1",
+            "transcript_id": "ENST00000423275",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "RAF1",
+            "transcript_id": "ENST00000471449",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          },
+          {
+            "gene": "RAF1",
+            "transcript_id": "ENST00000432427",
+            "protein_change": "incomplete",
+            "consequence": "IncompleteTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 36,
+            "usable_fragment_names": 36,
+            "fragment_counts": {
+              "REF": 36
+            },
+            "quality_passing_observations": {
+              "REF": 49
+            },
+            "quality_assessment_counts": {
+              "passed": 49,
+              "failed": 4
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 12584778,
+                "ref": "C",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 12585223,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 61,
+                  "GQ": 99,
+                  "MIN_DP": 43,
+                  "PL": [
+                    0,
+                    100,
+                    1334
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "C": 36
+          },
+          "qualifying_names": 36,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 1442,
+          "usable_fragment_names": 1442,
+          "fragment_counts": {
+            "REF": 1442
+          },
+          "quality_passing_observations": {
+            "REF": 2455
+          },
+          "quality_assessment_counts": {
+            "passed": 2455,
+            "failed": 18
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "C": 1442
+          },
+          "qualifying_names": 1442,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 218,
+          "usable_fragment_names": 218,
+          "fragment_counts": {
+            "REF": 217,
+            "ALT": 1
+          },
+          "quality_passing_observations": {
+            "REF": 378,
+            "ALT": 2
+          },
+          "quality_assessment_counts": {
+            "passed": 380,
+            "failed": 5
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": []
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "RXRA",
+    "reported_protein_change": "A214S",
+    "October_cfDNA_percent": 12.1,
+    "scope": "previously_assessed_control",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr9",
+          134417268,
+          "G",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000672570",
+            "protein_id": "ENSP00000500402",
+            "strand": "+",
+            "reference_codon": "GCC",
+            "alternate_codon": "TCC",
+            "codon_genomic_positions": [
+              134417268,
+              134417269,
+              134417270
+            ],
+            "local_reference_protein": "PVERILEAELAVEPKTETYVE"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "RXRA",
+            "transcript_id": "ENST00000481739",
+            "protein_change": "p.A241S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "RXRA",
+            "transcript_id": "ENST00000672570",
+            "protein_change": "p.A214S",
+            "consequence": "Substitution"
+          },
+          {
+            "gene": "RXRA",
+            "transcript_id": "ENST00000356384",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 42,
+            "usable_fragment_names": 42,
+            "fragment_counts": {
+              "REF": 42
+            },
+            "quality_passing_observations": {
+              "REF": 64
+            },
+            "quality_assessment_counts": {
+              "passed": 64,
+              "failed": 2
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 134417058,
+                "ref": "T",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 134417427,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 67,
+                  "GQ": 99,
+                  "MIN_DP": 59,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "G": 42
+          },
+          "qualifying_names": 42,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 401,
+          "usable_fragment_names": 401,
+          "fragment_counts": {
+            "REF": 261,
+            "ALT": 140
+          },
+          "quality_passing_observations": {
+            "REF": 441,
+            "ALT": 231
+          },
+          "quality_assessment_counts": {
+            "passed": 672
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "G": 261,
+            "T": 140
+          },
+          "qualifying_names": 401,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 42,
+          "usable_fragment_names": 42,
+          "fragment_counts": {
+            "REF": 19,
+            "ALT": 23
+          },
+          "quality_passing_observations": {
+            "REF": 34,
+            "ALT": 42
+          },
+          "quality_assessment_counts": {
+            "passed": 76,
+            "failed": 3
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": [
+          {
+            "position": 134417268,
+            "ref": "G",
+            "alts": [
+              "T"
+            ],
+            "filters": [
+              "PASS"
+            ],
+            "INFO": {
+              "AS_FilterStatus": [
+                "SITE"
+              ],
+              "AS_SB_TABLE": [
+                "221",
+                "271|109",
+                "121"
+              ],
+              "DP": 735,
+              "ECNT": 1,
+              "ECNTH": [
+                1
+              ],
+              "GERMQ": 93,
+              "MBQ": [
+                20,
+                20
+              ],
+              "MFRL": [
+                176,
+                162
+              ],
+              "MMQ": [
+                60,
+                60
+              ],
+              "MN_ALT_INDEX": [
+                0
+              ],
+              "MPOS": [
+                33
+              ],
+              "NALOD": [
+                -1.6380000114440918
+              ],
+              "NLOD": [
+                12.640000343322754
+              ],
+              "POPAF": [
+                6.0
+              ],
+              "ROQ": 93.0,
+              "TLOD": [
+                535.0700073242188
+              ],
+              "MN_EFFECTIVE_FILTER": [
+                "PASS"
+              ]
+            },
+            "samples": {
+              "TN25-112103": {
+                "GT": [
+                  0,
+                  1
+                ],
+                "AD": [
+                  428,
+                  230
+                ],
+                "AF": [
+                  0.3529999852180481
+                ],
+                "DP": 658,
+                "F1R2": [
+                  122,
+                  58
+                ],
+                "F2R1": [
+                  126,
+                  73
+                ],
+                "FAD": [
+                  254,
+                  138
+                ],
+                "SB": [
+                  192,
+                  236,
+                  109,
+                  121
+                ]
+              },
+              "TN25-112103-N": {
+                "GT": [
+                  0,
+                  0
+                ],
+                "AD": [
+                  64,
+                  0
+                ],
+                "AF": [
+                  0.023000000044703484
+                ],
+                "DP": 64,
+                "F1R2": [
+                  19,
+                  0
+                ],
+                "F2R1": [
+                  22,
+                  0
+                ],
+                "FAD": [
+                  42,
+                  0
+                ],
+                "SB": [
+                  29,
+                  35,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "JUN",
+    "reported_protein_change": "R276*",
+    "October_cfDNA_percent": 14.8,
+    "scope": "previously_assessed_control",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr1",
+          58782245,
+          "T",
+          "A"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000678696",
+            "protein_id": "ENSP00000503132",
+            "strand": "-",
+            "reference_codon": "AGA",
+            "alternate_codon": "TGA",
+            "codon_genomic_positions": [
+              58782245,
+              58782244,
+              58782243
+            ],
+            "local_reference_protein": "ASKCRKRKLERIARLEEKVKT"
+          },
+          {
+            "transcript_id": "ENST00000371222",
+            "protein_id": "ENSP00000360266",
+            "strand": "-",
+            "reference_codon": "AGA",
+            "alternate_codon": "TGA",
+            "codon_genomic_positions": [
+              58782245,
+              58782244,
+              58782243
+            ],
+            "local_reference_protein": "ASKCRKRKLERIARLEEKVKT"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "JUN",
+            "transcript_id": "ENST00000371222",
+            "protein_change": "p.R276*",
+            "consequence": "PrematureStop"
+          },
+          {
+            "gene": "JUN",
+            "transcript_id": "ENST00000678696",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 52,
+            "usable_fragment_names": 52,
+            "fragment_counts": {
+              "REF": 52
+            },
+            "quality_passing_observations": {
+              "REF": 76
+            },
+            "quality_assessment_counts": {
+              "passed": 76,
+              "failed": 3
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 58781975,
+                "ref": "C",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 58782497,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 73,
+                  "GQ": 99,
+                  "MIN_DP": 38,
+                  "PL": [
+                    0,
+                    114,
+                    1116
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "T": 52
+          },
+          "qualifying_names": 52,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 859,
+          "usable_fragment_names": 859,
+          "fragment_counts": {
+            "REF": 392,
+            "ALT": 466,
+            "OTHER": 1
+          },
+          "quality_passing_observations": {
+            "REF": 680,
+            "ALT": 793,
+            "OTHER": 1
+          },
+          "quality_assessment_counts": {
+            "passed": 1474,
+            "failed": 12
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "A": 466,
+            "T": 392,
+            "G": 1
+          },
+          "qualifying_names": 859,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 285,
+          "usable_fragment_names": 285,
+          "fragment_counts": {
+            "REF": 137,
+            "ALT": 148
+          },
+          "quality_passing_observations": {
+            "REF": 200,
+            "ALT": 217
+          },
+          "quality_assessment_counts": {
+            "passed": 417,
+            "failed": 6
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": [
+          {
+            "position": 58782245,
+            "ref": "T",
+            "alts": [
+              "A"
+            ],
+            "filters": [
+              "PASS"
+            ],
+            "INFO": {
+              "AS_FilterStatus": [
+                "SITE"
+              ],
+              "AS_SB_TABLE": [
+                "361",
+                "384|374",
+                "407"
+              ],
+              "DP": 1561,
+              "ECNT": 1,
+              "ECNTH": [
+                1
+              ],
+              "GERMQ": 93,
+              "MBQ": [
+                20,
+                20
+              ],
+              "MFRL": [
+                174,
+                173
+              ],
+              "MMQ": [
+                60,
+                60
+              ],
+              "MN_ALT_INDEX": [
+                0
+              ],
+              "MPOS": [
+                39
+              ],
+              "NALOD": [
+                -1.7309999465942383
+              ],
+              "NLOD": [
+                15.600000381469727
+              ],
+              "POPAF": [
+                6.0
+              ],
+              "ROQ": 93.0,
+              "TLOD": [
+                1876.3199462890625
+              ],
+              "MN_EFFECTIVE_FILTER": [
+                "PASS"
+              ]
+            },
+            "samples": {
+              "TN25-112103": {
+                "GT": [
+                  0,
+                  1
+                ],
+                "AD": [
+                  671,
+                  781
+                ],
+                "AF": [
+                  0.5419999957084656
+                ],
+                "DP": 1452,
+                "F1R2": [
+                  206,
+                  225
+                ],
+                "F2R1": [
+                  167,
+                  208
+                ],
+                "FAD": [
+                  386,
+                  457
+                ],
+                "SB": [
+                  323,
+                  348,
+                  374,
+                  407
+                ]
+              },
+              "TN25-112103-N": {
+                "GT": [
+                  0,
+                  0
+                ],
+                "AD": [
+                  74,
+                  0
+                ],
+                "AF": [
+                  0.017999999225139618
+                ],
+                "DP": 74,
+                "F1R2": [
+                  22,
+                  0
+                ],
+                "F2R1": [
+                  28,
+                  0
+                ],
+                "FAD": [
+                  52,
+                  0
+                ],
+                "SB": [
+                  38,
+                  36,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  },
+  {
+    "gene": "MERTK",
+    "reported_protein_change": "E192*",
+    "October_cfDNA_percent": 19.4,
+    "scope": "previously_assessed_control",
+    "mapping_status": "UNIQUE_COMPATIBLE_ALLELE",
+    "candidate_count": 1,
+    "mappings": [
+      {
+        "allele": [
+          "chr2",
+          111945051,
+          "G",
+          "T"
+        ],
+        "compatible_transcripts": [
+          {
+            "transcript_id": "ENST00000295408",
+            "protein_id": "ENSP00000295408",
+            "strand": "+",
+            "reference_codon": "GAA",
+            "alternate_codon": "TAA",
+            "codon_genomic_positions": [
+              111945051,
+              111945052,
+              111945053
+            ],
+            "local_reference_protein": "EEIVSDPIYIEVQGLPHFTKQ"
+          },
+          {
+            "transcript_id": "ENST00000421804",
+            "protein_id": "ENSP00000389152",
+            "strand": "+",
+            "reference_codon": "GAA",
+            "alternate_codon": "TAA",
+            "codon_genomic_positions": [
+              111945051,
+              111945052,
+              111945053
+            ],
+            "local_reference_protein": "EEIVSDPIYIEVQGLPHFTKQ"
+          }
+        ],
+        "protein_effect_roundtrip": true,
+        "effects": [
+          {
+            "gene": "MERTK",
+            "transcript_id": "ENST00000295408",
+            "protein_change": "p.E192*",
+            "consequence": "PrematureStop"
+          },
+          {
+            "gene": "MERTK",
+            "transcript_id": "ENST00000409780",
+            "protein_change": "p.E16*",
+            "consequence": "PrematureStop"
+          },
+          {
+            "gene": "MERTK",
+            "transcript_id": "ENST00000421804",
+            "protein_change": "p.E192*",
+            "consequence": "PrematureStop"
+          },
+          {
+            "gene": "MERTK",
+            "transcript_id": "ENST00000616902",
+            "protein_change": "5' UTR",
+            "consequence": "FivePrimeUTR"
+          },
+          {
+            "gene": "MERTK",
+            "transcript_id": "ENST00000439966",
+            "protein_change": "non-coding-transcript",
+            "consequence": "NoncodingTranscript"
+          }
+        ],
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 43,
+            "usable_fragment_names": 43,
+            "fragment_counts": {
+              "REF": 43
+            },
+            "quality_passing_observations": {
+              "REF": 67
+            },
+            "quality_assessment_counts": {
+              "passed": 67,
+              "failed": 3
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 111944860,
+                "ref": "C",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 111945160,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 61,
+                  "GQ": 99,
+                  "MIN_DP": 48,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "normal_direct_pileup": {
+          "fragment_bases": {
+            "G": 43
+          },
+          "qualifying_names": 43,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_DNA": {
+          "qualifying_fragment_names": 108,
+          "usable_fragment_names": 108,
+          "fragment_counts": {
+            "REF": 68,
+            "ALT": 40
+          },
+          "quality_passing_observations": {
+            "REF": 125,
+            "ALT": 71
+          },
+          "quality_assessment_counts": {
+            "passed": 196,
+            "failed": 1
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "tumour_DNA_direct_pileup": {
+          "fragment_bases": {
+            "G": 68,
+            "T": 40
+          },
+          "qualifying_names": 108,
+          "unit": "Read names, not UMI-defined independent molecules",
+          "policy": "MQ>=20, focal BQ>=20; no unmapped, secondary, supplementary, duplicate or QC-fail reads; NH=1 when present"
+        },
+        "tumour_RNA": {
+          "qualifying_fragment_names": 25,
+          "usable_fragment_names": 25,
+          "fragment_counts": {
+            "REF": 25
+          },
+          "quality_passing_observations": {
+            "REF": 39
+          },
+          "quality_assessment_counts": {
+            "passed": 39
+          },
+          "base_quality_policy": {
+            "min_base_quality": 20,
+            "scope": "focal_allele",
+            "empty_allele": "mapped_flanking_anchor_quality_only",
+            "missing": "unassessed",
+            "conflicting_source_allele": "unassessed",
+            "reconstruction_filtered": false,
+            "calibrated_probability": false
+          },
+          "fragment_unit": "Original read names; no UMI molecule claim"
+        },
+        "paired_native_records": [
+          {
+            "position": 111945051,
+            "ref": "G",
+            "alts": [
+              "T"
+            ],
+            "filters": [
+              "PASS"
+            ],
+            "INFO": {
+              "AS_FilterStatus": [
+                "SITE"
+              ],
+              "AS_SB_TABLE": [
+                "94",
+                "93|34",
+                "38"
+              ],
+              "DP": 263,
+              "ECNT": 1,
+              "ECNTH": [
+                1
+              ],
+              "GERMQ": 93,
+              "MBQ": [
+                20,
+                20
+              ],
+              "MFRL": [
+                160,
+                165
+              ],
+              "MMQ": [
+                60,
+                60
+              ],
+              "MN_ALT_INDEX": [
+                0
+              ],
+              "MPOS": [
+                39
+              ],
+              "NALOD": [
+                -1.6480000019073486
+              ],
+              "NLOD": [
+                12.930000305175781
+              ],
+              "POPAF": [
+                6.0
+              ],
+              "ROQ": 93.0,
+              "TLOD": [
+                160.5800018310547
+              ],
+              "MN_EFFECTIVE_FILTER": [
+                "PASS"
+              ]
+            },
+            "samples": {
+              "TN25-112103": {
+                "GT": [
+                  0,
+                  1
+                ],
+                "AD": [
+                  121,
+                  72
+                ],
+                "AF": [
+                  0.38199999928474426
+                ],
+                "DP": 193,
+                "F1R2": [
+                  33,
+                  16
+                ],
+                "F2R1": [
+                  31,
+                  20
+                ],
+                "FAD": [
+                  65,
+                  40
+                ],
+                "SB": [
+                  58,
+                  63,
+                  34,
+                  38
+                ]
+              },
+              "TN25-112103-N": {
+                "GT": [
+                  0,
+                  0
+                ],
+                "AD": [
+                  66,
+                  0
+                ],
+                "AF": [
+                  0.02199999988079071
+                ],
+                "DP": 66,
+                "F1R2": [
+                  22,
+                  0
+                ],
+                "F2R1": [
+                  18,
+                  0
+                ],
+                "FAD": [
+                  43,
+                  0
+                ],
+                "SB": [
+                  36,
+                  30,
+                  0,
+                  0
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "interpretation": "Protein-only Guardant label; these are compatible Ensembl-103 interpretations, not verified Guardant genomic coordinates"
+  }
+]

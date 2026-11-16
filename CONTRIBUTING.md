@@ -13,19 +13,17 @@ them. There is no required pipeline, antigen quota, HLA class or construct forma
 3. Keep your notes, code and useful results together in that directory.
 4. Open a pull request from your branch to this repository's `main` branch.
 
-Use [Design #2](designs/design-2/README.md) as the baseline unless you are studying
-the earlier design. To change its antigen selection, start with its
-[candidate pool](designs/design-2/inputs/integrated/candidate-pool.tsv),
-[selected regions](designs/design-2/selection/selected.tsv) and
-[methods](designs/design-2/methods.md), then implement your changes in your own
-script. `yash-vaccine init your-design` creates that workspace without copying
-either design's analysis. The optional `--from` recipe helper uses **Design #1's
+Use [Design #3](designs/design-3/README.md) as the baseline unless you are studying
+an earlier design. Start with its [selected regions](designs/design-3/selection/selected.tsv),
+[input guide](designs/design-3/inputs/README.md) and [methods](designs/design-3/methods.md),
+then implement your changes in your own script. `yash-vaccine init your-design` creates that workspace without copying
+the recorded analysis. The optional `--from` recipe helper uses **Design #1's
 tumour-only evidence and internal cassette**, not the matched-normal lead.
 
 ## What to include
 
 - **Design and rationale:** the question, your selected antigens and why you
-  chose them, and what differs from the lead Design #2. Explain the selection and scoring
+  chose them, and what differs from the lead Design #3. Explain the selection and scoring
   methods you actually used.
 - **Sequences and results:** include the antigen table, predictions or other
   results supporting your choices. Include protein and mRNA sequence files if

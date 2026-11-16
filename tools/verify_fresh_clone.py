@@ -38,14 +38,14 @@ def main():
             try:
                 path.write_bytes(original+append);run([*cli,'verify'])
             finally:path.write_bytes(original)
-        for relative in ['designs/design-2/selection/selected.tsv','designs/design-2/inputs/integrated/candidate-pool.tsv']:
+        for relative in ['designs/design-3/selection/selected.tsv','designs/design-3/inputs/source-regions.json']:
             path=check/relative;original=path.read_bytes()
             try:
                 path.write_bytes(original+b'\n');run([*cli,'verify'],succeeds=False)
             finally:path.write_bytes(original)
         run([*cli,'reproduce','--output','work/lead-reproduction'])
-        lead_result=json.loads((check/'work/lead-reproduction/verification.json').read_text())
-        assert lead_result['selected_regions']==24 and lead_result['protein_length_aa']==724
+        lead_result=json.loads((check/'work/lead-reproduction/replay.json').read_text())
+        assert lead_result['regions']==30 and lead_result['protein_length_aa']==885
         run([*cli,'compare','designs/initial','designs/design-2','--output','work/complete-design-comparison'])
         complete_comparison=json.loads((check/'work/complete-design-comparison/comparison.json').read_text())
         assert (complete_comparison['retained'],complete_comparison['added'],complete_comparison['removed'])==(22,2,7)
@@ -123,7 +123,7 @@ def main():
         assert not tracked.stdout.strip(),'Tracked files changed in the fresh clone'
         report=dict(status='VERIFIED',source_commit=run(['git','rev-parse','HEAD']).stdout.strip(),
                     fresh_clone=True,fresh_virtualenv=True,python=sys.version.split()[0],
-                    design_2_verified_without_historical_git_objects=True,lead_replayed_from_recorded_evidence=True,lead_regions=lead_result['selected_regions'],lead_protein_aa=lead_result['protein_length_aa'],documentation_changes_do_not_invalidate_frozen_results=True,scientific_file_changes_rejected=True,complete_design_comparison=True,
+                    design_2_verified_without_historical_git_objects=True,lead_replayed_from_recorded_evidence=True,lead_regions=lead_result['regions'],lead_protein_aa=lead_result['protein_length_aa'],documentation_changes_do_not_invalidate_frozen_results=True,scientific_file_changes_rejected=True,complete_design_comparison=True,
                     initial_candidate_byte_identical=True,initial_protein_aa=initial_result["protein_length_aa"],initial_rna_nt=initial_result['rna_length_nt'],polyA_status=initial_result['polyA_status'],alternative_regions=initial_result["selected_regions"]-1,alternative_cassette_aa=alternative_aa,
                     independent_script_without_recipe=True,independent_plain_text_output=True,
                     stable_region_comparison=True,required_vs_cached_counts=True,

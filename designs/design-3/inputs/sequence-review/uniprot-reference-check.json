@@ -1,0 +1,3931 @@
+{
+  "status": "UNIPROT_REFERENCE_SEARCH_COMPLETED",
+  "provider": "UniProt",
+  "reference_proteome": "UP000005640",
+  "include_canonical_and_isoform_sequences": true,
+  "release": null,
+  "release_date": null,
+  "reference_download": {
+    "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/",
+    "headers": {
+      "source-last-modified": "Wed, 04 Nov 2026 18:00:00 GMT"
+    },
+    "component_files": [
+      {
+        "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606.fasta.gz",
+        "headers": {
+          "Date": "Thu, 12 Nov 2026 13:14:28 GMT",
+          "Server": "Apache/2.4.68 (Ubuntu) OpenSSL/3.0.13",
+          "Last-Modified": "Wed, 04 Nov 2026 18:00:00 GMT",
+          "ETag": "\"761b33-65f7725c9e800\"",
+          "Accept-Ranges": "bytes",
+          "Content-Length": "7740211",
+          "Strict-Transport-Security": "max-age=31536000",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Content-Type": "application/x-gzip"
+        },
+        "bytes": 7740211,
+        "sha256": "9ff6719ed2f8cd86614277fec86e729d26c3cd1f8edd95e8f8d44b219f9bee01"
+      },
+      {
+        "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/reference_proteomes/Eukaryota/UP000005640/UP000005640_9606_additional.fasta.gz",
+        "headers": {
+          "Date": "Thu, 12 Nov 2026 13:14:28 GMT",
+          "Server": "Apache/2.4.68 (Ubuntu) OpenSSL/3.0.13",
+          "Last-Modified": "Wed, 04 Nov 2026 18:00:00 GMT",
+          "ETag": "\"372c782-65f7725c9e800\"",
+          "Accept-Ranges": "bytes",
+          "Content-Length": "57853826",
+          "Strict-Transport-Security": "max-age=31536000",
+          "Access-Control-Allow-Origin": "*",
+          "Connection": "close",
+          "Content-Type": "application/x-gzip"
+        },
+        "bytes": 57853826,
+        "sha256": "c6ce12f943c6be6b2f72676d97d82051ba47d501cb355b2ee0e340082533b246"
+      }
+    ],
+    "bytes": 65594037,
+    "sha256": "6eb652c50cb7437976889b1f809ae6088d8ba076cec462f98e63a45965967667"
+  },
+  "reference_sequences": 286017,
+  "reference_queries": 1584,
+  "all_queries_exactly_searched": true,
+  "peptide_matches": {
+    "AAREAEQR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 172
+    },
+    "AAREAEQRS": null,
+    "AAREAEQRSL": null,
+    "AAREAEQRSLP": null,
+    "AATISTVT": null,
+    "AATISTVTP": null,
+    "AATISTVTPS": null,
+    "AATISTVTPSS": null,
+    "AELSVEPK": null,
+    "AELSVEPKT": null,
+    "AELSVEPKTE": null,
+    "AELSVEPKTET": null,
+    "AEQESAWQ": null,
+    "AEQESAWQL": null,
+    "AEQESAWQLQ": null,
+    "AEQESAWQLQL": null,
+    "AEQRSLPG": null,
+    "AEQRSLPGG": null,
+    "AEQRSLPGGH": null,
+    "AEQRSLPGGHV": null,
+    "AGSVTLNK": null,
+    "AGSVTLNKG": null,
+    "AGSVTLNKGD": null,
+    "AGSVTLNKGDI": null,
+    "AIFLNYRK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 117
+    },
+    "AIGFTAGS": null,
+    "AIGFTAGSV": null,
+    "AIGFTAGSVT": null,
+    "AIGFTAGSVTL": null,
+    "AKTSTSLP": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1911
+    },
+    "AKTSTSLPY": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1911
+    },
+    "AKTSTSLPYH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1911
+    },
+    "AKTSTSLPYHT": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1911
+    },
+    "ALAIFLNY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 115
+    },
+    "ALAIFLNYR": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 115
+    },
+    "ALAIFLNYRK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 115
+    },
+    "ALGQMPIF": null,
+    "ALGQMPIFP": null,
+    "ALGQMPIFPD": null,
+    "ALGQMPIFPDL": null,
+    "ALIIATDN": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 562
+    },
+    "ALIIATDNA": null,
+    "ALIIATDNAT": null,
+    "ALIIATDNATS": null,
+    "ALTNTHHE": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3942
+    },
+    "ALTNTHHEL": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3942
+    },
+    "ALTNTHHELL": null,
+    "ALTNTHHELLL": null,
+    "APNLFLHQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 481
+    },
+    "APNLFLHQG": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 481
+    },
+    "APNLFLHQGW": null,
+    "APNLFLHQGWP": null,
+    "AQEAAQKR": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2175
+    },
+    "ARDHVLPI": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 542
+    },
+    "ARDHVLPID": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 542
+    },
+    "ARDHVLPIDY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 542
+    },
+    "ARDHVLPIDYY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 542
+    },
+    "AREAEQRS": null,
+    "AREAEQRSL": null,
+    "AREAEQRSLP": null,
+    "AREAEQRSLPG": null,
+    "ARSNELTR": null,
+    "ARSNELTRH": null,
+    "ARSNELTRHY": null,
+    "ARSNELTRHYR": null,
+    "ASGMGTTH": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 392
+    },
+    "ASGMGTTHW": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 392
+    },
+    "ASGMGTTHWN": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 392
+    },
+    "ASGMGTTHWNQ": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 392
+    },
+    "ATDGHDRS": null,
+    "ATDGHDRSL": null,
+    "ATDGHDRSLT": null,
+    "ATDGHDRSLTS": null,
+    "ATDNATST": null,
+    "ATDNATSTS": null,
+    "ATDNATSTST": null,
+    "ATDNATSTSTT": null,
+    "ATISTVTP": null,
+    "ATISTVTPS": null,
+    "ATISTVTPSS": null,
+    "ATISTVTPSSA": null,
+    "ATPSSMDV": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2778
+    },
+    "ATPSSMDVN": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2778
+    },
+    "ATPSSMDVNS": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2778
+    },
+    "ATPSSMDVNSQ": null,
+    "ATSTSTTG": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 112
+    },
+    "ATSTSTTGT": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 112
+    },
+    "ATSTSTTGTS": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 112
+    },
+    "ATSTSTTGTSH": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 112
+    },
+    "ATTPAATI": null,
+    "ATTPAATIS": null,
+    "ATTPAATIST": null,
+    "ATTPAATISTV": null,
+    "AWQLQLAQ": null,
+    "AWQLQLAQE": null,
+    "AWQLQLAQEA": null,
+    "AWQLQLAQEAA": null,
+    "CDWRFARS": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 409
+    },
+    "CDWRFARSN": null,
+    "CDWRFARSNE": null,
+    "CDWRFARSNEL": null,
+    "CLICGDEA": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 559
+    },
+    "CSIINSGK": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 190
+    },
+    "CSIINSGKI": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 190
+    },
+    "CVESMKDK": null,
+    "CVESMKDKR": null,
+    "CVESMKDKRV": null,
+    "CVESMKDKRVE": null,
+    "DGHDRSLT": null,
+    "DGHDRSLTS": null,
+    "DGHDRSLTSC": null,
+    "DGHDRSLTSCS": null,
+    "DHVLPIDY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 544
+    },
+    "DHVLPIDYY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 544
+    },
+    "DHVLPIDYYF": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 544
+    },
+    "DHVLPIDYYFS": null,
+    "DLLIQRGL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 902
+    },
+    "DLLIQRGLS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 902
+    },
+    "DLLIQRGLSR": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 902
+    },
+    "DLLIQRGLSRS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 902
+    },
+    "DLSHTTLS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1206
+    },
+    "DLSHTTLSL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1242
+    },
+    "DLSHTTLSLD": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1242
+    },
+    "DLSHTTLSLDF": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1278
+    },
+    "DMPVERIL": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 232
+    },
+    "DMPVERILE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 232
+    },
+    "DMPVERILEA": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 232
+    },
+    "DMPVERILEAE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 232
+    },
+    "DNATSTST": null,
+    "DNATSTSTT": null,
+    "DNATSTSTTG": null,
+    "DNATSTSTTGT": null,
+    "DNVGHVII": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 381
+    },
+    "DNVGHVIIG": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 381
+    },
+    "DNVGHVIIGL": null,
+    "DNVGHVIIGLS": null,
+    "DRDSEYLL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 163
+    },
+    "DRDSEYLLQ": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 163
+    },
+    "DRSLTSCS": null,
+    "DRSLTSCSI": null,
+    "DRSLTSCSII": null,
+    "DRSLTSCSIIN": null,
+    "DTFMEQKI": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 513
+    },
+    "DTFMEQKIT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 513
+    },
+    "DTFMEQKITY": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 513
+    },
+    "DTFMEQKITYI": null,
+    "DVEFKPLA": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3953
+    },
+    "DVEFKPLAP": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3953
+    },
+    "DVEFKPLAPD": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3953
+    },
+    "DVEFKPLAPDG": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3953
+    },
+    "DVNSQQLV": null,
+    "DVNSQQLVG": null,
+    "DVNSQQLVGG": null,
+    "DVNSQQLVGGS": null,
+    "DVYSYSIV": null,
+    "DVYSYSIVL": null,
+    "DVYSYSIVLY": null,
+    "DVYSYSIVLYE": null,
+    "DWRFARSN": null,
+    "DWRFARSNE": null,
+    "DWRFARSNEL": null,
+    "DWRFARSNELT": null,
+    "DYYFSPQK": null,
+    "DYYFSPQKT": null,
+    "DYYFSPQKTC": null,
+    "DYYFSPQKTCL": null,
+    "EAAREAEQ": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 171
+    },
+    "EAAREAEQR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 171
+    },
+    "EAAREAEQRS": null,
+    "EAAREAEQRSL": null,
+    "EAELSVEP": null,
+    "EAELSVEPK": null,
+    "EAELSVEPKT": null,
+    "EAELSVEPKTE": null,
+    "EAEQRSLP": null,
+    "EAEQRSLPG": null,
+    "EAEQRSLPGG": null,
+    "EAEQRSLPGGH": null,
+    "EFKPLAPD": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3955
+    },
+    "EFKPLAPDG": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3955
+    },
+    "EFKPLAPDGV": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3955
+    },
+    "EFRTRKKL": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 97
+    },
+    "EGCDWRFA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 407
+    },
+    "EGCDWRFAR": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 407
+    },
+    "EGCDWRFARS": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 407
+    },
+    "EGCDWRFARSN": null,
+    "EGKQLNTR": null,
+    "EGKQLNTRE": null,
+    "EGKQLNTREF": null,
+    "EGKQLNTREFR": null,
+    "EHPCVESM": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 479
+    },
+    "EHPCVESMK": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 479
+    },
+    "EHPCVESMKD": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 479
+    },
+    "EHPCVESMKDK": null,
+    "EKKMFRIR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 150
+    },
+    "EKKMFRIRN": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 150
+    },
+    "EKKMFRIRNK": null,
+    "EKKMFRIRNKS": null,
+    "ELLLDVEF": null,
+    "ELLLDVEFK": null,
+    "ELLLDVEFKP": null,
+    "ELLLDVEFKPL": null,
+    "ELMTGELP": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 539
+    },
+    "ELQATDGH": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 176
+    },
+    "ELQATDGHD": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 176
+    },
+    "ELQATDGHDR": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 176
+    },
+    "ELQATDGHDRS": null,
+    "ELSVEPKT": null,
+    "ELSVEPKTE": null,
+    "ELSVEPKTET": null,
+    "ELSVEPKTETY": null,
+    "ELTRHYRK": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 362
+    },
+    "ELTRHYRKH": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 362
+    },
+    "ELTRHYRKHT": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 362
+    },
+    "ELTRHYRKHTG": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 362
+    },
+    "ELVSRYGE": null,
+    "ELVSRYGEM": null,
+    "ELVSRYGEML": null,
+    "ELVSRYGEMLH": null,
+    "EMLHIRYR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 12
+    },
+    "EMLHIRYRL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 12
+    },
+    "EMLHIRYRLL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 12
+    },
+    "EMLHIRYRLLR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 12
+    },
+    "ENLNFMAI": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "ENLNFMAIG": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "ENLNFMAIGF": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "ENLNFMAIGFT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "EPDTFMEQ": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 511
+    },
+    "EPDTFMEQK": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 511
+    },
+    "EPDTFMEQKI": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 511
+    },
+    "EPDTFMEQKIT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 511
+    },
+    "EPIYNSEG": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 83
+    },
+    "EPIYNSEGK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 83
+    },
+    "EPIYNSEGKQ": null,
+    "EPIYNSEGKQL": null,
+    "EPKTETYV": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 242
+    },
+    "EPKTETYVE": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 242
+    },
+    "EPKTETYVEA": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 242
+    },
+    "EPKTETYVEAN": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 242
+    },
+    "EPPFGSKV": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 470
+    },
+    "EPPFGSKVR": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 470
+    },
+    "EPPFGSKVRE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 470
+    },
+    "EPPFGSKVREH": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 470
+    },
+    "EQESAWQL": null,
+    "EQESAWQLQ": null,
+    "EQESAWQLQL": null,
+    "EQESAWQLQLA": null,
+    "EQKITYIY": null,
+    "EQKITYIYI": null,
+    "EQKITYIYIH": null,
+    "EQKITYIYIHH": null,
+    "EQRSLPGG": null,
+    "EQRSLPGGH": null,
+    "EQRSLPGGHV": null,
+    "EQRSLPGGHVR": null,
+    "ERAEQESA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2162
+    },
+    "ERAEQESAW": null,
+    "ERAEQESAWQ": null,
+    "ERAEQESAWQL": null,
+    "ERILEAEL": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 236
+    },
+    "ERILEAELS": null,
+    "ERILEAELSV": null,
+    "ERILEAELSVE": null,
+    "ESAWQLQL": null,
+    "ESAWQLQLA": null,
+    "ESAWQLQLAQ": null,
+    "ESAWQLQLAQE": null,
+    "ESMKDKRV": null,
+    "ESMKDKRVE": null,
+    "ESMKDKRVER": null,
+    "ESMKDKRVERS": null,
+    "EVRYALAI": null,
+    "EVRYALAIF": null,
+    "EVRYALAIFL": null,
+    "EVRYALAIFLN": null,
+    "FARSNELT": null,
+    "FARSNELTR": null,
+    "FARSNELTRH": null,
+    "FARSNELTRHY": null,
+    "FGSKVREH": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 473
+    },
+    "FGSKVREHP": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 473
+    },
+    "FGSKVREHPC": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 473
+    },
+    "FGSKVREHPCV": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 473
+    },
+    "FKPLAPDG": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3956
+    },
+    "FKPLAPDGV": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3956
+    },
+    "FLHQGWPP": null,
+    "FLHQGWPPK": null,
+    "FLHQGWPPKL": null,
+    "FLHQGWPPKLP": null,
+    "FMAIGFTA": null,
+    "FMAIGFTAG": null,
+    "FMAIGFTAGS": null,
+    "FMAIGFTAGSV": null,
+    "FMEQKITY": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 515
+    },
+    "FMEQKITYI": null,
+    "FMEQKITYIY": null,
+    "FMEQKITYIYI": null,
+    "FPDLSHTT": null,
+    "FPDLSHTTL": null,
+    "FPDLSHTTLS": null,
+    "FPDLSHTTLSL": null,
+    "FQSDVYSY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 526
+    },
+    "FQSDVYSYS": null,
+    "FQSDVYSYSI": null,
+    "FQSDVYSYSIV": null,
+    "FRIRNKSY": null,
+    "FRIRNKSYI": null,
+    "FRIRNKSYID": null,
+    "FRIRNKSYIDR": null,
+    "FSFQSDVY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 524
+    },
+    "FSFQSDVYS": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 524
+    },
+    "FSFQSDVYSY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 524
+    },
+    "FSFQSDVYSYS": null,
+    "FSGSLPMM": null,
+    "FSGSLPMMT": null,
+    "FSGSLPMMTD": null,
+    "FSGSLPMMTDL": null,
+    "FSMAKTST": null,
+    "FSMAKTSTS": null,
+    "FSMAKTSTSL": null,
+    "FSMAKTSTSLP": null,
+    "FSPQKTCL": null,
+    "FSPQKTCLI": null,
+    "FSPQKTCLIC": null,
+    "FSPQKTCLICG": null,
+    "FTAGSVTL": null,
+    "FTAGSVTLN": null,
+    "FTAGSVTLNK": null,
+    "FTAGSVTLNKG": null,
+    "GCDWRFAR": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 408
+    },
+    "GCDWRFARS": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 408
+    },
+    "GCDWRFARSN": null,
+    "GCDWRFARSNE": null,
+    "GDNVGHVI": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 380
+    },
+    "GDNVGHVII": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 380
+    },
+    "GDNVGHVIIG": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 380
+    },
+    "GDNVGHVIIGL": null,
+    "GEMLHIRY": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 11
+    },
+    "GEMLHIRYR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 11
+    },
+    "GEMLHIRYRL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 11
+    },
+    "GEMLHIRYRLL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 11
+    },
+    "GFSGSLPM": null,
+    "GFSGSLPMM": null,
+    "GFSGSLPMMT": null,
+    "GFSGSLPMMTD": null,
+    "GFTAGSVT": null,
+    "GFTAGSVTL": null,
+    "GFTAGSVTLN": null,
+    "GFTAGSVTLNK": null,
+    "GGSQAFYQ": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2792
+    },
+    "GGSQAFYQR": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2792
+    },
+    "GHDRSLTS": null,
+    "GHDRSLTSC": null,
+    "GHDRSLTSCS": null,
+    "GHDRSLTSCSI": null,
+    "GHVIIGLS": null,
+    "GHVIIGLSA": null,
+    "GHVIIGLSAS": null,
+    "GHVIIGLSASG": null,
+    "GKQLNTRE": null,
+    "GKQLNTREF": null,
+    "GKQLNTREFR": null,
+    "GKQLNTREFRT": null,
+    "GLSASGMG": null,
+    "GLSASGMGT": null,
+    "GLSASGMGTT": null,
+    "GLSASGMGTTH": null,
+    "GLSRSVSY": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 908
+    },
+    "GLSRSVSYS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 908
+    },
+    "GLSRSVSYSI": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 908
+    },
+    "GLSRSVSYSIL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 908
+    },
+    "GMGTTHWN": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 394
+    },
+    "GMGTTHWNQ": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 394
+    },
+    "GQMPIFPD": null,
+    "GQMPIFPDL": null,
+    "GQMPIFPDLS": null,
+    "GQMPIFPDLSH": null,
+    "GRGDNVGH": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 378
+    },
+    "GRGDNVGHV": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 378
+    },
+    "GRGDNVGHVI": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 378
+    },
+    "GRGDNVGHVII": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 378
+    },
+    "GRQKELVS": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 1
+    },
+    "GRQKELVSR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 1
+    },
+    "GRQKELVSRY": null,
+    "GRQKELVSRYG": null,
+    "GSKVREHP": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 474
+    },
+    "GSKVREHPC": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 474
+    },
+    "GSKVREHPCV": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 474
+    },
+    "GSKVREHPCVE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 474
+    },
+    "GSLPMMTD": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 834
+    },
+    "GSLPMMTDL": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 834
+    },
+    "GSLPMMTDLT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 834
+    },
+    "GSQAFYQR": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2793
+    },
+    "GSVTLNKG": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "GSVTLNKGD": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "GSVTLNKGDI": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "GSVTLNKGDIT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "GTKLYEVR": null,
+    "GTKLYEVRY": null,
+    "GTKLYEVRYA": null,
+    "GTKLYEVRYAL": null,
+    "GWPPKLPK": null,
+    "GWPPKLPKG": null,
+    "GWPPKLPKGK": null,
+    "GWPPKLPKGKE": null,
+    "HDRSLTSC": null,
+    "HDRSLTSCS": null,
+    "HDRSLTSCSI": null,
+    "HDRSLTSCSII": null,
+    "HELLLDVE": null,
+    "HELLLDVEF": null,
+    "HELLLDVEFK": null,
+    "HELLLDVEFKP": null,
+    "HENLNFMA": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "HENLNFMAI": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "HENLNFMAIG": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "HENLNFMAIGF": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "HHELLLDV": null,
+    "HHELLLDVE": null,
+    "HHELLLDVEF": null,
+    "HHELLLDVEFK": null,
+    "HHWDKPSC": null,
+    "HHWDKPSCK": null,
+    "HHWDKPSCKM": null,
+    "HIRYRLLR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 15
+    },
+    "HIRYRLLRQ": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 15
+    },
+    "HIRYRLLRQA": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 15
+    },
+    "HPCVESMK": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 480
+    },
+    "HPCVESMKD": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 480
+    },
+    "HPCVESMKDK": null,
+    "HPCVESMKDKR": null,
+    "HQGWPPKL": null,
+    "HQGWPPKLP": null,
+    "HQGWPPKLPK": null,
+    "HQGWPPKLPKG": null,
+    "HTSSTHHP": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1527
+    },
+    "HTSSTHHPE": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1527
+    },
+    "HTSSTHHPEV": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1527
+    },
+    "HTTLSLDF": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1281
+    },
+    "HTTLSLDFS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1281
+    },
+    "HTTLSLDFSQ": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1281
+    },
+    "HTTLSLDFSQT": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1281
+    },
+    "HVIIGLSA": null,
+    "HVIIGLSAS": null,
+    "HVIIGLSASG": null,
+    "HVIIGLSASGM": null,
+    "HVLPIDYY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 545
+    },
+    "HVLPIDYYF": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 545
+    },
+    "HVLPIDYYFS": null,
+    "HVLPIDYYFSP": null,
+    "HWDKPSCK": null,
+    "HWDKPSCKM": null,
+    "HYRKHTGA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 422
+    },
+    "IATDNATS": null,
+    "IATDNATST": null,
+    "IATDNATSTS": null,
+    "IATDNATSTST": null,
+    "IDRDSEYL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "IDRDSEYLL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "IDRDSEYLLQ": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "IDYYFSPQ": null,
+    "IDYYFSPQK": null,
+    "IDYYFSPQKT": null,
+    "IDYYFSPQKTC": null,
+    "IELQATDG": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 175
+    },
+    "IELQATDGH": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 175
+    },
+    "IELQATDGHD": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 175
+    },
+    "IELQATDGHDR": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 175
+    },
+    "IFPDLSHT": null,
+    "IFPDLSHTT": null,
+    "IFPDLSHTTL": null,
+    "IFPDLSHTTLS": null,
+    "IGFTAGSV": null,
+    "IGFTAGSVT": null,
+    "IGFTAGSVTL": null,
+    "IGFTAGSVTLN": null,
+    "IGLSASGM": null,
+    "IGLSASGMG": null,
+    "IGLSASGMGT": null,
+    "IGLSASGMGTT": null,
+    "IHHWDKPS": null,
+    "IHHWDKPSC": null,
+    "IHHWDKPSCK": null,
+    "IHHWDKPSCKM": null,
+    "IIATDNAT": null,
+    "IIATDNATS": null,
+    "IIATDNATST": null,
+    "IIATDNATSTS": null,
+    "IIGLSASG": null,
+    "IIGLSASGM": null,
+    "IIGLSASGMG": null,
+    "IIGLSASGMGT": null,
+    "IIRGTKLY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 103
+    },
+    "IIRGTKLYE": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 103
+    },
+    "IIRGTKLYEV": null,
+    "IIRGTKLYEVR": null,
+    "ILEAELSV": null,
+    "ILEAELSVE": null,
+    "ILEAELSVEP": null,
+    "ILEAELSVEPK": null,
+    "ILRKYLQE": null,
+    "ILRKYLQED": null,
+    "INQEKKMF": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 147
+    },
+    "INQEKKMFR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 147
+    },
+    "INQEKKMFRI": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 147
+    },
+    "INQEKKMFRIR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 147
+    },
+    "IQRGLSRS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 905
+    },
+    "IQRGLSRSV": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 905
+    },
+    "IQRGLSRSVS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 905
+    },
+    "IQRGLSRSVSY": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 905
+    },
+    "IRGTKLYE": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 104
+    },
+    "IRGTKLYEV": null,
+    "IRGTKLYEVR": null,
+    "IRGTKLYEVRY": null,
+    "IRNKSYID": null,
+    "IRNKSYIDR": null,
+    "IRNKSYIDRD": null,
+    "IRNKSYIDRDS": null,
+    "IRYRLLRQ": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 16
+    },
+    "IRYRLLRQA": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 16
+    },
+    "ISTVTPSS": null,
+    "ISTVTPSSA": null,
+    "ISTVTPSSAL": null,
+    "ISTVTPSSALG": null,
+    "ITPSSVGF": null,
+    "ITPSSVGFS": null,
+    "ITPSSVGFSG": null,
+    "ITPSSVGFSGS": null,
+    "ITQRKWEA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 165
+    },
+    "ITQRKWEAA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 165
+    },
+    "ITQRKWEAAR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 165
+    },
+    "ITQRKWEAARE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 165
+    },
+    "ITYIYIHH": null,
+    "ITYIYIHHW": null,
+    "ITYIYIHHWD": null,
+    "ITYIYIHHWDK": null,
+    "IVLYELMT": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 535
+    },
+    "IVLYELMTG": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 535
+    },
+    "IVLYELMTGE": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 535
+    },
+    "IVLYELMTGEL": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 535
+    },
+    "IYIHHWDK": null,
+    "IYIHHWDKP": null,
+    "IYIHHWDKPS": null,
+    "IYIHHWDKPSC": null,
+    "IYNSEGKQ": null,
+    "IYNSEGKQL": null,
+    "IYNSEGKQLN": null,
+    "IYNSEGKQLNT": null,
+    "KDKRVERS": null,
+    "KELVSRYG": null,
+    "KELVSRYGE": null,
+    "KELVSRYGEM": null,
+    "KELVSRYGEML": null,
+    "KITYIYIH": null,
+    "KITYIYIHH": null,
+    "KITYIYIHHW": null,
+    "KITYIYIHHWD": null,
+    "KKMFRIRN": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 151
+    },
+    "KKMFRIRNK": null,
+    "KKMFRIRNKS": null,
+    "KKMFRIRNKSY": null,
+    "KLPKGKEK": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 493
+    },
+    "KLPKGKEKQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 493
+    },
+    "KLPKGKEKQL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 493
+    },
+    "KLYEVRYA": null,
+    "KLYEVRYAL": null,
+    "KLYEVRYALA": null,
+    "KLYEVRYALAI": null,
+    "KMFRIRNK": null,
+    "KMFRIRNKS": null,
+    "KMFRIRNKSY": null,
+    "KMFRIRNKSYI": null,
+    "KPLAPDGV": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3957
+    },
+    "KQLNTREF": null,
+    "KQLNTREFR": null,
+    "KQLNTREFRT": null,
+    "KQLNTREFRTR": null,
+    "KSYIDRDS": null,
+    "KSYIDRDSE": null,
+    "KSYIDRDSEY": null,
+    "KSYIDRDSEYL": null,
+    "KTCLICGD": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 557
+    },
+    "KTCLICGDE": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 557
+    },
+    "KTCLICGDEA": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 557
+    },
+    "KTETYVEA": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 244
+    },
+    "KTETYVEAN": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 244
+    },
+    "KTSTSLPY": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1912
+    },
+    "KTSTSLPYH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1912
+    },
+    "KTSTSLPYHT": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1912
+    },
+    "KTSTSLPYHTS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1912
+    },
+    "KVREHPCV": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 476
+    },
+    "KVREHPCVE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 476
+    },
+    "KVREHPCVES": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 476
+    },
+    "KVREHPCVESM": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 476
+    },
+    "KWEAAREA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "KWEAAREAE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "KWEAAREAEQ": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "KWEAAREAEQR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "LAIFLNYR": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 116
+    },
+    "LAIFLNYRK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 116
+    },
+    "LAQEAAQK": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "LAQEAAQKR": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "LDFSQTNL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1286
+    },
+    "LDVEFKPL": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3952
+    },
+    "LDVEFKPLA": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3952
+    },
+    "LDVEFKPLAP": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3952
+    },
+    "LDVEFKPLAPD": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3952
+    },
+    "LEAELSVE": null,
+    "LEAELSVEP": null,
+    "LEAELSVEPK": null,
+    "LEAELSVEPKT": null,
+    "LFLHQGWP": null,
+    "LFLHQGWPP": null,
+    "LFLHQGWPPK": null,
+    "LFLHQGWPPKL": null,
+    "LGQMPIFP": null,
+    "LGQMPIFPD": null,
+    "LGQMPIFPDL": null,
+    "LGQMPIFPDLS": null,
+    "LHIRYRLL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 14
+    },
+    "LHIRYRLLR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 14
+    },
+    "LHIRYRLLRQ": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 14
+    },
+    "LHIRYRLLRQA": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 14
+    },
+    "LHQGWPPK": null,
+    "LHQGWPPKL": null,
+    "LHQGWPPKLP": null,
+    "LHQGWPPKLPK": null,
+    "LIIATDNA": null,
+    "LIIATDNAT": null,
+    "LIIATDNATS": null,
+    "LIIATDNATST": null,
+    "LIQRGLSR": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 904
+    },
+    "LIQRGLSRS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 904
+    },
+    "LIQRGLSRSV": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 904
+    },
+    "LIQRGLSRSVS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 904
+    },
+    "LLDVEFKP": null,
+    "LLDVEFKPL": null,
+    "LLDVEFKPLA": null,
+    "LLDVEFKPLAP": null,
+    "LLIQRGLS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 903
+    },
+    "LLIQRGLSR": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 903
+    },
+    "LLIQRGLSRS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 903
+    },
+    "LLIQRGLSRSV": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 903
+    },
+    "LLLDVEFK": null,
+    "LLLDVEFKP": null,
+    "LLLDVEFKPL": null,
+    "LLLDVEFKPLA": null,
+    "LNFMAIGF": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 151
+    },
+    "LNFMAIGFT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 151
+    },
+    "LNFMAIGFTA": null,
+    "LNFMAIGFTAG": null,
+    "LNKGDITR": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 165
+    },
+    "LNTREFRT": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 93
+    },
+    "LNTREFRTR": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 93
+    },
+    "LNTREFRTRK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 93
+    },
+    "LNTREFRTRKK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 93
+    },
+    "LPALTNTH": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3940
+    },
+    "LPALTNTHH": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3940
+    },
+    "LPALTNTHHE": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3940
+    },
+    "LPALTNTHHEL": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3940
+    },
+    "LPGGHVRG": null,
+    "LPGGHVRGV": null,
+    "LPIDYYFS": null,
+    "LPIDYYFSP": null,
+    "LPIDYYFSPQ": null,
+    "LPIDYYFSPQK": null,
+    "LPKGKEKQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 494
+    },
+    "LPKGKEKQL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 494
+    },
+    "LPMMTDLT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 836
+    },
+    "LPYHTSST": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1917
+    },
+    "LPYHTSSTH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1917
+    },
+    "LPYHTSSTHH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1917
+    },
+    "LPYHTSSTHHP": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1917
+    },
+    "LQATDGHD": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 177
+    },
+    "LQATDGHDR": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 177
+    },
+    "LQATDGHDRS": null,
+    "LQATDGHDRSL": null,
+    "LQLAQEAA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2172
+    },
+    "LQLAQEAAQ": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2172
+    },
+    "LQLAQEAAQK": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2172
+    },
+    "LQLAQEAAQKR": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2172
+    },
+    "LRERAEQE": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2160
+    },
+    "LRERAEQES": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2160
+    },
+    "LRERAEQESA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2160
+    },
+    "LRERAEQESAW": null,
+    "LRIIRGTK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 101
+    },
+    "LRIIRGTKL": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 101
+    },
+    "LRIIRGTKLY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 101
+    },
+    "LRIIRGTKLYE": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 101
+    },
+    "LRKYLQED": null,
+    "LSASGMGT": null,
+    "LSASGMGTT": null,
+    "LSASGMGTTH": null,
+    "LSASGMGTTHW": null,
+    "LSHTTLSL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1243
+    },
+    "LSHTTLSLD": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1243
+    },
+    "LSHTTLSLDF": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1279
+    },
+    "LSHTTLSLDFS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1279
+    },
+    "LSLDFSQT": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1284
+    },
+    "LSLDFSQTN": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1284
+    },
+    "LSLDFSQTNL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1284
+    },
+    "LSRSVSYS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 909
+    },
+    "LSRSVSYSI": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 909
+    },
+    "LSRSVSYSIL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 909
+    },
+    "LSRSVSYSILR": null,
+    "LSVEPKTE": null,
+    "LSVEPKTET": null,
+    "LSVEPKTETY": null,
+    "LSVEPKTETYV": null,
+    "LTNTHHEL": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3943
+    },
+    "LTNTHHELL": null,
+    "LTNTHHELLL": null,
+    "LTNTHHELLLD": null,
+    "LTRHYRKH": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 363
+    },
+    "LTRHYRKHT": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 363
+    },
+    "LTRHYRKHTG": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 363
+    },
+    "LTRHYRKHTGA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 419
+    },
+    "LTSCSIIN": null,
+    "LTSCSIINS": null,
+    "LTSCSIINSG": null,
+    "LTSCSIINSGK": null,
+    "LTTTATTP": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 1938
+    },
+    "LTTTATTPA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2161
+    },
+    "LTTTATTPAA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2161
+    },
+    "LTTTATTPAAT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2161
+    },
+    "LVGGSQAF": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2790
+    },
+    "LVGGSQAFY": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2790
+    },
+    "LVGGSQAFYQ": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2790
+    },
+    "LVGGSQAFYQR": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2790
+    },
+    "LVSRYGEM": null,
+    "LVSRYGEML": null,
+    "LVSRYGEMLH": null,
+    "LVSRYGEMLHI": null,
+    "LYELMTGE": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 537
+    },
+    "LYELMTGEL": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 537
+    },
+    "LYELMTGELP": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 537
+    },
+    "LYEVRYAL": null,
+    "LYEVRYALA": null,
+    "LYEVRYALAI": null,
+    "LYEVRYALAIF": null,
+    "MAIGFTAG": null,
+    "MAIGFTAGS": null,
+    "MAIGFTAGSV": null,
+    "MAIGFTAGSVT": null,
+    "MAKTSTSL": null,
+    "MAKTSTSLP": null,
+    "MAKTSTSLPY": null,
+    "MAKTSTSLPYH": null,
+    "MAPNLFLH": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 480
+    },
+    "MAPNLFLHQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 480
+    },
+    "MAPNLFLHQG": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 480
+    },
+    "MAPNLFLHQGW": null,
+    "MDLLIQRG": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 901
+    },
+    "MDLLIQRGL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 901
+    },
+    "MDLLIQRGLS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 901
+    },
+    "MDLLIQRGLSR": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 901
+    },
+    "MDVNSQQL": null,
+    "MDVNSQQLV": null,
+    "MDVNSQQLVG": null,
+    "MDVNSQQLVGG": null,
+    "MEQKITYI": null,
+    "MEQKITYIY": null,
+    "MEQKITYIYI": null,
+    "MEQKITYIYIH": null,
+    "MFRIRNKS": null,
+    "MFRIRNKSY": null,
+    "MFRIRNKSYI": null,
+    "MFRIRNKSYID": null,
+    "MGRQKELV": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 0
+    },
+    "MGRQKELVS": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 0
+    },
+    "MGRQKELVSR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 0
+    },
+    "MGRQKELVSRY": null,
+    "MGTTHWNQ": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 395
+    },
+    "MKDKRVER": null,
+    "MKDKRVERS": null,
+    "MLHIRYRL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 13
+    },
+    "MLHIRYRLL": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 13
+    },
+    "MLHIRYRLLR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 13
+    },
+    "MLHIRYRLLRQ": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 13
+    },
+    "MPIFPDLS": null,
+    "MPIFPDLSH": null,
+    "MPIFPDLSHT": null,
+    "MPIFPDLSHTT": null,
+    "MPVERILE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 233
+    },
+    "MPVERILEA": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 233
+    },
+    "MPVERILEAE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 233
+    },
+    "MPVERILEAEL": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 233
+    },
+    "NATSTSTT": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 111
+    },
+    "NATSTSTTG": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 111
+    },
+    "NATSTSTTGT": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 111
+    },
+    "NATSTSTTGTS": {
+      "reference_header": "sp|Q02297-11|NRG1_HUMAN Isoform of Q02297, Isoform 11 of Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1",
+      "protein_offset_0based": 111
+    },
+    "NELTRHYR": null,
+    "NELTRHYRK": null,
+    "NELTRHYRKH": null,
+    "NELTRHYRKHT": null,
+    "NFMAIGFT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 152
+    },
+    "NFMAIGFTA": null,
+    "NFMAIGFTAG": null,
+    "NFMAIGFTAGS": null,
+    "NKSYIDRD": null,
+    "NKSYIDRDS": null,
+    "NKSYIDRDSE": null,
+    "NKSYIDRDSEY": null,
+    "NLFLHQGW": null,
+    "NLFLHQGWP": null,
+    "NLFLHQGWPP": null,
+    "NLFLHQGWPPK": null,
+    "NLNFMAIG": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 150
+    },
+    "NLNFMAIGF": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 150
+    },
+    "NLNFMAIGFT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 150
+    },
+    "NLNFMAIGFTA": null,
+    "NLRIIRGT": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 100
+    },
+    "NLRIIRGTK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 100
+    },
+    "NLRIIRGTKL": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 100
+    },
+    "NLRIIRGTKLY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 100
+    },
+    "NPFSFQSD": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 522
+    },
+    "NPFSFQSDV": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 522
+    },
+    "NPFSFQSDVY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 522
+    },
+    "NPFSFQSDVYS": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 522
+    },
+    "NQEKKMFR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "NQEKKMFRI": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "NQEKKMFRIR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "NQEKKMFRIRN": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 148
+    },
+    "NSEGKQLN": null,
+    "NSEGKQLNT": null,
+    "NSEGKQLNTR": null,
+    "NSEGKQLNTRE": null,
+    "NSQQLVGG": null,
+    "NSQQLVGGS": null,
+    "NSQQLVGGSQ": null,
+    "NSQQLVGGSQA": null,
+    "NTHHELLL": null,
+    "NTHHELLLD": null,
+    "NTHHELLLDV": null,
+    "NTHHELLLDVE": null,
+    "NTREFRTR": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 94
+    },
+    "NTREFRTRK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 94
+    },
+    "NTREFRTRKK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 94
+    },
+    "NTREFRTRKKL": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 94
+    },
+    "NVGHVIIG": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 382
+    },
+    "NVGHVIIGL": null,
+    "NVGHVIIGLS": null,
+    "NVGHVIIGLSA": null,
+    "PAATISTV": null,
+    "PAATISTVT": null,
+    "PAATISTVTP": null,
+    "PAATISTVTPS": null,
+    "PALTNTHH": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3941
+    },
+    "PALTNTHHE": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3941
+    },
+    "PALTNTHHEL": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3941
+    },
+    "PALTNTHHELL": null,
+    "PATPSSMD": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2777
+    },
+    "PATPSSMDV": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2777
+    },
+    "PATPSSMDVN": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2777
+    },
+    "PATPSSMDVNS": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2777
+    },
+    "PCVESMKD": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 481
+    },
+    "PCVESMKDK": null,
+    "PCVESMKDKR": null,
+    "PCVESMKDKRV": null,
+    "PDLSHTTL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1205
+    },
+    "PDLSHTTLS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1205
+    },
+    "PDLSHTTLSL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1241
+    },
+    "PDLSHTTLSLD": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1241
+    },
+    "PDTFMEQK": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 512
+    },
+    "PDTFMEQKI": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 512
+    },
+    "PDTFMEQKIT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 512
+    },
+    "PDTFMEQKITY": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 512
+    },
+    "PEPIYNSE": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 82
+    },
+    "PEPIYNSEG": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 82
+    },
+    "PEPIYNSEGK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 82
+    },
+    "PEPIYNSEGKQ": null,
+    "PFGSKVRE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 472
+    },
+    "PFGSKVREH": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 472
+    },
+    "PFGSKVREHP": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 472
+    },
+    "PFGSKVREHPC": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 472
+    },
+    "PFSFQSDV": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 523
+    },
+    "PFSFQSDVY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 523
+    },
+    "PFSFQSDVYS": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 523
+    },
+    "PFSFQSDVYSY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 523
+    },
+    "PGGHVRGV": null,
+    "PIDYYFSP": null,
+    "PIDYYFSPQ": null,
+    "PIDYYFSPQK": null,
+    "PIDYYFSPQKT": null,
+    "PIFPDLSH": null,
+    "PIFPDLSHT": null,
+    "PIFPDLSHTT": null,
+    "PIFPDLSHTTL": null,
+    "PIYNSEGK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 84
+    },
+    "PIYNSEGKQ": null,
+    "PIYNSEGKQL": null,
+    "PIYNSEGKQLN": null,
+    "PKGKEKQL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 495
+    },
+    "PKLPKGKE": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 492
+    },
+    "PKLPKGKEK": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 492
+    },
+    "PKLPKGKEKQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 492
+    },
+    "PKLPKGKEKQL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 492
+    },
+    "PKTETYVE": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 243
+    },
+    "PKTETYVEA": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 243
+    },
+    "PKTETYVEAN": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 243
+    },
+    "PNLFLHQG": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 482
+    },
+    "PNLFLHQGW": null,
+    "PNLFLHQGWP": null,
+    "PNLFLHQGWPP": null,
+    "PPATPSSM": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2776
+    },
+    "PPATPSSMD": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2776
+    },
+    "PPATPSSMDV": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2776
+    },
+    "PPATPSSMDVN": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2776
+    },
+    "PPFGSKVR": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 471
+    },
+    "PPFGSKVRE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 471
+    },
+    "PPFGSKVREH": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 471
+    },
+    "PPFGSKVREHP": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 471
+    },
+    "PPKLPKGK": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 491
+    },
+    "PPKLPKGKE": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 491
+    },
+    "PPKLPKGKEK": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 491
+    },
+    "PPKLPKGKEKQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 491
+    },
+    "PQKTCLIC": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 555
+    },
+    "PQKTCLICG": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 555
+    },
+    "PQKTCLICGD": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 555
+    },
+    "PQKTCLICGDE": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 555
+    },
+    "PSPEPIYN": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 80
+    },
+    "PSPEPIYNS": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 80
+    },
+    "PSPEPIYNSE": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 80
+    },
+    "PSPEPIYNSEG": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 80
+    },
+    "PSSALGTT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2177
+    },
+    "PSSALGTTH": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2177
+    },
+    "PSSFSMAK": null,
+    "PSSFSMAKT": null,
+    "PSSFSMAKTS": null,
+    "PSSFSMAKTST": null,
+    "PSSMDVNS": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2780
+    },
+    "PSSMDVNSQ": null,
+    "PSSMDVNSQQ": null,
+    "PSSMDVNSQQL": null,
+    "PSSVGFSG": null,
+    "PSSVGFSGS": null,
+    "PSSVGFSGSL": null,
+    "PSSVGFSGSLP": null,
+    "PTTITPSS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 822
+    },
+    "PTTITPSSV": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 822
+    },
+    "PTTITPSSVG": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 822
+    },
+    "PTTITPSSVGF": null,
+    "PVERILEA": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 234
+    },
+    "PVERILEAE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 234
+    },
+    "PVERILEAEL": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 234
+    },
+    "PVERILEAELS": null,
+    "PYHTSSTH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1918
+    },
+    "PYHTSSTHH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1918
+    },
+    "PYHTSSTHHP": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1918
+    },
+    "PYHTSSTHHPE": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1918
+    },
+    "QATDGHDR": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 178
+    },
+    "QATDGHDRS": null,
+    "QATDGHDRSL": null,
+    "QATDGHDRSLT": null,
+    "QEKKMFRI": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "QEKKMFRIR": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "QEKKMFRIRN": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 149
+    },
+    "QEKKMFRIRNK": null,
+    "QESAWQLQ": null,
+    "QESAWQLQL": null,
+    "QESAWQLQLA": null,
+    "QESAWQLQLAQ": null,
+    "QGWPPKLP": null,
+    "QGWPPKLPK": null,
+    "QGWPPKLPKG": null,
+    "QGWPPKLPKGK": null,
+    "QKELVSRY": null,
+    "QKELVSRYG": null,
+    "QKELVSRYGE": null,
+    "QKELVSRYGEM": null,
+    "QKITYIYI": null,
+    "QKITYIYIH": null,
+    "QKITYIYIHH": null,
+    "QKITYIYIHHW": null,
+    "QKTCLICG": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 556
+    },
+    "QKTCLICGD": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 556
+    },
+    "QKTCLICGDE": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 556
+    },
+    "QKTCLICGDEA": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 556
+    },
+    "QLAQEAAQ": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2173
+    },
+    "QLAQEAAQK": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2173
+    },
+    "QLAQEAAQKR": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2173
+    },
+    "QLNTREFR": null,
+    "QLNTREFRT": null,
+    "QLNTREFRTR": null,
+    "QLNTREFRTRK": null,
+    "QLQLAQEA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2171
+    },
+    "QLQLAQEAA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2171
+    },
+    "QLQLAQEAAQ": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2171
+    },
+    "QLQLAQEAAQK": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2171
+    },
+    "QLVGGSQA": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2789
+    },
+    "QLVGGSQAF": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2789
+    },
+    "QLVGGSQAFY": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2789
+    },
+    "QLVGGSQAFYQ": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2789
+    },
+    "QMPIFPDL": null,
+    "QMPIFPDLS": null,
+    "QMPIFPDLSH": null,
+    "QMPIFPDLSHT": null,
+    "QPTTITPS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 821
+    },
+    "QPTTITPSS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 821
+    },
+    "QPTTITPSSV": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 821
+    },
+    "QPTTITPSSVG": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 821
+    },
+    "QQLVGGSQ": null,
+    "QQLVGGSQA": null,
+    "QQLVGGSQAF": null,
+    "QQLVGGSQAFY": null,
+    "QRGLSRSV": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 906
+    },
+    "QRGLSRSVS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 906
+    },
+    "QRGLSRSVSY": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 906
+    },
+    "QRGLSRSVSYS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 906
+    },
+    "QRKWEAAR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 167
+    },
+    "QRKWEAARE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 167
+    },
+    "QRKWEAAREA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 167
+    },
+    "QRKWEAAREAE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 167
+    },
+    "QRSLPGGH": null,
+    "QRSLPGGHV": null,
+    "QRSLPGGHVR": null,
+    "QRSLPGGHVRG": null,
+    "QSDVYSYS": null,
+    "QSDVYSYSI": null,
+    "QSDVYSYSIV": null,
+    "QSDVYSYSIVL": null,
+    "RAEQESAW": null,
+    "RAEQESAWQ": null,
+    "RAEQESAWQL": null,
+    "RAEQESAWQLQ": null,
+    "RDHVLPID": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 543
+    },
+    "RDHVLPIDY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 543
+    },
+    "RDHVLPIDYY": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 543
+    },
+    "RDHVLPIDYYF": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 543
+    },
+    "RDSEYLLQ": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 164
+    },
+    "REAEQRSL": null,
+    "REAEQRSLP": null,
+    "REAEQRSLPG": null,
+    "REAEQRSLPGG": null,
+    "REFRTRKK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 96
+    },
+    "REFRTRKKL": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 96
+    },
+    "REHPCVES": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 478
+    },
+    "REHPCVESM": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 478
+    },
+    "REHPCVESMK": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 478
+    },
+    "REHPCVESMKD": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 478
+    },
+    "RERAEQES": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2161
+    },
+    "RERAEQESA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2161
+    },
+    "RERAEQESAW": null,
+    "RERAEQESAWQ": null,
+    "RFARSNEL": null,
+    "RFARSNELT": null,
+    "RFARSNELTR": null,
+    "RFARSNELTRH": null,
+    "RGDNVGHV": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 379
+    },
+    "RGDNVGHVI": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 379
+    },
+    "RGDNVGHVII": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 379
+    },
+    "RGDNVGHVIIG": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 379
+    },
+    "RGLSRSVS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 907
+    },
+    "RGLSRSVSY": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 907
+    },
+    "RGLSRSVSYS": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 907
+    },
+    "RGLSRSVSYSI": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 907
+    },
+    "RGTKLYEV": null,
+    "RGTKLYEVR": null,
+    "RGTKLYEVRY": null,
+    "RGTKLYEVRYA": null,
+    "RHYRKHTG": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 365
+    },
+    "RHYRKHTGA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 421
+    },
+    "RIIRGTKL": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 102
+    },
+    "RIIRGTKLY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 102
+    },
+    "RIIRGTKLYE": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 102
+    },
+    "RIIRGTKLYEV": null,
+    "RILEAELS": null,
+    "RILEAELSV": null,
+    "RILEAELSVE": null,
+    "RILEAELSVEP": null,
+    "RIRNKSYI": null,
+    "RIRNKSYID": null,
+    "RIRNKSYIDR": null,
+    "RIRNKSYIDRD": null,
+    "RKWEAARE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "RKWEAAREA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "RKWEAAREAE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "RKWEAAREAEQ": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "RLRERAEQ": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2159
+    },
+    "RLRERAEQE": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2159
+    },
+    "RLRERAEQES": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2159
+    },
+    "RLRERAEQESA": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2159
+    },
+    "RNKSYIDR": null,
+    "RNKSYIDRD": null,
+    "RNKSYIDRDS": null,
+    "RNKSYIDRDSE": null,
+    "RQKELVSR": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 2
+    },
+    "RQKELVSRY": null,
+    "RQKELVSRYG": null,
+    "RQKELVSRYGE": null,
+    "RRLRERAE": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2158
+    },
+    "RRLRERAEQ": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2158
+    },
+    "RRLRERAEQE": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2158
+    },
+    "RRLRERAEQES": {
+      "reference_header": "sp|Q15149|PLEC_HUMAN Plectin OS=Homo sapiens OX=9606 GN=PLEC PE=1 SV=3",
+      "protein_offset_0based": 2158
+    },
+    "RSLPGGHV": null,
+    "RSLPGGHVR": null,
+    "RSLPGGHVRG": null,
+    "RSLPGGHVRGV": null,
+    "RSLTSCSI": null,
+    "RSLTSCSII": null,
+    "RSLTSCSIIN": null,
+    "RSLTSCSIINS": null,
+    "RSNELTRH": null,
+    "RSNELTRHY": null,
+    "RSNELTRHYR": null,
+    "RSNELTRHYRK": null,
+    "RSVSYSIL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 911
+    },
+    "RSVSYSILR": null,
+    "RSVSYSILRK": null,
+    "RSVSYSILRKY": null,
+    "RYALAIFL": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 113
+    },
+    "RYALAIFLN": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 113
+    },
+    "RYALAIFLNY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 113
+    },
+    "RYALAIFLNYR": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 113
+    },
+    "RYGEMLHI": null,
+    "RYGEMLHIR": null,
+    "RYGEMLHIRY": null,
+    "RYGEMLHIRYR": null,
+    "RYRLLRQA": {
+      "reference_header": "sp|Q92482|AQP3_HUMAN Aquaporin-3 OS=Homo sapiens OX=9606 GN=AQP3 PE=1 SV=2",
+      "protein_offset_0based": 17
+    },
+    "SASGMGTT": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 391
+    },
+    "SASGMGTTH": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 391
+    },
+    "SASGMGTTHW": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 391
+    },
+    "SASGMGTTHWN": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 391
+    },
+    "SAWQLQLA": null,
+    "SAWQLQLAQ": null,
+    "SAWQLQLAQE": null,
+    "SAWQLQLAQEA": null,
+    "SCSIINSG": null,
+    "SCSIINSGK": null,
+    "SCSIINSGKI": null,
+    "SDVYSYSI": null,
+    "SDVYSYSIV": null,
+    "SDVYSYSIVL": null,
+    "SDVYSYSIVLY": null,
+    "SEGKQLNT": null,
+    "SEGKQLNTR": null,
+    "SEGKQLNTRE": null,
+    "SEGKQLNTREF": null,
+    "SFQSDVYS": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 525
+    },
+    "SFQSDVYSY": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 525
+    },
+    "SFQSDVYSYS": null,
+    "SFQSDVYSYSI": null,
+    "SFSMAKTS": null,
+    "SFSMAKTST": null,
+    "SFSMAKTSTS": null,
+    "SFSMAKTSTSL": null,
+    "SGMGTTHW": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 393
+    },
+    "SGMGTTHWN": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 393
+    },
+    "SGMGTTHWNQ": {
+      "reference_header": "sp|Q8IV01|SYT12_HUMAN Synaptotagmin-12 OS=Homo sapiens OX=9606 GN=SYT12 PE=1 SV=1",
+      "protein_offset_0based": 393
+    },
+    "SGSLPMMT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 833
+    },
+    "SGSLPMMTD": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 833
+    },
+    "SGSLPMMTDL": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 833
+    },
+    "SGSLPMMTDLT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 833
+    },
+    "SHTTLSLD": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1244
+    },
+    "SHTTLSLDF": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1280
+    },
+    "SHTTLSLDFS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1280
+    },
+    "SHTTLSLDFSQ": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1280
+    },
+    "SIELQATD": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 174
+    },
+    "SIELQATDG": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 174
+    },
+    "SIELQATDGH": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 174
+    },
+    "SIELQATDGHD": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 174
+    },
+    "SIINSGKI": {
+      "reference_header": "sp|P45877|PPIC_HUMAN Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens OX=9606 GN=PPIC PE=1 SV=1",
+      "protein_offset_0based": 191
+    },
+    "SILRKYLQ": null,
+    "SILRKYLQE": null,
+    "SILRKYLQED": null,
+    "SIVLYELM": null,
+    "SIVLYELMT": null,
+    "SIVLYELMTG": null,
+    "SIVLYELMTGE": null,
+    "SKVREHPC": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 475
+    },
+    "SKVREHPCV": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 475
+    },
+    "SKVREHPCVE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 475
+    },
+    "SKVREHPCVES": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 475
+    },
+    "SLDFSQTN": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1285
+    },
+    "SLDFSQTNL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1285
+    },
+    "SLPGGHVR": null,
+    "SLPGGHVRG": null,
+    "SLPGGHVRGV": null,
+    "SLPMMTDL": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 835
+    },
+    "SLPMMTDLT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 835
+    },
+    "SLPYHTSS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1916
+    },
+    "SLPYHTSST": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1916
+    },
+    "SLPYHTSSTH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1916
+    },
+    "SLPYHTSSTHH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1916
+    },
+    "SLTSCSII": null,
+    "SLTSCSIIN": null,
+    "SLTSCSIINS": null,
+    "SLTSCSIINSG": null,
+    "SMAKTSTS": null,
+    "SMAKTSTSL": null,
+    "SMAKTSTSLP": null,
+    "SMAKTSTSLPY": null,
+    "SMDVNSQQ": null,
+    "SMDVNSQQL": null,
+    "SMDVNSQQLV": null,
+    "SMDVNSQQLVG": null,
+    "SMKDKRVE": null,
+    "SMKDKRVER": null,
+    "SMKDKRVERS": null,
+    "SNELTRHY": null,
+    "SNELTRHYR": null,
+    "SNELTRHYRK": null,
+    "SNELTRHYRKH": null,
+    "SPEPIYNS": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 81
+    },
+    "SPEPIYNSE": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 81
+    },
+    "SPEPIYNSEG": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 81
+    },
+    "SPEPIYNSEGK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 81
+    },
+    "SPQKTCLI": null,
+    "SPQKTCLIC": null,
+    "SPQKTCLICG": null,
+    "SPQKTCLICGD": null,
+    "SQPTTITP": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 820
+    },
+    "SQPTTITPS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 820
+    },
+    "SQPTTITPSS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 820
+    },
+    "SQPTTITPSSV": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 820
+    },
+    "SQQLVGGS": null,
+    "SQQLVGGSQ": null,
+    "SQQLVGGSQA": null,
+    "SQQLVGGSQAF": null,
+    "SRSVSYSI": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 910
+    },
+    "SRSVSYSIL": {
+      "reference_header": "sp|Q17RG1|KCD19_HUMAN BTB/POZ domain-containing protein KCTD19 OS=Homo sapiens OX=9606 GN=KCTD19 PE=1 SV=1",
+      "protein_offset_0based": 910
+    },
+    "SRSVSYSILR": null,
+    "SRSVSYSILRK": null,
+    "SRYGEMLH": null,
+    "SRYGEMLHI": null,
+    "SRYGEMLHIR": null,
+    "SRYGEMLHIRY": null,
+    "SSALGTTH": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2178
+    },
+    "SSFSMAKT": null,
+    "SSFSMAKTS": null,
+    "SSFSMAKTST": null,
+    "SSFSMAKTSTS": null,
+    "SSMDVNSQ": null,
+    "SSMDVNSQQ": null,
+    "SSMDVNSQQL": null,
+    "SSMDVNSQQLV": null,
+    "SSTHHPEV": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1529
+    },
+    "SSVGFSGS": null,
+    "SSVGFSGSL": null,
+    "SSVGFSGSLP": null,
+    "SSVGFSGSLPM": null,
+    "STSLPYHT": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1914
+    },
+    "STSLPYHTS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1914
+    },
+    "STSLPYHTSS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1914
+    },
+    "STSLPYHTSST": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1914
+    },
+    "STSTTGTS": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "STSTTGTSH": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "STSTTGTSHL": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "STSTTGTSHLV": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 169
+    },
+    "STTGTSHL": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 171
+    },
+    "STTGTSHLV": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 171
+    },
+    "STVTPSSA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2730
+    },
+    "STVTPSSAL": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2730
+    },
+    "STVTPSSALG": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2730
+    },
+    "STVTPSSALGT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2730
+    },
+    "STYTALII": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "STYTALIIA": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "STYTALIIAT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "STYTALIIATD": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "SVEPKTET": null,
+    "SVEPKTETY": null,
+    "SVEPKTETYV": null,
+    "SVEPKTETYVE": null,
+    "SVGFSGSL": null,
+    "SVGFSGSLP": null,
+    "SVGFSGSLPM": null,
+    "SVGFSGSLPMM": null,
+    "SVSYSILR": null,
+    "SVSYSILRK": null,
+    "SVSYSILRKY": null,
+    "SVSYSILRKYL": null,
+    "SVTLNKGD": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "SVTLNKGDI": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "SVTLNKGDIT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "SVTLNKGDITR": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 162
+    },
+    "SYIDRDSE": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 160
+    },
+    "SYIDRDSEY": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 160
+    },
+    "SYIDRDSEYL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 160
+    },
+    "SYIDRDSEYLL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 160
+    },
+    "SYSILRKY": null,
+    "SYSILRKYL": null,
+    "SYSILRKYLQ": null,
+    "SYSILRKYLQE": null,
+    "SYSIVLYE": null,
+    "SYSIVLYEL": null,
+    "SYSIVLYELM": null,
+    "SYSIVLYELMT": null,
+    "TAGSVTLN": null,
+    "TAGSVTLNK": null,
+    "TAGSVTLNKG": null,
+    "TAGSVTLNKGD": null,
+    "TALIIATD": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 561
+    },
+    "TALIIATDN": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 561
+    },
+    "TALIIATDNA": null,
+    "TALIIATDNAT": null,
+    "TATTPAAT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2164
+    },
+    "TATTPAATI": null,
+    "TATTPAATIS": null,
+    "TATTPAATIST": null,
+    "TCLICGDE": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "TCLICGDEA": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 558
+    },
+    "TDGHDRSL": null,
+    "TDGHDRSLT": null,
+    "TDGHDRSLTS": null,
+    "TDGHDRSLTSC": null,
+    "TDNATSTS": null,
+    "TDNATSTST": null,
+    "TDNATSTSTT": null,
+    "TDNATSTSTTG": null,
+    "TETYVEAN": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 245
+    },
+    "TFMEQKIT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 514
+    },
+    "TFMEQKITY": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 514
+    },
+    "TFMEQKITYI": null,
+    "TFMEQKITYIY": null,
+    "THHELLLD": null,
+    "THHELLLDV": null,
+    "THHELLLDVE": null,
+    "THHELLLDVEF": null,
+    "TISTVTPS": null,
+    "TISTVTPSS": null,
+    "TISTVTPSSA": null,
+    "TISTVTPSSAL": null,
+    "TITPSSVG": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 824
+    },
+    "TITPSSVGF": null,
+    "TITPSSVGFS": null,
+    "TITPSSVGFSG": null,
+    "TKLYEVRY": null,
+    "TKLYEVRYA": null,
+    "TKLYEVRYAL": null,
+    "TKLYEVRYALA": null,
+    "TLNKGDIT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 164
+    },
+    "TLNKGDITR": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 164
+    },
+    "TLSLDFSQ": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1283
+    },
+    "TLSLDFSQT": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1283
+    },
+    "TLSLDFSQTN": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1283
+    },
+    "TLSLDFSQTNL": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1283
+    },
+    "TNTHHELL": null,
+    "TNTHHELLL": null,
+    "TNTHHELLLD": null,
+    "TNTHHELLLDV": null,
+    "TPAATIST": null,
+    "TPAATISTV": null,
+    "TPAATISTVT": null,
+    "TPAATISTVTP": null,
+    "TPSSALGT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2176
+    },
+    "TPSSALGTT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2176
+    },
+    "TPSSALGTTH": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2176
+    },
+    "TPSSMDVN": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2779
+    },
+    "TPSSMDVNS": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2779
+    },
+    "TPSSMDVNSQ": null,
+    "TPSSMDVNSQQ": null,
+    "TPSSVGFS": null,
+    "TPSSVGFSG": null,
+    "TPSSVGFSGS": null,
+    "TPSSVGFSGSL": null,
+    "TQRKWEAA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 166
+    },
+    "TQRKWEAAR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 166
+    },
+    "TQRKWEAARE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 166
+    },
+    "TQRKWEAAREA": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 166
+    },
+    "TREFRTRK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 95
+    },
+    "TREFRTRKK": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 95
+    },
+    "TREFRTRKKL": {
+      "reference_header": "sp|Q15637|SF01_HUMAN Splicing factor 1 OS=Homo sapiens OX=9606 GN=SF1 PE=1 SV=4",
+      "protein_offset_0based": 95
+    },
+    "TRHYRKHT": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 364
+    },
+    "TRHYRKHTG": {
+      "reference_header": "sp|Q9Y4X4|KLF12_HUMAN Krueppel-like factor 12 OS=Homo sapiens OX=9606 GN=KLF12 PE=1 SV=2",
+      "protein_offset_0based": 364
+    },
+    "TRHYRKHTGA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 420
+    },
+    "TSCSIINS": null,
+    "TSCSIINSG": null,
+    "TSCSIINSGK": null,
+    "TSCSIINSGKI": null,
+    "TSLPYHTS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1915
+    },
+    "TSLPYHTSS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1915
+    },
+    "TSLPYHTSST": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1915
+    },
+    "TSLPYHTSSTH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1915
+    },
+    "TSQPTTIT": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 819
+    },
+    "TSQPTTITP": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 819
+    },
+    "TSQPTTITPS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 819
+    },
+    "TSQPTTITPSS": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 819
+    },
+    "TSSTHHPE": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1528
+    },
+    "TSSTHHPEV": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1528
+    },
+    "TSTSLPYH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1913
+    },
+    "TSTSLPYHT": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1913
+    },
+    "TSTSLPYHTS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1913
+    },
+    "TSTSLPYHTSS": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1913
+    },
+    "TSTSTTGT": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "TSTSTTGTS": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "TSTSTTGTSH": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "TSTSTTGTSHL": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 168
+    },
+    "TSTTGTSH": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "TSTTGTSHL": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "TSTTGTSHLV": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "TTATTPAA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2163
+    },
+    "TTATTPAAT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2163
+    },
+    "TTATTPAATI": null,
+    "TTATTPAATIS": null,
+    "TTGTSHLV": {
+      "reference_header": "sp|Q02297|NRG1_HUMAN Pro-neuregulin-1, membrane-bound isoform OS=Homo sapiens OX=9606 GN=NRG1 PE=1 SV=3",
+      "protein_offset_0based": 172
+    },
+    "TTITPSSV": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 823
+    },
+    "TTITPSSVG": {
+      "reference_header": "sp|Q02505|MUC3A_HUMAN Mucin-3A OS=Homo sapiens OX=9606 GN=MUC3A PE=1 SV=3",
+      "protein_offset_0based": 823
+    },
+    "TTITPSSVGF": null,
+    "TTITPSSVGFS": null,
+    "TTLSLDFS": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1282
+    },
+    "TTLSLDFSQ": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1282
+    },
+    "TTLSLDFSQT": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1282
+    },
+    "TTLSLDFSQTN": {
+      "reference_header": "sp|P12259|FA5_HUMAN Coagulation factor V OS=Homo sapiens OX=9606 GN=F5 PE=1 SV=4",
+      "protein_offset_0based": 1282
+    },
+    "TTPAATIS": null,
+    "TTPAATIST": null,
+    "TTPAATISTV": null,
+    "TTPAATISTVT": null,
+    "TTTATTPA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2162
+    },
+    "TTTATTPAA": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2162
+    },
+    "TTTATTPAAT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2162
+    },
+    "TTTATTPAATI": null,
+    "TVMAPNLF": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 478
+    },
+    "TVMAPNLFL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 478
+    },
+    "TVMAPNLFLH": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 478
+    },
+    "TVMAPNLFLHQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 478
+    },
+    "TVTPSSAL": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "TVTPSSALG": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "TVTPSSALGT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "TVTPSSALGTT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2174
+    },
+    "TWEGCDWR": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 405
+    },
+    "TWEGCDWRF": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 405
+    },
+    "TWEGCDWRFA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 405
+    },
+    "TWEGCDWRFAR": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 405
+    },
+    "TYIYIHHW": null,
+    "TYIYIHHWD": null,
+    "TYIYIHHWDK": null,
+    "TYIYIHHWDKP": null,
+    "TYTALIIA": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 559
+    },
+    "TYTALIIAT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 559
+    },
+    "TYTALIIATD": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 559
+    },
+    "TYTALIIATDN": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 559
+    },
+    "VEFKPLAP": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3954
+    },
+    "VEFKPLAPD": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3954
+    },
+    "VEFKPLAPDG": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3954
+    },
+    "VEFKPLAPDGV": {
+      "reference_header": "sp|P98160|PGBM_HUMAN Basement membrane-specific heparan sulfate proteoglycan core protein OS=Homo sapiens OX=9606 GN=HSPG2 PE=1 SV=4",
+      "protein_offset_0based": 3954
+    },
+    "VEPKTETY": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 241
+    },
+    "VEPKTETYV": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 241
+    },
+    "VEPKTETYVE": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 241
+    },
+    "VEPKTETYVEA": {
+      "reference_header": "sp|P19793|RXRA_HUMAN Retinoic acid receptor RXR-alpha OS=Homo sapiens OX=9606 GN=RXRA PE=1 SV=1",
+      "protein_offset_0based": 241
+    },
+    "VERILEAE": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 235
+    },
+    "VERILEAEL": {
+      "reference_header": "sp|P48443|RXRG_HUMAN Retinoic acid receptor RXR-gamma OS=Homo sapiens OX=9606 GN=RXRG PE=1 SV=1",
+      "protein_offset_0based": 235
+    },
+    "VERILEAELS": null,
+    "VERILEAELSV": null,
+    "VESMKDKR": null,
+    "VESMKDKRV": null,
+    "VESMKDKRVE": null,
+    "VESMKDKRVER": null,
+    "VGFSGSLP": null,
+    "VGFSGSLPM": null,
+    "VGFSGSLPMM": null,
+    "VGFSGSLPMMT": null,
+    "VGGSQAFY": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2791
+    },
+    "VGGSQAFYQ": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2791
+    },
+    "VGGSQAFYQR": {
+      "reference_header": "sp|O14686|KMT2D_HUMAN Histone-lysine N-methyltransferase 2D OS=Homo sapiens OX=9606 GN=KMT2D PE=1 SV=2",
+      "protein_offset_0based": 2791
+    },
+    "VGHVIIGL": null,
+    "VGHVIIGLS": null,
+    "VGHVIIGLSA": null,
+    "VGHVIIGLSAS": null,
+    "VIIGLSAS": null,
+    "VIIGLSASG": null,
+    "VIIGLSASGM": null,
+    "VIIGLSASGMG": null,
+    "VLPIDYYF": {
+      "reference_header": "sp|P10275|ANDR_HUMAN Androgen receptor OS=Homo sapiens OX=9606 GN=AR PE=1 SV=3",
+      "protein_offset_0based": 546
+    },
+    "VLPIDYYFS": null,
+    "VLPIDYYFSP": null,
+    "VLPIDYYFSPQ": null,
+    "VLYELMTG": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 536
+    },
+    "VLYELMTGE": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 536
+    },
+    "VLYELMTGEL": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 536
+    },
+    "VLYELMTGELP": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 536
+    },
+    "VMAPNLFL": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 479
+    },
+    "VMAPNLFLH": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 479
+    },
+    "VMAPNLFLHQ": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 479
+    },
+    "VMAPNLFLHQG": {
+      "reference_header": "sp|Q5TG30|RHG40_HUMAN Rho GTPase-activating protein 40 OS=Homo sapiens OX=9606 GN=ARHGAP40 PE=1 SV=4",
+      "protein_offset_0based": 479
+    },
+    "VNSQQLVG": null,
+    "VNSQQLVGG": null,
+    "VNSQQLVGGS": null,
+    "VNSQQLVGGSQ": null,
+    "VREHPCVE": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 477
+    },
+    "VREHPCVES": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 477
+    },
+    "VREHPCVESM": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 477
+    },
+    "VREHPCVESMK": {
+      "reference_header": "sp|P37173|TGFR2_HUMAN TGF-beta receptor type-2 OS=Homo sapiens OX=9606 GN=TGFBR2 PE=1 SV=2",
+      "protein_offset_0based": 477
+    },
+    "VRYALAIF": null,
+    "VRYALAIFL": null,
+    "VRYALAIFLN": null,
+    "VRYALAIFLNY": null,
+    "VSRYGEML": null,
+    "VSRYGEMLH": null,
+    "VSRYGEMLHI": null,
+    "VSRYGEMLHIR": null,
+    "VSYSILRK": null,
+    "VSYSILRKY": null,
+    "VSYSILRKYL": null,
+    "VSYSILRKYLQ": null,
+    "VTLNKGDI": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 163
+    },
+    "VTLNKGDIT": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 163
+    },
+    "VTLNKGDITR": {
+      "reference_header": "sp|Q9H270|VPS11_HUMAN Vacuolar protein sorting-associated protein 11 homolog OS=Homo sapiens OX=9606 GN=VPS11 PE=1 SV=2",
+      "protein_offset_0based": 163
+    },
+    "VTPSSALG": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2175
+    },
+    "VTPSSALGT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2175
+    },
+    "VTPSSALGTT": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2175
+    },
+    "VTPSSALGTTH": {
+      "reference_header": "sp|Q9HC84|MUC5B_HUMAN Mucin-5B OS=Homo sapiens OX=9606 GN=MUC5B PE=1 SV=3",
+      "protein_offset_0based": 2175
+    },
+    "VYSYSIVL": null,
+    "VYSYSIVLY": null,
+    "VYSYSIVLYE": null,
+    "VYSYSIVLYEL": null,
+    "WDKPSCKM": null,
+    "WEAAREAE": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "WEAAREAEQ": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "WEAAREAEQR": {
+      "reference_header": "sp|P01889|HLAB_HUMAN HLA class I histocompatibility antigen, B alpha chain OS=Homo sapiens OX=9606 GN=HLA-B PE=1 SV=3",
+      "protein_offset_0based": 170
+    },
+    "WEAAREAEQRS": null,
+    "WEGCDWRF": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 406
+    },
+    "WEGCDWRFA": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 406
+    },
+    "WEGCDWRFAR": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 406
+    },
+    "WEGCDWRFARS": {
+      "reference_header": "sp|Q13887|KLF5_HUMAN Krueppel-like factor 5 OS=Homo sapiens OX=9606 GN=KLF5 PE=1 SV=2",
+      "protein_offset_0based": 406
+    },
+    "WPPKLPKG": null,
+    "WPPKLPKGK": null,
+    "WPPKLPKGKE": null,
+    "WPPKLPKGKEK": null,
+    "WQLQLAQE": null,
+    "WQLQLAQEA": null,
+    "WQLQLAQEAA": null,
+    "WQLQLAQEAAQ": null,
+    "WRFARSNE": null,
+    "WRFARSNEL": null,
+    "WRFARSNELT": null,
+    "WRFARSNELTR": null,
+    "YALAIFLN": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 114
+    },
+    "YALAIFLNY": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 114
+    },
+    "YALAIFLNYR": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 114
+    },
+    "YALAIFLNYRK": {
+      "reference_header": "sp|Q15303|ERBB4_HUMAN Receptor tyrosine-protein kinase erbB-4 OS=Homo sapiens OX=9606 GN=ERBB4 PE=1 SV=1",
+      "protein_offset_0based": 114
+    },
+    "YELMTGEL": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 538
+    },
+    "YELMTGELP": {
+      "reference_header": "sp|P04049|RAF1_HUMAN RAF proto-oncogene serine/threonine-protein kinase OS=Homo sapiens OX=9606 GN=RAF1 PE=1 SV=1",
+      "protein_offset_0based": 538
+    },
+    "YEVRYALA": null,
+    "YEVRYALAI": null,
+    "YEVRYALAIF": null,
+    "YEVRYALAIFL": null,
+    "YFSPQKTC": null,
+    "YFSPQKTCL": null,
+    "YFSPQKTCLI": null,
+    "YFSPQKTCLIC": null,
+    "YGEMLHIR": null,
+    "YGEMLHIRY": null,
+    "YGEMLHIRYR": null,
+    "YGEMLHIRYRL": null,
+    "YHTSSTHH": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1919
+    },
+    "YHTSSTHHP": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1919
+    },
+    "YHTSSTHHPE": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1919
+    },
+    "YHTSSTHHPEV": {
+      "reference_header": "sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3",
+      "protein_offset_0based": 1919
+    },
+    "YIDRDSEY": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "YIDRDSEYL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "YIDRDSEYLL": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "YIDRDSEYLLQ": {
+      "reference_header": "sp|Q9H2U1|DHX36_HUMAN ATP-dependent DNA/RNA helicase DHX36 OS=Homo sapiens OX=9606 GN=DHX36 PE=1 SV=2",
+      "protein_offset_0based": 161
+    },
+    "YIHHWDKP": null,
+    "YIHHWDKPS": null,
+    "YIHHWDKPSC": null,
+    "YIHHWDKPSCK": null,
+    "YIYIHHWD": null,
+    "YIYIHHWDK": null,
+    "YIYIHHWDKP": null,
+    "YIYIHHWDKPS": null,
+    "YNSEGKQL": null,
+    "YNSEGKQLN": null,
+    "YNSEGKQLNT": null,
+    "YNSEGKQLNTR": null,
+    "YSILRKYL": null,
+    "YSILRKYLQ": null,
+    "YSILRKYLQE": null,
+    "YSILRKYLQED": null,
+    "YSIVLYEL": null,
+    "YSIVLYELM": null,
+    "YSIVLYELMT": null,
+    "YSIVLYELMTG": null,
+    "YSYSIVLY": null,
+    "YSYSIVLYE": null,
+    "YSYSIVLYEL": null,
+    "YSYSIVLYELM": null,
+    "YTALIIAT": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 560
+    },
+    "YTALIIATD": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 560
+    },
+    "YTALIIATDN": {
+      "reference_header": "sp|P12830|CADH1_HUMAN Cadherin-1 OS=Homo sapiens OX=9606 GN=CDH1 PE=1 SV=3",
+      "protein_offset_0based": 560
+    },
+    "YTALIIATDNA": null,
+    "YYFSPQKT": null,
+    "YYFSPQKTC": null,
+    "YYFSPQKTCL": null,
+    "YYFSPQKTCLI": null
+  },
+  "region_decisions": [
+    {
+      "gene": "F5",
+      "region_id": "REG_ae4e341fdea4a4a9e453",
+      "previous_nonself_target_peptides": 26,
+      "combined_nonself_target_peptides": 26,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "MUC6",
+      "region_id": "REG_35621fc5dd92cf1c215d",
+      "previous_nonself_target_peptides": 0,
+      "combined_nonself_target_peptides": 0,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "MUC5B",
+      "region_id": "REG_ea6a38a75f1c7d884bee",
+      "previous_nonself_target_peptides": 22,
+      "combined_nonself_target_peptides": 22,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "MUC3A",
+      "region_id": "REG_d58dfb6f2f0b754ec2b9",
+      "previous_nonself_target_peptides": 18,
+      "combined_nonself_target_peptides": 18,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "KLF5",
+      "region_id": "REG_e16d2a87273645d8d7b4",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "SF1",
+      "region_id": "REG_1dfce9e906fa21c20196",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "AQP3",
+      "region_id": "REG_c310fc71d7b0fb823535",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "RXRA",
+      "region_id": "REG_8687690f602539a7060e",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "HSPG2",
+      "region_id": "REG_9954d136ed6d4ba9f759",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "TGFBR2",
+      "region_id": "REG_f4ca2bba236d14d54d3f",
+      "previous_nonself_target_peptides": 24,
+      "combined_nonself_target_peptides": 24,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "PPIC",
+      "region_id": "REG_e6aeb364b2cc7e909162",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "KCTD19",
+      "region_id": "REG_9dde223e9bf58444173b",
+      "previous_nonself_target_peptides": 28,
+      "combined_nonself_target_peptides": 28,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "VPS11",
+      "region_id": "REG_7bb9945d495d7fb8ce3f",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "ARHGAP40",
+      "region_id": "REG_7176562878cc11bcbfaa",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "PLEC",
+      "region_id": "REG_f0a90a31c4c6e8899224",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "SYT12",
+      "region_id": "REG_f93fe5a69c414329a31d",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "HLA-B",
+      "region_id": "REG_fadc531c5476f4384f0d",
+      "previous_nonself_target_peptides": 32,
+      "combined_nonself_target_peptides": 32,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "CDH1--NRG1",
+      "region_id": "REG_98875bfa1d09b7fab791",
+      "previous_nonself_target_peptides": 52,
+      "combined_nonself_target_peptides": 52,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "CDH1::NRG1",
+      "region_id": "REG_1f7babf47bbafeebeedc",
+      "previous_nonself_target_peptides": 30,
+      "combined_nonself_target_peptides": 30,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "AR",
+      "region_id": "REG_e5f36891c0b16cb7064d",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "DHX36",
+      "region_id": "REG_d0e9bf21d21b0e8bc1b6",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "ERBB4",
+      "region_id": "REG_39383fdb823c3e9292da",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "KMT2D",
+      "region_id": "REG_d8bc5258c00c8570772f",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    },
+    {
+      "gene": "RAF1",
+      "region_id": "REG_f3305dbd6dc320f9e057",
+      "previous_nonself_target_peptides": 38,
+      "combined_nonself_target_peptides": 38,
+      "new_reference_matching_target_peptides": [],
+      "full_window_reference_match": null
+    }
+  ],
+  "additional_excluded_region_ids": [],
+  "source_audit_sha256": "431f6055b4bb423e646adb44df23f278cb7426c151245f7507c7cdb923a78840",
+  "scope": "Exact sequence matches in the downloaded human reference proteome with isoforms; not exhaustive human variation or proof of healthy-tissue expression/presentation",
+  "provider_help": "https://www.uniprot.org/help/proteome",
+  "new_model_inference": false
+}

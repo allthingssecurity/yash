@@ -113,7 +113,7 @@ Only two alternate RNA fragments out of eight; both support the longer context. 
 
 `ALGQMPIFPDLSHTTLSLDFSQTNL` · `REG_ae4e341fdea4a4a9e453` · max KD19 0.363.
 
-RNA reads support the join and extra S-to-F change that makes the scored peptides differ from the main reference. Recorded support is 5 fragments at the changed base and 2 across the full 25-aa window. The earlier targeted check reported 5 / 1,441 RNA fragments at the base and 0 alternate / 1,300 reference tumour-DNA fragments.
+RNA reads contain a sequence predicted to encode S-to-F relative to the nominated reference. This difference accounts for the scored peptides' novelty against the primary protein-coding reference. The splice-origin interpretation depends on the recorded alignment and is uncertain in repetitive sequence. Recorded support is 5 fragments at the changed base and 2 across the full 25-aa window. The earlier targeted check reported 5 / 1,441 RNA fragments at the base and 0 alternate / 1,300 reference tumour-DNA fragments.
 
 Recorded complete-window fragments: 2; strand agreement/opposition 2/0. The splice motif disagrees with the nominated gene direction. The selected window passed the recorded read-orientation rule and annotated upstream-frame reconstruction. ND means not detected at these coordinates in the two searched normal catalogs, not absent from every healthy tissue. New normal DNA does not settle RNA direction, splicing or translation.
 
@@ -121,7 +121,7 @@ Recorded complete-window fragments: 2; strand agreement/opposition 2/0. The spli
 
 `LTTTATTPAATISTVTPSSALGTTH` · `REG_ea6a38a75f1c7d884bee` · max KD19 0.500.
 
-Two full-window RNA fragments support the join and extra S-to-I change that makes the scored peptides differ from the main reference. Low-complexity mapping and molecule independence remain unresolved. The recorded event/region tie-break is retained.
+Two full-window RNA fragments contain a sequence predicted to encode S-to-I relative to the nominated reference. This difference accounts for the scored peptides' novelty against the primary protein-coding reference; the nominated splice origin remains uncertain in repetitive sequence. Low-complexity mapping and molecule independence remain unresolved. The recorded event/region tie-break is retained.
 
 Recorded complete-window fragments: 2; strand agreement/opposition 2/0. The splice motif disagrees with the nominated gene direction. The selected window passed the recorded read-orientation rule and annotated upstream-frame reconstruction. ND means not detected at these coordinates in the two searched normal catalogs, not absent from every healthy tissue. New normal DNA does not settle RNA direction, splicing or translation.
 
@@ -129,7 +129,7 @@ Recorded complete-window fragments: 2; strand agreement/opposition 2/0. The spli
 
 `PSSFSMAKTSTSLPYHTSSTHHPEV` · `REG_35621fc5dd92cf1c215d` · max KD19 -0.426.
 
-RNA reads support the join and extra T-to-M change: 9 fragments at the changed base and 3 across the full window. Two full-window fragments agree with the nominated strand; one opposes it. Earlier targeted counts were 9 / 269 RNA fragments and 8 alternate / 5,583 reference tumour-DNA fragments. The selected sequence also matches alternate-reference translation ENSP00000487059.1. At the tested position (chr11:1017576), Yash's normal DNA showed 150 fragments with the usual base and 0 with the methionine-producing change.
+RNA reads contain a sequence predicted to encode T-to-M relative to the nominated reference; the splice origin remains uncertain in repetitive sequence. Recorded support is 9 fragments at the changed base and 3 across the full window. Two full-window fragments agree with the nominated strand; one opposes it. Earlier targeted counts were 9 / 269 RNA fragments and 8 alternate / 5,583 reference tumour-DNA fragments. The selected sequence also matches alternate-reference translation ENSP00000487059.1. At the tested position (chr11:1017576), Yash's normal DNA showed 150 fragments with the usual base and 0 with the methionine-producing change.
 
 Recorded complete-window fragments: 3; strand agreement/opposition 2/1. The splice motif disagrees with the nominated gene direction. The selected window passed the recorded read-orientation rule and annotated upstream-frame reconstruction. ND means not detected at these coordinates in the two searched normal catalogs, not absent from every healthy tissue. New normal DNA does not settle RNA direction, splicing or translation.
 
@@ -137,7 +137,7 @@ Recorded complete-window fragments: 3; strand agreement/opposition 2/1. The spli
 
 `TSQPTTITPSSVGFSGSLPMMTDLT` · `REG_d58dfb6f2f0b754ec2b9` · max KD19 0.532.
 
-Three full-window RNA fragments support the join and extra I-to-F change that makes the scored peptides differ from the main reference. All three agree with the nominated strand. The repetitive mucin context still complicates alignment attribution.
+Three full-window RNA fragments contain a sequence predicted to encode I-to-F relative to the nominated reference. This difference accounts for the scored peptides' novelty against the primary protein-coding reference; the nominated splice origin remains uncertain in repetitive sequence. All three agree with the nominated strand. The repetitive mucin context still complicates alignment attribution.
 
 Recorded complete-window fragments: 3; strand agreement/opposition 3/0. The splice motif disagrees with the nominated gene direction. The selected window passed the recorded read-orientation rule and annotated upstream-frame reconstruction. ND means not detected at these coordinates in the two searched normal catalogs, not absent from every healthy tissue. New normal DNA does not settle RNA direction, splicing or translation.
 

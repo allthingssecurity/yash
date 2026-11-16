@@ -1,22 +1,24 @@
 """Explore shared evidence, start independent designs or reuse our workflow."""
 from yash_vaccine.paths import resolve_input
+from yash_vaccine.io import require_assertions
 import argparse,json,subprocess,sys
 from pathlib import Path
 
 def _main():
+    require_assertions('yash-vaccine')
     p=argparse.ArgumentParser(prog='yash-vaccine',description=__doc__,epilog='Start with README.md and docs/usage.md. Commands use local evidence unless you explicitly request downloads or remote execution.')
     p.add_argument('--repo',type=Path,default=Path(__file__).resolve().parents[2])
     sub=p.add_subparsers(dest='command',required=True)
     reproduce=sub.add_parser('reproduce',help='Rebuild a recorded design and compare its files; local only')
-    reproduce.add_argument('recipe',type=Path,nargs='?',help='Design directory or design.json; defaults to lead designs/design-2')
+    reproduce.add_argument('recipe',type=Path,nargs='?',help='Design directory or design.json; defaults to lead designs/design-3')
     reproduce.add_argument('--output',type=Path,help='Optional new directory in which to keep reproduced files')
     verify=sub.add_parser('verify',help='Check recorded lead results without rebuilding or starting jobs')
-    verify.add_argument('design',type=Path,nargs='?',help='Defaults to designs/design-2')
+    verify.add_argument('design',type=Path,nargs='?',help='Defaults to designs/design-3; pass designs/design-2 for the earlier design')
     init=sub.add_parser('init',help='Start an independent design; --from copies a Design #1 recipe',
-        description='Create a plain README/script workspace for a new design, including alternatives to lead Design #2. Optional --from copies a Design #1 tumour-only selection/internal-cassette recipe; it does not copy the matched-normal lead.')
-    init.add_argument('name');init.add_argument('--from',dest='source',type=Path,help='Copy a compatible Design #1 tumour-only recipe, not lead Design #2')
+        description='Create a plain README/script workspace for a new design, including alternatives to lead Design #3. Optional --from copies a Design #1 tumour-only selection/internal-cassette recipe; it does not copy the matched-normal lead.')
+    init.add_argument('name');init.add_argument('--from',dest='source',type=Path,help='Copy a compatible Design #1 tumour-only recipe, not lead Design #3')
     run=sub.add_parser('run',help='Run the optional Design #1 selection/internal-cassette recipe',
-        description='Run a Design #1-derived tumour-only selection/internal-cassette recipe. This is separate from matched-normal Design #2; use reproduce to replay the fixed lead or init NAME to develop an alternative.')
+        description='Run a Design #1-derived tumour-only selection/internal-cassette recipe. This is separate from lead Design #3; use reproduce to replay the fixed lead or init NAME to develop an alternative.')
     run.add_argument('recipe',type=Path);run.add_argument('--output',type=Path)
     run.add_argument('--prediction-cache',type=Path,help='Use new predictions and record their path/hash in the exported recipe')
     compare=sub.add_parser('compare',help='Compare complete recorded designs or compatible recipe-stage outputs')
@@ -41,11 +43,15 @@ def _main():
     args,extra=p.parse_known_args();repo=args.repo.resolve()
     if extra and args.command!='upstream':p.error('unrecognized arguments: '+' '.join(extra))
     if args.command=='verify':
-        from .lead import verify
-        design=(args.design or repo/'designs/design-2').resolve()
-        if design!=repo/'designs/design-2':p.error('verify currently checks the lead designs/design-2; use reproduce for other recorded designs')
+        from .current import verify
+        design=(args.design or repo/'designs/design-3').resolve()
+        if design==repo/'designs/design-2':
+            from .lead import verify
+        elif design!=repo/'designs/design-3':p.error('verify supports designs/design-3 and designs/design-2')
         result=verify(repo)
-        print(f'Verified lead Design #2: {result["selected_regions"]} regions, {result["protein_aa"]} aa. Recorded evidence, sequences and annotations agree. No rebuild or cloud job started.')
+        label='lead Design #3' if design==repo/'designs/design-3' else 'Design #2'
+        print(f'Verified {label}: {result["selected_regions"]} regions, {result["protein_aa"]} aa. Recorded evidence, sequences and annotations agree. No rebuild or cloud job started.')
+        if result.get('hash_only_native_outputs'):print('The large all-option prediction table is retained on Modal and hash-only locally; its absent bytes were not verified.')
         external=result.get('source_snapshot_verification',{}).get('external_source_hash_records_only',[])
         if external:print(f'{len(external)} upstream source files are referenced by recorded hash, not bundled or byte-verified locally; see docs/external-resources.md.')
     elif args.command=='reproduce':
@@ -54,6 +60,7 @@ def _main():
         print(f'Verified {result["name"]}: {result["selected_regions"]} regions, {result["protein_length_aa"]} aa. All recorded artifacts match; all solver phases are optimal.')
         external=result.get('source_snapshot_verification',{}).get('external_source_hash_records_only',[])
         if external:print(f'{len(external)} upstream source files remain external hash references; the replay does not execute them.')
+        if result.get('hash_only_native_outputs'):print('The large all-option prediction table remains hash-only locally; the replay used the included cost graph and selected-junction predictions.')
         if "rna_length_nt" in result:
             if result["rna_length_nt"] is None:
                 print('PolyA is unspecified. Known RNA/DNA segments match; complete RNA/template lengths are undefined.')
@@ -65,7 +72,7 @@ def _main():
         out=create(repo,args.name,args.source)
         print('Created',out)
         if args.source:
-            print('Design #1 tumour-only recipe: selection/internal cassette only; matched-normal Design #2 is not copied.')
+            print('Design #1 tumour-only recipe: selection/internal cassette only; matched-normal lead Design #3 is not copied.')
             print('Edit design.json and README.md, then run:')
             print('  yash-vaccine run '+str(out/'design.json'))
         else:

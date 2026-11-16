@@ -1,0 +1,35 @@
+{
+  "analysis_sha256": "a1dfc1bf173ed63f1319dcba959483d35859a303bc2277940ad1ccbc836a9875",
+  "every_region_and_occurrence_replayed": true,
+  "fresh_affinity_parity_passed": true,
+  "frozen_designs_modified": false,
+  "output_sha256": {
+    "current-plan.tsv": "0a9a74f521d216836ea2d66732fa3e6083c409cbfd8e93ef975a7c57d5bc931c",
+    "inference.json": "6f0731283ee0f8bc1e6cad91a26a3604ead39d6a89dada32f487bda414c25d08",
+    "peptide-annotations.tsv.gz": "4e8dfe0e4edef0cc92f6767789b7338fdf7877a6a1aa0e9176dd933fbb62044e",
+    "predictions.tsv.gz": "6aeb00ccd754913ec4af70e3601e2965117cebd2a7c40e461192f0652f600d7c",
+    "region-annotations.tsv": "d243a40eca8f6c1b8e50eb33fde390c46305a46922d43580616d6b01bea6cea8",
+    "request.json": "23359f2b363a3fb5b5dad4ff3325ccd95d454da134c7f3402f5cff08a28b99df",
+    "splice-gene-comparison.tsv": "0b98f0a3dd72be8a89fd23bdb236183e40575fdeed0f832c93b908e8d674a2ff",
+    "splice-window-comparison.tsv": "d6241b987feea773a796109085fcb6ef5dcd6d13764f14f8f5f64409ada6a87c",
+    "summary.json": "59b4b04b83c5a98153f8c2fd3840845c076a712c4c8b54a7a5cd8ba3be7fd6cd"
+  },
+  "source_sha256": {
+    "config/case.json": "b09820bd7cae9c84cd21901eed696ee089481bcd3f24768a9f2e47ea8a2e9f9a",
+    "data/shared-rna/fusions/inframe-request.json": "74854376e3c166202481e72766d37bcda75521c274e4114a025d3482d314cd15",
+    "data/shared-rna/splicing/independent-assessment/protein-screen/complete.json": "af6af08b651b4d56141e9884dec8d1db93dac359e50b8b6c33ab3cda8862d623",
+    "data/shared-rna/splicing/junction-only/selected.json": "1da98cfd9200fe2290ace91bda5415a0cd9998893c32fd369c8fa93324b77330",
+    "data/shared-rna/splicing/junction-only/verification.json": "d60935ec307445d1c51064aae644e8f46f5f263432c144187590a2df6d8384f9",
+    "data/shared-rna/splicing/sequence-screen/complete.json": "1bcb0a50a78409cd260ac9576db6354d33ba7638a9c060389bf539898366327a",
+    "designs/design-2/execution/rank/complete.json": "698f7b6129f7132ffbb984291c728f3390ba53893884e657b1e5dc67e5299a71",
+    "designs/design-2/inputs/integrated/rna-source-self-matches.json": "be30606282b02ab14ca0f1e964f4d0476f85d44bae601f973eded4c154f1e567",
+    "designs/design-2/inputs/rna/primary-proteins.tsv": "306204981e804c304edb43b8f311e629a1944fb3b89b3edb82b3af582b2d382d",
+    "designs/design-3-rna-reviewed/selection/selected.json": "045b69377bfd3d5c873276f6d5ce2517042756a9de8a1869878604e6c3d0f1b9",
+    "designs/design-3/inputs/contexts/contexts.tsv": "ef09f017d8c8eee40a6e5ea76afdb242933409a0cf77ba3f2331952c1fdfbec7",
+    "designs/design-3/inputs/predictions/patient-normal-matches.json": "ce4a0b4781a49a6dfe9b2313823e4921259da019f81991f7f7ed87ba2ca539b8",
+    "designs/design-3/inputs/predictions/reference-matches.json": "dfd4a1bbd353b7432e411d135594a89763ff10016647d17f598e43f919db06fa",
+    "designs/design-3/selection/selected.json": "54d87f6ab603f9be57dba09828e7b4816f61f84ad6437b0d4203387960b7d08a",
+    "designs/initial/inputs/checkpoints/provenance/construct-model-files.json": "94bb5bc4711f59e46b7ae6e25cf4a48db3be15e23052c9f2524b090b5246b860"
+  },
+  "status": "PASS"
+}

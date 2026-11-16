@@ -19,7 +19,7 @@ def main():
  allowed={o['key']:dict(bytes=o['bytes'],sha256=o['sha256']) for o in source}
  assert len(allowed)==len(source)==145
  assert not any(key.endswith(('.py','.R','.sh','.sif','.pt','.pth','.pkl','.npz')) for key in allowed),'Source code and pretrained models must come from their providers'
- index=dict(schema_version=1,case='TN25-112103',lead_design='design-2',repository_url='https://github.com/popvax/yash',snapshot_date='2026-11-09',private_bucket=True,
+ index=dict(schema_version=1,case='TN25-112103',lead_design='design-3',lead_design_url='https://github.com/popvax/yash/tree/main/designs/design-3',repository_url='https://github.com/popvax/yash',snapshot_date='2026-11-09',private_bucket=True,
   public_access='patient_and_case_analysis_allowlist',object_manifest_key='public/object-manifest.json',object_manifest_sha256=access['bundled_manifest_sha256'],catalogued_data_objects=len(source),
   original_normal_FASTQs_included=False,third_party_software_models_references_mirrored=False,
   external_resources_url='https://github.com/popvax/yash/blob/main/docs/external-resources.md',

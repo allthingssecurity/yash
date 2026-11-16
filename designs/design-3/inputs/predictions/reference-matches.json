@@ -1,0 +1,1902 @@
+{
+  "ATPSSMDVNSQ": {
+    "peptide": "ATPSSMDVNSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DHVLPIDYYFS": {
+    "peptide": "DHVLPIDYYFS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVNSQQLV": {
+    "peptide": "DVNSQQLV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVNSQQLVG": {
+    "peptide": "DVNSQQLVG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVNSQQLVGG": {
+    "peptide": "DVNSQQLVGG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVNSQQLVGGS": {
+    "peptide": "DVNSQQLVGGS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVYSYSIV": {
+    "peptide": "DVYSYSIV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVYSYSIVL": {
+    "peptide": "DVYSYSIVL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVYSYSIVLY": {
+    "peptide": "DVYSYSIVLY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DVYSYSIVLYE": {
+    "peptide": "DVYSYSIVLYE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DYYFSPQK": {
+    "peptide": "DYYFSPQK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DYYFSPQKT": {
+    "peptide": "DYYFSPQKT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DYYFSPQKTC": {
+    "peptide": "DYYFSPQKTC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "DYYFSPQKTCL": {
+    "peptide": "DYYFSPQKTCL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EKKMFRIRNK": {
+    "peptide": "EKKMFRIRNK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EKKMFRIRNKS": {
+    "peptide": "EKKMFRIRNKS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EVRYALAI": {
+    "peptide": "EVRYALAI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EVRYALAIF": {
+    "peptide": "EVRYALAIF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EVRYALAIFL": {
+    "peptide": "EVRYALAIFL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "EVRYALAIFLN": {
+    "peptide": "EVRYALAIFLN",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FQSDVYSYS": {
+    "peptide": "FQSDVYSYS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FQSDVYSYSI": {
+    "peptide": "FQSDVYSYSI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FQSDVYSYSIV": {
+    "peptide": "FQSDVYSYSIV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FRIRNKSY": {
+    "peptide": "FRIRNKSY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FRIRNKSYI": {
+    "peptide": "FRIRNKSYI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FRIRNKSYID": {
+    "peptide": "FRIRNKSYID",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FRIRNKSYIDR": {
+    "peptide": "FRIRNKSYIDR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FSFQSDVYSYS": {
+    "peptide": "FSFQSDVYSYS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FSPQKTCL": {
+    "peptide": "FSPQKTCL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FSPQKTCLI": {
+    "peptide": "FSPQKTCLI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FSPQKTCLIC": {
+    "peptide": "FSPQKTCLIC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "FSPQKTCLICG": {
+    "peptide": "FSPQKTCLICG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "GTKLYEVR": {
+    "peptide": "GTKLYEVR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "GTKLYEVRY": {
+    "peptide": "GTKLYEVRY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "GTKLYEVRYA": {
+    "peptide": "GTKLYEVRYA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "GTKLYEVRYAL": {
+    "peptide": "GTKLYEVRYAL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "HVLPIDYYFS": {
+    "peptide": "HVLPIDYYFS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "HVLPIDYYFSP": {
+    "peptide": "HVLPIDYYFSP",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IDYYFSPQ": {
+    "peptide": "IDYYFSPQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IDYYFSPQK": {
+    "peptide": "IDYYFSPQK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IDYYFSPQKT": {
+    "peptide": "IDYYFSPQKT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IDYYFSPQKTC": {
+    "peptide": "IDYYFSPQKTC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IIRGTKLYEV": {
+    "peptide": "IIRGTKLYEV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IIRGTKLYEVR": {
+    "peptide": "IIRGTKLYEVR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRGTKLYEV": {
+    "peptide": "IRGTKLYEV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRGTKLYEVR": {
+    "peptide": "IRGTKLYEVR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRGTKLYEVRY": {
+    "peptide": "IRGTKLYEVRY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRNKSYID": {
+    "peptide": "IRNKSYID",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRNKSYIDR": {
+    "peptide": "IRNKSYIDR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRNKSYIDRD": {
+    "peptide": "IRNKSYIDRD",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "IRNKSYIDRDS": {
+    "peptide": "IRNKSYIDRDS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KKMFRIRNK": {
+    "peptide": "KKMFRIRNK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KKMFRIRNKS": {
+    "peptide": "KKMFRIRNKS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KKMFRIRNKSY": {
+    "peptide": "KKMFRIRNKSY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KLYEVRYA": {
+    "peptide": "KLYEVRYA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KLYEVRYAL": {
+    "peptide": "KLYEVRYAL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KLYEVRYALA": {
+    "peptide": "KLYEVRYALA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KLYEVRYALAI": {
+    "peptide": "KLYEVRYALAI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KMFRIRNK": {
+    "peptide": "KMFRIRNK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KMFRIRNKS": {
+    "peptide": "KMFRIRNKS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KMFRIRNKSY": {
+    "peptide": "KMFRIRNKSY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KMFRIRNKSYI": {
+    "peptide": "KMFRIRNKSYI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KSYIDRDS": {
+    "peptide": "KSYIDRDS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KSYIDRDSE": {
+    "peptide": "KSYIDRDSE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KSYIDRDSEY": {
+    "peptide": "KSYIDRDSEY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "KSYIDRDSEYL": {
+    "peptide": "KSYIDRDSEYL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LPIDYYFS": {
+    "peptide": "LPIDYYFS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LPIDYYFSP": {
+    "peptide": "LPIDYYFSP",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LPIDYYFSPQ": {
+    "peptide": "LPIDYYFSPQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LPIDYYFSPQK": {
+    "peptide": "LPIDYYFSPQK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LYEVRYAL": {
+    "peptide": "LYEVRYAL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LYEVRYALA": {
+    "peptide": "LYEVRYALA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LYEVRYALAI": {
+    "peptide": "LYEVRYALAI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "LYEVRYALAIF": {
+    "peptide": "LYEVRYALAIF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MDVNSQQL": {
+    "peptide": "MDVNSQQL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MDVNSQQLV": {
+    "peptide": "MDVNSQQLV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MDVNSQQLVG": {
+    "peptide": "MDVNSQQLVG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MDVNSQQLVGG": {
+    "peptide": "MDVNSQQLVGG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MFRIRNKS": {
+    "peptide": "MFRIRNKS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MFRIRNKSY": {
+    "peptide": "MFRIRNKSY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MFRIRNKSYI": {
+    "peptide": "MFRIRNKSYI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "MFRIRNKSYID": {
+    "peptide": "MFRIRNKSYID",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NKSYIDRD": {
+    "peptide": "NKSYIDRD",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NKSYIDRDS": {
+    "peptide": "NKSYIDRDS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NKSYIDRDSE": {
+    "peptide": "NKSYIDRDSE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NKSYIDRDSEY": {
+    "peptide": "NKSYIDRDSEY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NSQQLVGG": {
+    "peptide": "NSQQLVGG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NSQQLVGGS": {
+    "peptide": "NSQQLVGGS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NSQQLVGGSQ": {
+    "peptide": "NSQQLVGGSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "NSQQLVGGSQA": {
+    "peptide": "NSQQLVGGSQA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PIDYYFSP": {
+    "peptide": "PIDYYFSP",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PIDYYFSPQ": {
+    "peptide": "PIDYYFSPQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PIDYYFSPQK": {
+    "peptide": "PIDYYFSPQK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PIDYYFSPQKT": {
+    "peptide": "PIDYYFSPQKT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PSSMDVNSQ": {
+    "peptide": "PSSMDVNSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PSSMDVNSQQ": {
+    "peptide": "PSSMDVNSQQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "PSSMDVNSQQL": {
+    "peptide": "PSSMDVNSQQL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QEKKMFRIRNK": {
+    "peptide": "QEKKMFRIRNK",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QQLVGGSQ": {
+    "peptide": "QQLVGGSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QQLVGGSQA": {
+    "peptide": "QQLVGGSQA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QQLVGGSQAF": {
+    "peptide": "QQLVGGSQAF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QQLVGGSQAFY": {
+    "peptide": "QQLVGGSQAFY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QSDVYSYS": {
+    "peptide": "QSDVYSYS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QSDVYSYSI": {
+    "peptide": "QSDVYSYSI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QSDVYSYSIV": {
+    "peptide": "QSDVYSYSIV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "QSDVYSYSIVL": {
+    "peptide": "QSDVYSYSIVL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RGTKLYEV": {
+    "peptide": "RGTKLYEV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RGTKLYEVR": {
+    "peptide": "RGTKLYEVR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RGTKLYEVRY": {
+    "peptide": "RGTKLYEVRY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RGTKLYEVRYA": {
+    "peptide": "RGTKLYEVRYA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RIIRGTKLYEV": {
+    "peptide": "RIIRGTKLYEV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RIRNKSYI": {
+    "peptide": "RIRNKSYI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RIRNKSYID": {
+    "peptide": "RIRNKSYID",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RIRNKSYIDR": {
+    "peptide": "RIRNKSYIDR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RIRNKSYIDRD": {
+    "peptide": "RIRNKSYIDRD",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RNKSYIDR": {
+    "peptide": "RNKSYIDR",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RNKSYIDRD": {
+    "peptide": "RNKSYIDRD",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RNKSYIDRDS": {
+    "peptide": "RNKSYIDRDS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "RNKSYIDRDSE": {
+    "peptide": "RNKSYIDRDSE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SDVYSYSI": {
+    "peptide": "SDVYSYSI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SDVYSYSIV": {
+    "peptide": "SDVYSYSIV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SDVYSYSIVL": {
+    "peptide": "SDVYSYSIVL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SDVYSYSIVLY": {
+    "peptide": "SDVYSYSIVLY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SFQSDVYSYS": {
+    "peptide": "SFQSDVYSYS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SFQSDVYSYSI": {
+    "peptide": "SFQSDVYSYSI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SIVLYELM": {
+    "peptide": "SIVLYELM",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SIVLYELMT": {
+    "peptide": "SIVLYELMT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SIVLYELMTG": {
+    "peptide": "SIVLYELMTG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SIVLYELMTGE": {
+    "peptide": "SIVLYELMTGE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SMDVNSQQ": {
+    "peptide": "SMDVNSQQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SMDVNSQQL": {
+    "peptide": "SMDVNSQQL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SMDVNSQQLV": {
+    "peptide": "SMDVNSQQLV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SMDVNSQQLVG": {
+    "peptide": "SMDVNSQQLVG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SPQKTCLI": {
+    "peptide": "SPQKTCLI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SPQKTCLIC": {
+    "peptide": "SPQKTCLIC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SPQKTCLICG": {
+    "peptide": "SPQKTCLICG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SPQKTCLICGD": {
+    "peptide": "SPQKTCLICGD",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SQQLVGGS": {
+    "peptide": "SQQLVGGS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SQQLVGGSQ": {
+    "peptide": "SQQLVGGSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SQQLVGGSQA": {
+    "peptide": "SQQLVGGSQA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SQQLVGGSQAF": {
+    "peptide": "SQQLVGGSQAF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SSMDVNSQ": {
+    "peptide": "SSMDVNSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SSMDVNSQQ": {
+    "peptide": "SSMDVNSQQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SSMDVNSQQL": {
+    "peptide": "SSMDVNSQQL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SSMDVNSQQLV": {
+    "peptide": "SSMDVNSQQLV",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SYSIVLYE": {
+    "peptide": "SYSIVLYE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SYSIVLYEL": {
+    "peptide": "SYSIVLYEL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SYSIVLYELM": {
+    "peptide": "SYSIVLYELM",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "SYSIVLYELMT": {
+    "peptide": "SYSIVLYELMT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TKLYEVRY": {
+    "peptide": "TKLYEVRY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TKLYEVRYA": {
+    "peptide": "TKLYEVRYA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TKLYEVRYAL": {
+    "peptide": "TKLYEVRYAL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TKLYEVRYALA": {
+    "peptide": "TKLYEVRYALA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TPSSMDVNSQ": {
+    "peptide": "TPSSMDVNSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "TPSSMDVNSQQ": {
+    "peptide": "TPSSMDVNSQQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VLPIDYYFS": {
+    "peptide": "VLPIDYYFS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VLPIDYYFSP": {
+    "peptide": "VLPIDYYFSP",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VLPIDYYFSPQ": {
+    "peptide": "VLPIDYYFSPQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VNSQQLVG": {
+    "peptide": "VNSQQLVG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VNSQQLVGG": {
+    "peptide": "VNSQQLVGG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VNSQQLVGGS": {
+    "peptide": "VNSQQLVGGS",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VNSQQLVGGSQ": {
+    "peptide": "VNSQQLVGGSQ",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VRYALAIF": {
+    "peptide": "VRYALAIF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VRYALAIFL": {
+    "peptide": "VRYALAIFL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VRYALAIFLN": {
+    "peptide": "VRYALAIFLN",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VRYALAIFLNY": {
+    "peptide": "VRYALAIFLNY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VYSYSIVL": {
+    "peptide": "VYSYSIVL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VYSYSIVLY": {
+    "peptide": "VYSYSIVLY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VYSYSIVLYE": {
+    "peptide": "VYSYSIVLYE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "VYSYSIVLYEL": {
+    "peptide": "VYSYSIVLYEL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YEVRYALA": {
+    "peptide": "YEVRYALA",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YEVRYALAI": {
+    "peptide": "YEVRYALAI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YEVRYALAIF": {
+    "peptide": "YEVRYALAIF",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YEVRYALAIFL": {
+    "peptide": "YEVRYALAIFL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YFSPQKTC": {
+    "peptide": "YFSPQKTC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YFSPQKTCL": {
+    "peptide": "YFSPQKTCL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YFSPQKTCLI": {
+    "peptide": "YFSPQKTCLI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YFSPQKTCLIC": {
+    "peptide": "YFSPQKTCLIC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSIVLYEL": {
+    "peptide": "YSIVLYEL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSIVLYELM": {
+    "peptide": "YSIVLYELM",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSIVLYELMT": {
+    "peptide": "YSIVLYELMT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSIVLYELMTG": {
+    "peptide": "YSIVLYELMTG",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSYSIVLY": {
+    "peptide": "YSYSIVLY",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSYSIVLYE": {
+    "peptide": "YSYSIVLYE",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSYSIVLYEL": {
+    "peptide": "YSYSIVLYEL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YSYSIVLYELM": {
+    "peptide": "YSYSIVLYELM",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YYFSPQKT": {
+    "peptide": "YYFSPQKT",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YYFSPQKTC": {
+    "peptide": "YYFSPQKTC",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YYFSPQKTCL": {
+    "peptide": "YYFSPQKTCL",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  },
+  "YYFSPQKTCLI": {
+    "peptide": "YYFSPQKTCLI",
+    "occurs": false,
+    "antigen_kind": "mutation",
+    "excluded_gene_ids": [],
+    "sources": [],
+    "source_provenance_complete": true,
+    "genome_release": "",
+    "reference_sha256": ""
+  }
+}

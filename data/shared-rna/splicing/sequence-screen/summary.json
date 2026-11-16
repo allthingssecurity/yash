@@ -1,0 +1,101 @@
+{
+  "status": "RNA_POOL_SCREEN_COMPLETED",
+  "windows": 752,
+  "events": 42,
+  "genes": 22,
+  "window_tiers": {
+    "PRIMARY": 505,
+    "EXCLUDE": 212,
+    "REVIEW_NORMAL_EVIDENCE": 35
+  },
+  "primary_genes": 15,
+  "primary_events": 33,
+  "unique_normal_sites": 102,
+  "reference_queries": 2362,
+  "original_affinity_peptides": 2034,
+  "cached_prediction_pairs": 12204,
+  "new_model_inference": false,
+  "reference_ensembl_translations": 115262,
+  "reference_uniprot_sequences": 286017,
+  "all_native_old_scores_verified": true,
+  "all_recorded_alignment_paths_examined": true,
+  "normal_sites_classifications": {
+    "NORMAL_REFERENCE_SUPPORTED": 59,
+    "PRESENT_IN_NORMAL": 19,
+    "UNRESOLVED_NORMAL_EVIDENCE": 24
+  },
+  "normal_count_implementation_disagreements": 0,
+  "policy": {
+    "admission_affinity_nm": 500,
+    "all_recorded_paths": true,
+    "binding": "Reuse checksum-pinned MHCflurry 2.3.14 affinity predictions and native Vaxrank 3.46.0 contributions; no new model inference.",
+    "expression": "Positive supplied transformed gene value; affinity contribution sum times its square root. No raw-read abundance or splice-fraction multiplier.",
+    "hydropathy": "19-aa Kyte-Doolittle mean strictly greater than 1.6 is excluded.",
+    "input_pool": "Recorded windows passing native RNA/frame/peptide review, existing HLA-I admission, coordinate-normal ND and limited strand checks.",
+    "junction_context_targets": "When the same recorded alignment path translated with reference bases is already nonself, normal-DNA changes are reported separately; no somatic-DNA requirement is invented for an RNA junction.",
+    "limits": "RNA sequence support does not prove protein translation, unique genomic placement, RNA editing, tumour specificity, HLA presentation or immunogenicity. Normal catalog ND is coordinate-specific.",
+    "minimum_base_quality": 20,
+    "minimum_mapping_quality": 20,
+    "normal_ALT_below": 3,
+    "normal_change_dependent_targets": "Require resolved reference-supported or present-in-normal calls for peptide-overlapping nonsynonymous differences and at least one reference-supported difference when novelty relies on the RNA changes. A normal-carried background change does not by itself disqualify a separate RNA change. Missing/conflicting or solely normal-carried changes remain in the review tier. These are nominated-locus checks, not proof of unique repeat origin.",
+    "normal_min_GQ": 20,
+    "normal_min_fragments": 20,
+    "peptide_lengths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "ranking": "Best eligible window per event, then gene; original event/window tie-break. No top-N quota or automatic construct additions.",
+    "reference_scope": "All Ensembl 103 translations, UniProt UP000005640 canonical/additional isoforms and recorded bounded patient-normal coding/HLA models.",
+    "schema_version": 1,
+    "scope": "Screen reconstructed RNA windows before choosing additional splice-source genes; do not change a construct automatically."
+  },
+  "source_hashes": {
+    "RNA_BAM_verification": {
+      "path": "data/shared-rna/splicing/read-verification/verification.json",
+      "sha256": "97411cdd0acd2c44c0e9bef4b25649a742ba639071f86fa4bc900c8c48124d67"
+    },
+    "affinities": {
+      "path": "data/shared-rna/splicing/scoring/affinities.tsv.gz",
+      "sha256": "1ea3fdab951f7cea6f91246b665d6fe9e730ae8b7ed428fc01ea55d156e018cb"
+    },
+    "native_reference_matches": {
+      "path": "data/shared-rna/splicing/reference-check/matches.json.gz",
+      "sha256": "5ead9ac610d04116132f7dff0cc134af5f1fc9d96b0751b59fbed52d29f9c5a7"
+    },
+    "normal_screen": {
+      "path": "data/shared-rna/splicing/normal-screen/all-windows.tsv.gz",
+      "sha256": "5cf4fb65997e233b50f009604af60a9a764fd7e15756585e82f10974388151f8"
+    },
+    "normal_screen_verification": {
+      "path": "data/shared-rna/splicing/normal-screen/verification.json",
+      "sha256": "bd2900425dfe58bbb4970b8e2e1a3ffd0c1349dfe2dc552d2c8e857fc26395db"
+    },
+    "normal_selection_policy": {
+      "path": "data/shared-rna/splicing/normal-screen/selection-policy.json",
+      "sha256": "d5b7e28fa294b096f054c58d43892325be95c9a1bea5fe3f785103c60745e367"
+    },
+    "reconstruction": {
+      "path": "data/shared-rna/splicing/reconstruction/patient-windows.jsonl.gz",
+      "sha256": "b2d962796a1942f974bb61a70952fea6140200bed4773ce03f8d8d98c714e9d2"
+    },
+    "screening_policy": {
+      "path": "tools/rna_evidence/pool-policy.json",
+      "sha256": "55f35186452b1ea1ae2cf513470abafc1e6c3f9ba9b21978fe91c418d9bdfa53"
+    },
+    "uniprot_source": {
+      "path": "designs/design-3/inputs/sequence-review/uniprot-reference-check.json",
+      "sha256": "02e1973907a018bd2612dbe1ba76a0ee8426aa51492257fc3450afed1b004d4c"
+    }
+  },
+  "normal_bam_sha256": "1d864150551f6d47260050c52105c88b7b9f4120d005be33656094767326ce18",
+  "hydrophobicity_source_sha256": "6c5d2941b4cd0ff8eea5e1bf23e26ee07577a49da19463bedcee01c3557d17ce",
+  "versions": {
+    "vaxrank": "3.46.0",
+    "isovar": "1.57.1",
+    "mhctools": "4.0.6",
+    "pysam": "0.23.3"
+  },
+  "construct_changed": false
+}

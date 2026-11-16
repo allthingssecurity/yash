@@ -1,0 +1,29 @@
+{
+  "status": "VERIFIED_RNA_CANDIDATE_EXPORT",
+  "native_receipt_sha256": "1bcb0a50a78409cd260ac9576db6354d33ba7638a9c060389bf539898366327a",
+  "request_sha256": "63be01e057298b2c73be1c91cd7f088434959288f2f07ccc5efaa22c4f09f742",
+  "admitted_windows": 505,
+  "files": {
+    "admitted.json": {
+      "bytes": 815019,
+      "sha256": "ad8e9b454f75d8f34de535fc79efb8e9a3881bf4f8ac410c56d35c1a8c9de4a2"
+    },
+    "gene-ranking.tsv": {
+      "bytes": 7655,
+      "sha256": "cb3fa350bd8fdcffb213a8a0a38eb4e3cecc5dc8559d292b103f584a2351dbcf"
+    },
+    "event-ranking.tsv": {
+      "bytes": 16562,
+      "sha256": "b39d89c0be178f2b82df5bed910b25c9e609222ee6d0cf0a467f19121681c2e0"
+    },
+    "review-gene-ranking.tsv": {
+      "bytes": 7655,
+      "sha256": "cb3fa350bd8fdcffb213a8a0a38eb4e3cecc5dc8559d292b103f584a2351dbcf"
+    },
+    "verification.json": {
+      "bytes": 493,
+      "sha256": "8e592ba738b0098bb9ba4c73d6797e8309645f0fa07cfc86ff1f40b847ab98ba"
+    }
+  },
+  "replay_source_sha256": "ecc93eac178a54656d2524f0cb0b297c371bb9b6eb5e99e5a01dcf3c85c6f0ad"
+}

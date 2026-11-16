@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETED",
+  "policy_sha256": "71fd6b031ea2093b01d434c246a81fb15e5461f6aeb2bf54efa5adbbf3e21709",
+  "selector_sha256": "ae89d54787e2e582b24821b06406ea8726b3501c261bef04eda0e1bd8777eeda",
+  "outputs": {
+    "selected.json": {
+      "bytes": 57579,
+      "sha256": "3436a374b81e784b2918b5839b28bb50a869c5c6a3ffc29fb0dc561d7cf401b1"
+    },
+    "selected.tsv": {
+      "bytes": 28838,
+      "sha256": "8c7d3e4fe6aaf80e112aafb36c63e0cd387990c657cb997d5a3549402c8d0110"
+    },
+    "selected.fasta": {
+      "bytes": 1896,
+      "sha256": "de85cb5266e4c7249a565055cfd3bc489b65da2a2f2cb25ccfbdad4e9948abcf"
+    },
+    "summary.json": {
+      "bytes": 3946,
+      "sha256": "0b07f65007e509316bbcc121e1ea0422a812dbc9f0ec759a37989e6516cb9c84"
+    }
+  }
+}

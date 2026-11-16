@@ -1,0 +1,9 @@
+{
+  "remote": "/data/results/TN25-112103/rna-normal-self-audit-20261112/b04490d358c0-ea937cad87f1",
+  "request_sha256": "b04490d358c0ce1127055205c86f298b31bd6ce58d1edcbc56bf010a79a018a6",
+  "bundle_sha256": "ea937cad87f188017285cff81916c06db93a499d23cbe2602e6941fcc991dada",
+  "sandbox_id": "sb-01M77WBWK87BW3F5QCKN29ZVSG",
+  "image_id": "im-hX1h6HknDMvasm9Z6q530H",
+  "exit_code": 0,
+  "status": "COMPLETED"
+}

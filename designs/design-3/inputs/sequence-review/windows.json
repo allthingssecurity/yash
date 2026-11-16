@@ -1,0 +1,4378 @@
+[
+  {
+    "sequence": "ALGQMPIFPDLSHTTLSLDFSQTNL",
+    "coding_sequence": "GCCCTCGGTCAGATGCCCATTTTTCCAGACCTCAGCCATACAACCCTTTCTCTAGACTTCAGCCAGACAAACCTC",
+    "start_nt_relative_to_join": -30,
+    "junction_nt_offset": 30,
+    "target_start_in_window": 10,
+    "target_end_in_window": 10,
+    "target_mode": "junction_boundary",
+    "genomic_positions_0based": [
+      169541416,
+      169541415,
+      169541414,
+      169541413,
+      169541412,
+      169541411,
+      169541410,
+      169541409,
+      169541408,
+      169541407,
+      169541406,
+      169541405,
+      169541404,
+      169541403,
+      169541402,
+      169541401,
+      169541400,
+      169541399,
+      169541398,
+      169541397,
+      169541396,
+      169541395,
+      169541394,
+      169541393,
+      169541392,
+      169541391,
+      169541390,
+      169541389,
+      169541388,
+      169541387,
+      169541251,
+      169541250,
+      169541249,
+      169541248,
+      169541247,
+      169541246,
+      169541245,
+      169541244,
+      169541243,
+      169541242,
+      169541241,
+      169541240,
+      169541239,
+      169541238,
+      169541237,
+      169541236,
+      169541235,
+      169541234,
+      169541233,
+      169541232,
+      169541231,
+      169541230,
+      169541229,
+      169541228,
+      169541227,
+      169541226,
+      169541225,
+      169541224,
+      169541223,
+      169541222,
+      169541221,
+      169541220,
+      169541219,
+      169541218,
+      169541217,
+      169541216,
+      169541215,
+      169541214,
+      169541213,
+      169541212,
+      169541211,
+      169541210,
+      169541074,
+      169541073,
+      169541072
+    ],
+    "window_id": "RNA_SPLICE_02d2aaa2648c09ee4c38",
+    "context_phase": 0,
+    "source": "SPLICE",
+    "event_id": "ENSG00000198734:E28.3_169541388-E28.3_169541252",
+    "gene_id": "ENSG00000198734",
+    "gene": "F5",
+    "coordinates": "chr1:169541252-169541388(-)",
+    "fragment_count": 2,
+    "fragment_names": [
+      "A01238:602:H33L5DSXF:1:2339:20265:24032",
+      "A01238:602:H33L5DSXF:2:2451:15239:23563"
+    ],
+    "genomic_path_support": [
+      {
+        "genomic_positions_0based": [
+          169541416,
+          169541415,
+          169541414,
+          169541413,
+          169541412,
+          169541411,
+          169541410,
+          169541409,
+          169541408,
+          169541407,
+          169541406,
+          169541405,
+          169541404,
+          169541403,
+          169541402,
+          169541401,
+          169541400,
+          169541399,
+          169541398,
+          169541397,
+          169541396,
+          169541395,
+          169541394,
+          169541393,
+          169541392,
+          169541391,
+          169541390,
+          169541389,
+          169541388,
+          169541387,
+          169541251,
+          169541250,
+          169541249,
+          169541248,
+          169541247,
+          169541246,
+          169541245,
+          169541244,
+          169541243,
+          169541242,
+          169541241,
+          169541240,
+          169541239,
+          169541238,
+          169541237,
+          169541236,
+          169541235,
+          169541234,
+          169541233,
+          169541232,
+          169541231,
+          169541230,
+          169541229,
+          169541228,
+          169541227,
+          169541226,
+          169541225,
+          169541224,
+          169541223,
+          169541222,
+          169541221,
+          169541220,
+          169541219,
+          169541218,
+          169541217,
+          169541216,
+          169541215,
+          169541214,
+          169541213,
+          169541212,
+          169541211,
+          169541210,
+          169541074,
+          169541073,
+          169541072
+        ],
+        "fragment_names": [
+          "A01238:602:H33L5DSXF:1:2339:20265:24032",
+          "A01238:602:H33L5DSXF:2:2451:15239:23563"
+        ],
+        "upstream_frame_anchors": [
+          {
+            "transcript_id": "ENST00000367797.9",
+            "upstream_query_offset": -43,
+            "upstream_CDS_index_0based": 3659,
+            "anchor_bases": 43,
+            "first_complete_codon_query_offset": -42,
+            "upstream_coding_sequence": "AACCTTTCCCCAGCCCTCGGTCAGATGCCCATTTTTCCAGAC",
+            "upstream_coding_positions_0based": [
+              169541428,
+              169541427,
+              169541426,
+              169541425,
+              169541424,
+              169541423,
+              169541422,
+              169541421,
+              169541420,
+              169541419,
+              169541418,
+              169541417,
+              169541416,
+              169541415,
+              169541414,
+              169541413,
+              169541412,
+              169541411,
+              169541410,
+              169541409,
+              169541408,
+              169541407,
+              169541406,
+              169541405,
+              169541404,
+              169541403,
+              169541402,
+              169541401,
+              169541400,
+              169541399,
+              169541398,
+              169541397,
+              169541396,
+              169541395,
+              169541394,
+              169541393,
+              169541392,
+              169541391,
+              169541390,
+              169541389,
+              169541388,
+              169541387
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:1:2339:20265:24032",
+              "A01238:602:H33L5DSXF:2:2451:15239:23563"
+            ]
+          },
+          {
+            "transcript_id": "ENST00000367796.3",
+            "upstream_query_offset": -43,
+            "upstream_CDS_index_0based": 3674,
+            "anchor_bases": 43,
+            "first_complete_codon_query_offset": -42,
+            "upstream_coding_sequence": "AACCTTTCCCCAGCCCTCGGTCAGATGCCCATTTTTCCAGAC",
+            "upstream_coding_positions_0based": [
+              169541428,
+              169541427,
+              169541426,
+              169541425,
+              169541424,
+              169541423,
+              169541422,
+              169541421,
+              169541420,
+              169541419,
+              169541418,
+              169541417,
+              169541416,
+              169541415,
+              169541414,
+              169541413,
+              169541412,
+              169541411,
+              169541410,
+              169541409,
+              169541408,
+              169541407,
+              169541406,
+              169541405,
+              169541404,
+              169541403,
+              169541402,
+              169541401,
+              169541400,
+              169541399,
+              169541398,
+              169541397,
+              169541396,
+              169541395,
+              169541394,
+              169541393,
+              169541392,
+              169541391,
+              169541390,
+              169541389,
+              169541388,
+              169541387
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:1:2339:20265:24032",
+              "A01238:602:H33L5DSXF:2:2451:15239:23563"
+            ]
+          }
+        ]
+      }
+    ],
+    "genomic_path_count": 1,
+    "upstream_frame_anchors": [
+      {
+        "transcript_id": "ENST00000367797.9",
+        "upstream_query_offset": -43,
+        "upstream_CDS_index_0based": 3659,
+        "anchor_bases": 43,
+        "first_complete_codon_query_offset": -42,
+        "upstream_coding_sequence": "AACCTTTCCCCAGCCCTCGGTCAGATGCCCATTTTTCCAGAC",
+        "upstream_coding_positions_0based": [
+          169541428,
+          169541427,
+          169541426,
+          169541425,
+          169541424,
+          169541423,
+          169541422,
+          169541421,
+          169541420,
+          169541419,
+          169541418,
+          169541417,
+          169541416,
+          169541415,
+          169541414,
+          169541413,
+          169541412,
+          169541411,
+          169541410,
+          169541409,
+          169541408,
+          169541407,
+          169541406,
+          169541405,
+          169541404,
+          169541403,
+          169541402,
+          169541401,
+          169541400,
+          169541399,
+          169541398,
+          169541397,
+          169541396,
+          169541395,
+          169541394,
+          169541393,
+          169541392,
+          169541391,
+          169541390,
+          169541389,
+          169541388,
+          169541387
+        ]
+      },
+      {
+        "transcript_id": "ENST00000367796.3",
+        "upstream_query_offset": -43,
+        "upstream_CDS_index_0based": 3674,
+        "anchor_bases": 43,
+        "first_complete_codon_query_offset": -42,
+        "upstream_coding_sequence": "AACCTTTCCCCAGCCCTCGGTCAGATGCCCATTTTTCCAGAC",
+        "upstream_coding_positions_0based": [
+          169541428,
+          169541427,
+          169541426,
+          169541425,
+          169541424,
+          169541423,
+          169541422,
+          169541421,
+          169541420,
+          169541419,
+          169541418,
+          169541417,
+          169541416,
+          169541415,
+          169541414,
+          169541413,
+          169541412,
+          169541411,
+          169541410,
+          169541409,
+          169541408,
+          169541407,
+          169541406,
+          169541405,
+          169541404,
+          169541403,
+          169541402,
+          169541401,
+          169541400,
+          169541399,
+          169541398,
+          169541397,
+          169541396,
+          169541395,
+          169541394,
+          169541393,
+          169541392,
+          169541391,
+          169541390,
+          169541389,
+          169541388,
+          169541387
+        ]
+      }
+    ],
+    "supporting_transcripts": "ENST00000367796.3;ENST00000367797.9",
+    "supplied_transformed_gene_tpm": 470.59834,
+    "native_event_review_tier": "PASS",
+    "native_event_review_score": 100,
+    "native_event_review_flags": [],
+    "motif": "CT-AC",
+    "junction_is_annotated": false,
+    "coordinate_topology": "LINEAR_SPLICE_GAP",
+    "region_id": "REG_ae4e341fdea4a4a9e453",
+    "reference_translation_on_recorded_path": "ALGQMPISPDLSHTTLSLDFSQTNL",
+    "nucleotide_differences": [
+      {
+        "window_nt_position_1based": 23,
+        "allele": [
+          "chr1",
+          169541395,
+          "G",
+          "A"
+        ],
+        "reference_codon": "TCT",
+        "rna_codon": "TTT",
+        "aa_position_1based": 8,
+        "reference_amino_acid": "S",
+        "rna_inferred_amino_acid": "F",
+        "nonsynonymous": true,
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 50,
+            "usable_fragment_names": 50,
+            "fragment_counts": {
+              "REF": 50
+            },
+            "quality_passing_observations": {
+              "REF": 75
+            },
+            "quality_assessment_counts": {
+              "passed": 75,
+              "failed": 3
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 169541287,
+                "ref": "G",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 169542316,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 72,
+                  "GQ": 99,
+                  "MIN_DP": 57,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "G": 50
+            },
+            "qualifying_names": 50,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "G": 1300
+            },
+            "qualifying_names": 1300,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "G": 1441,
+              "A": 5,
+              "C": 1
+            },
+            "qualifying_names": 1447,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      }
+    ],
+    "peptide_occurrences": [
+      {
+        "peptide": "ALGQMPIF",
+        "start_0based": 0,
+        "end_0based_exclusive": 8,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "LGQMPIFP",
+        "start_0based": 1,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GQMPIFPD",
+        "start_0based": 2,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "QMPIFPDL",
+        "start_0based": 3,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MPIFPDLS",
+        "start_0based": 4,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PIFPDLSH",
+        "start_0based": 5,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "IFPDLSHT",
+        "start_0based": 6,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FPDLSHTT",
+        "start_0based": 7,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PDLSHTTL",
+        "start_0based": 8,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "DLSHTTLS",
+        "start_0based": 9,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSHTTLSL",
+        "start_0based": 10,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SHTTLSLD",
+        "start_0based": 11,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTTLSLDF",
+        "start_0based": 12,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTLSLDFS",
+        "start_0based": 13,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TLSLDFSQ",
+        "start_0based": 14,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSLDFSQT",
+        "start_0based": 15,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLDFSQTN",
+        "start_0based": 16,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LDFSQTNL",
+        "start_0based": 17,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "ALGQMPIFP",
+        "start_0based": 0,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "LGQMPIFPD",
+        "start_0based": 1,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GQMPIFPDL",
+        "start_0based": 2,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "QMPIFPDLS",
+        "start_0based": 3,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MPIFPDLSH",
+        "start_0based": 4,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PIFPDLSHT",
+        "start_0based": 5,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "IFPDLSHTT",
+        "start_0based": 6,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FPDLSHTTL",
+        "start_0based": 7,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PDLSHTTLS",
+        "start_0based": 8,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "DLSHTTLSL",
+        "start_0based": 9,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSHTTLSLD",
+        "start_0based": 10,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SHTTLSLDF",
+        "start_0based": 11,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTTLSLDFS",
+        "start_0based": 12,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTLSLDFSQ",
+        "start_0based": 13,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TLSLDFSQT",
+        "start_0based": 14,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSLDFSQTN",
+        "start_0based": 15,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLDFSQTNL",
+        "start_0based": 16,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "ALGQMPIFPD",
+        "start_0based": 0,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "LGQMPIFPDL",
+        "start_0based": 1,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GQMPIFPDLS",
+        "start_0based": 2,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "QMPIFPDLSH",
+        "start_0based": 3,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MPIFPDLSHT",
+        "start_0based": 4,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PIFPDLSHTT",
+        "start_0based": 5,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "IFPDLSHTTL",
+        "start_0based": 6,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FPDLSHTTLS",
+        "start_0based": 7,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PDLSHTTLSL",
+        "start_0based": 8,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "DLSHTTLSLD",
+        "start_0based": 9,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSHTTLSLDF",
+        "start_0based": 10,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SHTTLSLDFS",
+        "start_0based": 11,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTTLSLDFSQ",
+        "start_0based": 12,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTLSLDFSQT",
+        "start_0based": 13,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TLSLDFSQTN",
+        "start_0based": 14,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSLDFSQTNL",
+        "start_0based": 15,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "ALGQMPIFPDL",
+        "start_0based": 0,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "LGQMPIFPDLS",
+        "start_0based": 1,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GQMPIFPDLSH",
+        "start_0based": 2,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "QMPIFPDLSHT",
+        "start_0based": 3,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MPIFPDLSHTT",
+        "start_0based": 4,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PIFPDLSHTTL",
+        "start_0based": 5,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "IFPDLSHTTLS",
+        "start_0based": 6,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FPDLSHTTLSL",
+        "start_0based": 7,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PDLSHTTLSLD",
+        "start_0based": 8,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "DLSHTTLSLDF",
+        "start_0based": 9,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LSHTTLSLDFS",
+        "start_0based": 10,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SHTTLSLDFSQ",
+        "start_0based": 11,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTTLSLDFSQT",
+        "start_0based": 12,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTLSLDFSQTN",
+        "start_0based": 13,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TLSLDFSQTNL",
+        "start_0based": 14,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      }
+    ],
+    "broad_reference_full_window_hit": null,
+    "target_peptides_after_broad_reference_and_personal_self_exclusion": [
+      "ALGQMPIFPDL",
+      "FPDLSHTT",
+      "FPDLSHTTL",
+      "FPDLSHTTLS",
+      "FPDLSHTTLSL",
+      "GQMPIFPDL",
+      "GQMPIFPDLS",
+      "GQMPIFPDLSH",
+      "IFPDLSHT",
+      "IFPDLSHTT",
+      "IFPDLSHTTL",
+      "IFPDLSHTTLS",
+      "LGQMPIFPDL",
+      "LGQMPIFPDLS",
+      "MPIFPDLS",
+      "MPIFPDLSH",
+      "MPIFPDLSHT",
+      "MPIFPDLSHTT",
+      "PIFPDLSH",
+      "PIFPDLSHT",
+      "PIFPDLSHTT",
+      "PIFPDLSHTTL",
+      "QMPIFPDL",
+      "QMPIFPDLS",
+      "QMPIFPDLSH",
+      "QMPIFPDLSHT"
+    ]
+  },
+  {
+    "sequence": "PSSFSMAKTSTSLPYHTSSTHHPEV",
+    "coding_sequence": "CCAAGCTCATTTAGCATGGCCAAAACTTCTACATCCCTACCTTACCACACTTCCTCCACACACCATCCTGAAGTC",
+    "start_nt_relative_to_join": -26,
+    "junction_nt_offset": 26,
+    "target_start_in_window": 8,
+    "target_end_in_window": 9,
+    "target_mode": "junction_codon",
+    "genomic_positions_0based": [
+      1017591,
+      1017590,
+      1017589,
+      1017588,
+      1017587,
+      1017586,
+      1017585,
+      1017584,
+      1017583,
+      1017582,
+      1017581,
+      1017580,
+      1017579,
+      1017578,
+      1017577,
+      1017576,
+      1017575,
+      1017574,
+      1017573,
+      1017572,
+      1017571,
+      1017570,
+      1017569,
+      1017568,
+      1017567,
+      1017566,
+      1017058,
+      1017057,
+      1017056,
+      1017055,
+      1017054,
+      1017053,
+      1017052,
+      1017051,
+      1017050,
+      1017049,
+      1017048,
+      1017047,
+      1017046,
+      1017045,
+      1017044,
+      1017043,
+      1017042,
+      1017041,
+      1017040,
+      1017039,
+      1017038,
+      1017037,
+      1017036,
+      1017035,
+      1017034,
+      1017033,
+      1017032,
+      1017031,
+      1017030,
+      1017029,
+      1017028,
+      1017027,
+      1017026,
+      1017025,
+      1017024,
+      1017023,
+      1017022,
+      1017021,
+      1017020,
+      1017019,
+      1017018,
+      1017017,
+      1017016,
+      1017015,
+      1017014,
+      1017013,
+      1017012,
+      1017011,
+      1017010
+    ],
+    "window_id": "RNA_SPLICE_1a0288c99d61f107bc85",
+    "context_phase": 2,
+    "source": "SPLICE",
+    "event_id": "ENSG00000184956:E31.1_1017567-E31.1_1017059",
+    "gene_id": "ENSG00000184956",
+    "gene": "MUC6",
+    "coordinates": "chr11:1017059-1017567(-)",
+    "fragment_count": 3,
+    "fragment_names": [
+      "A01238:602:H33L5DSXF:2:2243:17571:30671",
+      "A01238:602:H33L5DSXF:2:2576:12210:8547",
+      "A01238:602:H33L5DSXF:3:2650:15736:4038"
+    ],
+    "genomic_path_support": [
+      {
+        "genomic_positions_0based": [
+          1017591,
+          1017590,
+          1017589,
+          1017588,
+          1017587,
+          1017586,
+          1017585,
+          1017584,
+          1017583,
+          1017582,
+          1017581,
+          1017580,
+          1017579,
+          1017578,
+          1017577,
+          1017576,
+          1017575,
+          1017574,
+          1017573,
+          1017572,
+          1017571,
+          1017570,
+          1017569,
+          1017568,
+          1017567,
+          1017566,
+          1017058,
+          1017057,
+          1017056,
+          1017055,
+          1017054,
+          1017053,
+          1017052,
+          1017051,
+          1017050,
+          1017049,
+          1017048,
+          1017047,
+          1017046,
+          1017045,
+          1017044,
+          1017043,
+          1017042,
+          1017041,
+          1017040,
+          1017039,
+          1017038,
+          1017037,
+          1017036,
+          1017035,
+          1017034,
+          1017033,
+          1017032,
+          1017031,
+          1017030,
+          1017029,
+          1017028,
+          1017027,
+          1017026,
+          1017025,
+          1017024,
+          1017023,
+          1017022,
+          1017021,
+          1017020,
+          1017019,
+          1017018,
+          1017017,
+          1017016,
+          1017015,
+          1017014,
+          1017013,
+          1017012,
+          1017011,
+          1017010
+        ],
+        "fragment_names": [
+          "A01238:602:H33L5DSXF:2:2243:17571:30671",
+          "A01238:602:H33L5DSXF:2:2576:12210:8547",
+          "A01238:602:H33L5DSXF:3:2650:15736:4038"
+        ],
+        "upstream_frame_anchors": [
+          {
+            "transcript_id": "ENST00000421673.7",
+            "upstream_query_offset": -40,
+            "upstream_CDS_index_0based": 5194,
+            "anchor_bases": 40,
+            "first_complete_codon_query_offset": -38,
+            "upstream_coding_sequence": "ACCAGCCAATCCCCAAGCTCATTTAGCATGGCCAAA",
+            "upstream_coding_positions_0based": [
+              1017603,
+              1017602,
+              1017601,
+              1017600,
+              1017599,
+              1017598,
+              1017597,
+              1017596,
+              1017595,
+              1017594,
+              1017593,
+              1017592,
+              1017591,
+              1017590,
+              1017589,
+              1017588,
+              1017587,
+              1017586,
+              1017585,
+              1017584,
+              1017583,
+              1017582,
+              1017581,
+              1017580,
+              1017579,
+              1017578,
+              1017577,
+              1017576,
+              1017575,
+              1017574,
+              1017573,
+              1017572,
+              1017571,
+              1017570,
+              1017569,
+              1017568
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:2:2243:17571:30671"
+            ]
+          },
+          {
+            "transcript_id": "ENST00000421673.7",
+            "upstream_query_offset": -49,
+            "upstream_CDS_index_0based": 5185,
+            "anchor_bases": 49,
+            "first_complete_codon_query_offset": -47,
+            "upstream_coding_sequence": "ACCAGTGGGACCAGCCAATCCCCAAGCTCATTTAGCATGGCCAAA",
+            "upstream_coding_positions_0based": [
+              1017612,
+              1017611,
+              1017610,
+              1017609,
+              1017608,
+              1017607,
+              1017606,
+              1017605,
+              1017604,
+              1017603,
+              1017602,
+              1017601,
+              1017600,
+              1017599,
+              1017598,
+              1017597,
+              1017596,
+              1017595,
+              1017594,
+              1017593,
+              1017592,
+              1017591,
+              1017590,
+              1017589,
+              1017588,
+              1017587,
+              1017586,
+              1017585,
+              1017584,
+              1017583,
+              1017582,
+              1017581,
+              1017580,
+              1017579,
+              1017578,
+              1017577,
+              1017576,
+              1017575,
+              1017574,
+              1017573,
+              1017572,
+              1017571,
+              1017570,
+              1017569,
+              1017568
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:2:2576:12210:8547"
+            ]
+          },
+          {
+            "transcript_id": "ENST00000421673.7",
+            "upstream_query_offset": -37,
+            "upstream_CDS_index_0based": 5197,
+            "anchor_bases": 37,
+            "first_complete_codon_query_offset": -35,
+            "upstream_coding_sequence": "AGCCAATCCCCAAGCTCATTTAGCATGGCCAAA",
+            "upstream_coding_positions_0based": [
+              1017600,
+              1017599,
+              1017598,
+              1017597,
+              1017596,
+              1017595,
+              1017594,
+              1017593,
+              1017592,
+              1017591,
+              1017590,
+              1017589,
+              1017588,
+              1017587,
+              1017586,
+              1017585,
+              1017584,
+              1017583,
+              1017582,
+              1017581,
+              1017580,
+              1017579,
+              1017578,
+              1017577,
+              1017576,
+              1017575,
+              1017574,
+              1017573,
+              1017572,
+              1017571,
+              1017570,
+              1017569,
+              1017568
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:3:2650:15736:4038"
+            ]
+          }
+        ]
+      }
+    ],
+    "genomic_path_count": 1,
+    "upstream_frame_anchors": [
+      {
+        "transcript_id": "ENST00000421673.7",
+        "upstream_query_offset": -40,
+        "upstream_CDS_index_0based": 5194,
+        "anchor_bases": 40,
+        "first_complete_codon_query_offset": -38,
+        "upstream_coding_sequence": "ACCAGCCAATCCCCAAGCTCATTTAGCATGGCCAAA",
+        "upstream_coding_positions_0based": [
+          1017603,
+          1017602,
+          1017601,
+          1017600,
+          1017599,
+          1017598,
+          1017597,
+          1017596,
+          1017595,
+          1017594,
+          1017593,
+          1017592,
+          1017591,
+          1017590,
+          1017589,
+          1017588,
+          1017587,
+          1017586,
+          1017585,
+          1017584,
+          1017583,
+          1017582,
+          1017581,
+          1017580,
+          1017579,
+          1017578,
+          1017577,
+          1017576,
+          1017575,
+          1017574,
+          1017573,
+          1017572,
+          1017571,
+          1017570,
+          1017569,
+          1017568
+        ]
+      }
+    ],
+    "supporting_transcripts": "ENST00000421673.7",
+    "supplied_transformed_gene_tpm": 65.81472,
+    "native_event_review_tier": "PASS",
+    "native_event_review_score": 100,
+    "native_event_review_flags": [],
+    "motif": "CT-AC",
+    "junction_is_annotated": false,
+    "coordinate_topology": "LINEAR_SPLICE_GAP",
+    "region_id": "REG_35621fc5dd92cf1c215d",
+    "reference_translation_on_recorded_path": "RSSFSTAKTSTSLPYHTSSTHHPEV",
+    "nucleotide_differences": [
+      {
+        "window_nt_position_1based": 2,
+        "allele": [
+          "chr11",
+          1017591,
+          "C",
+          "G"
+        ],
+        "reference_codon": "CGA",
+        "rna_codon": "CCA",
+        "aa_position_1based": 1,
+        "reference_amino_acid": "R",
+        "rna_inferred_amino_acid": "P",
+        "nonsynonymous": true,
+        "normal": {
+          "classification": "UNRESOLVED_NORMAL_EVIDENCE",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 24,
+          "read_evidence": {
+            "qualifying_fragment_names": 135,
+            "usable_fragment_names": 135,
+            "fragment_counts": {
+              "REF": 101,
+              "ALT": 24,
+              "OTHER": 10
+            },
+            "quality_passing_observations": {
+              "REF": 155,
+              "ALT": 35,
+              "OTHER": 12
+            },
+            "quality_assessment_counts": {
+              "passed": 202,
+              "failed": 15
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 1017553,
+                "ref": "G",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 1017595,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 177,
+                  "GQ": 99,
+                  "MIN_DP": 159,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "C": 101,
+              "G": 24,
+              "T": 10
+            },
+            "qualifying_names": 135,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "C": 4128,
+              "G": 681,
+              "DISAGREEING_MATES": 5,
+              "A": 8,
+              "T": 94
+            },
+            "qualifying_names": 4916,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "A": 12,
+              "G": 6,
+              "C": 235
+            },
+            "qualifying_names": 253,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      },
+      {
+        "window_nt_position_1based": 17,
+        "allele": [
+          "chr11",
+          1017576,
+          "G",
+          "A"
+        ],
+        "reference_codon": "ACG",
+        "rna_codon": "ATG",
+        "aa_position_1based": 6,
+        "reference_amino_acid": "T",
+        "rna_inferred_amino_acid": "M",
+        "nonsynonymous": true,
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 150,
+            "usable_fragment_names": 150,
+            "fragment_counts": {
+              "REF": 150
+            },
+            "quality_passing_observations": {
+              "REF": 240
+            },
+            "quality_assessment_counts": {
+              "passed": 240,
+              "failed": 12
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 1017553,
+                "ref": "G",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 1017595,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 177,
+                  "GQ": 99,
+                  "MIN_DP": 159,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "G": 150
+            },
+            "qualifying_names": 150,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "G": 5583,
+              "A": 8,
+              "T": 3
+            },
+            "qualifying_names": 5594,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "G": 269,
+              "A": 9
+            },
+            "qualifying_names": 278,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      },
+      {
+        "window_nt_position_1based": 57,
+        "allele": [
+          "chr11",
+          1017029,
+          "T",
+          "G"
+        ],
+        "reference_codon": "TCA",
+        "rna_codon": "TCC",
+        "aa_position_1based": 19,
+        "reference_amino_acid": "S",
+        "rna_inferred_amino_acid": "S",
+        "nonsynonymous": false,
+        "normal": {
+          "classification": "PRESENT_IN_NORMAL",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 144,
+          "read_evidence": {
+            "qualifying_fragment_names": 237,
+            "usable_fragment_names": 237,
+            "fragment_counts": {
+              "REF": 88,
+              "ALT": 144,
+              "OTHER": 5
+            },
+            "quality_passing_observations": {
+              "REF": 140,
+              "ALT": 202,
+              "OTHER": 7
+            },
+            "quality_assessment_counts": {
+              "passed": 349,
+              "failed": 3
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_PRESENT",
+            "high_quality_reference_span_complete": false,
+            "positive_native_genotypes": [
+              {
+                "position": 1017029,
+                "ref": "T",
+                "alts": [
+                  "G",
+                  "<NON_REF>"
+                ],
+                "stop": 1017029,
+                "genotype": {
+                  "GT": [
+                    0,
+                    1
+                  ],
+                  "AD": [
+                    127,
+                    156,
+                    0
+                  ],
+                  "DP": 283,
+                  "GQ": 99,
+                  "PL": [
+                    5502,
+                    0,
+                    4120,
+                    5884,
+                    4588,
+                    10472
+                  ],
+                  "SB": [
+                    64,
+                    63,
+                    69,
+                    87
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "observations": [
+              {
+                "position": 1017029,
+                "ref": "T",
+                "alts": [
+                  "G",
+                  "<NON_REF>"
+                ],
+                "stop": 1017029,
+                "genotype": {
+                  "GT": [
+                    0,
+                    1
+                  ],
+                  "AD": [
+                    127,
+                    156,
+                    0
+                  ],
+                  "DP": 283,
+                  "GQ": 99,
+                  "PL": [
+                    5502,
+                    0,
+                    4120,
+                    5884,
+                    4588,
+                    10472
+                  ],
+                  "SB": [
+                    64,
+                    63,
+                    69,
+                    87
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "G": 144,
+              "T": 88,
+              "A": 5
+            },
+            "qualifying_names": 237,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "G": 3623,
+              "T": 3265,
+              "A": 186,
+              "C": 2
+            },
+            "qualifying_names": 7076,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "T": 51,
+              "G": 81
+            },
+            "qualifying_names": 132,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      }
+    ],
+    "peptide_occurrences": [
+      {
+        "peptide": "PSSFSMAK",
+        "start_0based": 0,
+        "end_0based_exclusive": 8,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSFSMAKT",
+        "start_0based": 1,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SFSMAKTS",
+        "start_0based": 2,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSMAKTST",
+        "start_0based": 3,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SMAKTSTS",
+        "start_0based": 4,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MAKTSTSL",
+        "start_0based": 5,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AKTSTSLP",
+        "start_0based": 6,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "KTSTSLPY",
+        "start_0based": 7,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSTSLPYH",
+        "start_0based": 8,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "STSLPYHT",
+        "start_0based": 9,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSLPYHTS",
+        "start_0based": 10,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPYHTSS",
+        "start_0based": 11,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LPYHTSST",
+        "start_0based": 12,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PYHTSSTH",
+        "start_0based": 13,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "YHTSSTHH",
+        "start_0based": 14,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTSSTHHP",
+        "start_0based": 15,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSSTHHPE",
+        "start_0based": 16,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SSTHHPEV",
+        "start_0based": 17,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PSSFSMAKT",
+        "start_0based": 0,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSFSMAKTS",
+        "start_0based": 1,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SFSMAKTST",
+        "start_0based": 2,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSMAKTSTS",
+        "start_0based": 3,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SMAKTSTSL",
+        "start_0based": 4,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MAKTSTSLP",
+        "start_0based": 5,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AKTSTSLPY",
+        "start_0based": 6,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "KTSTSLPYH",
+        "start_0based": 7,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSTSLPYHT",
+        "start_0based": 8,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "STSLPYHTS",
+        "start_0based": 9,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSLPYHTSS",
+        "start_0based": 10,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPYHTSST",
+        "start_0based": 11,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LPYHTSSTH",
+        "start_0based": 12,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PYHTSSTHH",
+        "start_0based": 13,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "YHTSSTHHP",
+        "start_0based": 14,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTSSTHHPE",
+        "start_0based": 15,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSSTHHPEV",
+        "start_0based": 16,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PSSFSMAKTS",
+        "start_0based": 0,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSFSMAKTST",
+        "start_0based": 1,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SFSMAKTSTS",
+        "start_0based": 2,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSMAKTSTSL",
+        "start_0based": 3,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SMAKTSTSLP",
+        "start_0based": 4,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MAKTSTSLPY",
+        "start_0based": 5,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AKTSTSLPYH",
+        "start_0based": 6,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "KTSTSLPYHT",
+        "start_0based": 7,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSTSLPYHTS",
+        "start_0based": 8,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "STSLPYHTSS",
+        "start_0based": 9,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSLPYHTSST",
+        "start_0based": 10,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPYHTSSTH",
+        "start_0based": 11,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LPYHTSSTHH",
+        "start_0based": 12,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PYHTSSTHHP",
+        "start_0based": 13,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "YHTSSTHHPE",
+        "start_0based": 14,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "HTSSTHHPEV",
+        "start_0based": 15,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PSSFSMAKTST",
+        "start_0based": 0,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSFSMAKTSTS",
+        "start_0based": 1,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SFSMAKTSTSL",
+        "start_0based": 2,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSMAKTSTSLP",
+        "start_0based": 3,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SMAKTSTSLPY",
+        "start_0based": 4,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "MAKTSTSLPYH",
+        "start_0based": 5,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AKTSTSLPYHT",
+        "start_0based": 6,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "KTSTSLPYHTS",
+        "start_0based": 7,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSTSLPYHTSS",
+        "start_0based": 8,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "STSLPYHTSST",
+        "start_0based": 9,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSLPYHTSSTH",
+        "start_0based": 10,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPYHTSSTHH",
+        "start_0based": 11,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LPYHTSSTHHP",
+        "start_0based": 12,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PYHTSSTHHPE",
+        "start_0based": 13,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "YHTSSTHHPEV",
+        "start_0based": 14,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      }
+    ],
+    "broad_reference_full_window_hit": {
+      "reference_header": "ENSP00000487059.1 pep chromosome:GRCh38:CHR_HSCHR11_2_CTG1:1012821:1043528:-1 gene:ENSG00000277518.3 transcript:ENST00000627256.2 gene_biotype:polymorphic_pseudogene transcript_biotype:polymorphic_pseudogene gene_symbol:MUC6 description:mucin 6, oligomeric mucus/gel-forming [Source:HGNC Symbol;Acc:HGNC:7517]",
+      "protein_offset_0based": 3015
+    },
+    "target_peptides_after_broad_reference_and_personal_self_exclusion": []
+  },
+  {
+    "sequence": "LTTTATTPAATISTVTPSSALGTTH",
+    "coding_sequence": "CTGACCACCACCGCCACCACACCTGCAGCCACCATCAGCACAGTGACTCCCTCCTCTGCCCTAGGGACCACCCAC",
+    "start_nt_relative_to_join": -22,
+    "junction_nt_offset": 22,
+    "target_start_in_window": 7,
+    "target_end_in_window": 8,
+    "target_mode": "junction_codon",
+    "genomic_positions_0based": [
+      1245034,
+      1245035,
+      1245036,
+      1245037,
+      1245038,
+      1245039,
+      1245040,
+      1245041,
+      1245042,
+      1245043,
+      1245044,
+      1245045,
+      1245046,
+      1245047,
+      1245048,
+      1245049,
+      1245050,
+      1245051,
+      1245052,
+      1245053,
+      1245054,
+      1245055,
+      1247156,
+      1247157,
+      1247158,
+      1247159,
+      1247160,
+      1247161,
+      1247162,
+      1247163,
+      1247164,
+      1247165,
+      1247166,
+      1247167,
+      1247168,
+      1247169,
+      1247170,
+      1247171,
+      1247172,
+      1247173,
+      1247174,
+      1247175,
+      1247176,
+      1247177,
+      1247178,
+      1247179,
+      1247180,
+      1247181,
+      1247182,
+      1247183,
+      1247184,
+      1247185,
+      1247186,
+      1247187,
+      1247188,
+      1247189,
+      1247190,
+      1247191,
+      1247192,
+      1247193,
+      1247194,
+      1247195,
+      1247196,
+      1247197,
+      1247198,
+      1247199,
+      1247200,
+      1247201,
+      1247202,
+      1247203,
+      1247204,
+      1247205,
+      1247206,
+      1247207,
+      1247208
+    ],
+    "window_id": "RNA_SPLICE_2d4d950faf3c364680d9",
+    "context_phase": 1,
+    "source": "SPLICE",
+    "event_id": "ENSG00000117983:E30.1_1245056-E30.1_1247157",
+    "gene_id": "ENSG00000117983",
+    "gene": "MUC5B",
+    "coordinates": "chr11:1245056-1247157(+)",
+    "fragment_count": 2,
+    "fragment_names": [
+      "A01238:602:H33L5DSXF:1:2371:17219:5729",
+      "A01238:602:H33L5DSXF:2:2512:28528:31579"
+    ],
+    "genomic_path_support": [
+      {
+        "genomic_positions_0based": [
+          1245034,
+          1245035,
+          1245036,
+          1245037,
+          1245038,
+          1245039,
+          1245040,
+          1245041,
+          1245042,
+          1245043,
+          1245044,
+          1245045,
+          1245046,
+          1245047,
+          1245048,
+          1245049,
+          1245050,
+          1245051,
+          1245052,
+          1245053,
+          1245054,
+          1245055,
+          1247156,
+          1247157,
+          1247158,
+          1247159,
+          1247160,
+          1247161,
+          1247162,
+          1247163,
+          1247164,
+          1247165,
+          1247166,
+          1247167,
+          1247168,
+          1247169,
+          1247170,
+          1247171,
+          1247172,
+          1247173,
+          1247174,
+          1247175,
+          1247176,
+          1247177,
+          1247178,
+          1247179,
+          1247180,
+          1247181,
+          1247182,
+          1247183,
+          1247184,
+          1247185,
+          1247186,
+          1247187,
+          1247188,
+          1247189,
+          1247190,
+          1247191,
+          1247192,
+          1247193,
+          1247194,
+          1247195,
+          1247196,
+          1247197,
+          1247198,
+          1247199,
+          1247200,
+          1247201,
+          1247202,
+          1247203,
+          1247204,
+          1247205,
+          1247206,
+          1247207,
+          1247208
+        ],
+        "fragment_names": [
+          "A01238:602:H33L5DSXF:1:2371:17219:5729",
+          "A01238:602:H33L5DSXF:2:2512:28528:31579"
+        ],
+        "upstream_frame_anchors": [
+          {
+            "transcript_id": "ENST00000529681.5",
+            "upstream_query_offset": -75,
+            "upstream_CDS_index_0based": 8101,
+            "anchor_bases": 75,
+            "first_complete_codon_query_offset": -73,
+            "upstream_coding_sequence": "TCCACCACCAACCCCTCCTCAACTCCAGGGACAACACCTATCCCCCCAGTGCTGACCACCACCGCCACCACA",
+            "upstream_coding_positions_0based": [
+              1244983,
+              1244984,
+              1244985,
+              1244986,
+              1244987,
+              1244988,
+              1244989,
+              1244990,
+              1244991,
+              1244992,
+              1244993,
+              1244994,
+              1244995,
+              1244996,
+              1244997,
+              1244998,
+              1244999,
+              1245000,
+              1245001,
+              1245002,
+              1245003,
+              1245004,
+              1245005,
+              1245006,
+              1245007,
+              1245008,
+              1245009,
+              1245010,
+              1245011,
+              1245012,
+              1245013,
+              1245014,
+              1245015,
+              1245016,
+              1245017,
+              1245018,
+              1245019,
+              1245020,
+              1245021,
+              1245022,
+              1245023,
+              1245024,
+              1245025,
+              1245026,
+              1245027,
+              1245028,
+              1245029,
+              1245030,
+              1245031,
+              1245032,
+              1245033,
+              1245034,
+              1245035,
+              1245036,
+              1245037,
+              1245038,
+              1245039,
+              1245040,
+              1245041,
+              1245042,
+              1245043,
+              1245044,
+              1245045,
+              1245046,
+              1245047,
+              1245048,
+              1245049,
+              1245050,
+              1245051,
+              1245052,
+              1245053,
+              1245054
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:1:2371:17219:5729",
+              "A01238:602:H33L5DSXF:2:2512:28528:31579"
+            ]
+          }
+        ]
+      }
+    ],
+    "genomic_path_count": 1,
+    "upstream_frame_anchors": [
+      {
+        "transcript_id": "ENST00000529681.5",
+        "upstream_query_offset": -75,
+        "upstream_CDS_index_0based": 8101,
+        "anchor_bases": 75,
+        "first_complete_codon_query_offset": -73,
+        "upstream_coding_sequence": "TCCACCACCAACCCCTCCTCAACTCCAGGGACAACACCTATCCCCCCAGTGCTGACCACCACCGCCACCACA",
+        "upstream_coding_positions_0based": [
+          1244983,
+          1244984,
+          1244985,
+          1244986,
+          1244987,
+          1244988,
+          1244989,
+          1244990,
+          1244991,
+          1244992,
+          1244993,
+          1244994,
+          1244995,
+          1244996,
+          1244997,
+          1244998,
+          1244999,
+          1245000,
+          1245001,
+          1245002,
+          1245003,
+          1245004,
+          1245005,
+          1245006,
+          1245007,
+          1245008,
+          1245009,
+          1245010,
+          1245011,
+          1245012,
+          1245013,
+          1245014,
+          1245015,
+          1245016,
+          1245017,
+          1245018,
+          1245019,
+          1245020,
+          1245021,
+          1245022,
+          1245023,
+          1245024,
+          1245025,
+          1245026,
+          1245027,
+          1245028,
+          1245029,
+          1245030,
+          1245031,
+          1245032,
+          1245033,
+          1245034,
+          1245035,
+          1245036,
+          1245037,
+          1245038,
+          1245039,
+          1245040,
+          1245041,
+          1245042,
+          1245043,
+          1245044,
+          1245045,
+          1245046,
+          1245047,
+          1245048,
+          1245049,
+          1245050,
+          1245051,
+          1245052,
+          1245053,
+          1245054
+        ]
+      }
+    ],
+    "supporting_transcripts": "ENST00000529681.5",
+    "supplied_transformed_gene_tpm": 284.0375,
+    "native_event_review_tier": "PASS",
+    "native_event_review_score": 100,
+    "native_event_review_flags": [],
+    "motif": "CT-AC",
+    "junction_is_annotated": false,
+    "coordinate_topology": "LINEAR_SPLICE_GAP",
+    "region_id": "REG_ea6a38a75f1c7d884bee",
+    "reference_translation_on_recorded_path": "LTTTATTPAATSSTVTPSSALGTTH",
+    "nucleotide_differences": [
+      {
+        "window_nt_position_1based": 35,
+        "allele": [
+          "chr11",
+          1247169,
+          "G",
+          "T"
+        ],
+        "reference_codon": "AGC",
+        "rna_codon": "ATC",
+        "aa_position_1based": 12,
+        "reference_amino_acid": "S",
+        "rna_inferred_amino_acid": "I",
+        "nonsynonymous": true,
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 52,
+            "usable_fragment_names": 52,
+            "fragment_counts": {
+              "REF": 52
+            },
+            "quality_passing_observations": {
+              "REF": 86
+            },
+            "quality_assessment_counts": {
+              "passed": 86,
+              "failed": 5
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 1246988,
+                "ref": "G",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 1247282,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 82,
+                  "GQ": 99,
+                  "MIN_DP": 40,
+                  "PL": [
+                    0,
+                    110,
+                    1710
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "G": 52
+            },
+            "qualifying_names": 52,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "G": 2854,
+              "C": 1,
+              "A": 1
+            },
+            "qualifying_names": 2856,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "G": 2021,
+              "T": 4,
+              "A": 4,
+              "C": 3
+            },
+            "qualifying_names": 2032,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      }
+    ],
+    "peptide_occurrences": [
+      {
+        "peptide": "LTTTATTP",
+        "start_0based": 0,
+        "end_0based_exclusive": 8,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTTATTPA",
+        "start_0based": 1,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTATTPAA",
+        "start_0based": 2,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TATTPAAT",
+        "start_0based": 3,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "ATTPAATI",
+        "start_0based": 4,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTPAATIS",
+        "start_0based": 5,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPAATIST",
+        "start_0based": 6,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PAATISTV",
+        "start_0based": 7,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AATISTVT",
+        "start_0based": 8,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATISTVTP",
+        "start_0based": 9,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TISTVTPS",
+        "start_0based": 10,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ISTVTPSS",
+        "start_0based": 11,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "STVTPSSA",
+        "start_0based": 12,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TVTPSSAL",
+        "start_0based": 13,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "VTPSSALG",
+        "start_0based": 14,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TPSSALGT",
+        "start_0based": 15,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PSSALGTT",
+        "start_0based": 16,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SSALGTTH",
+        "start_0based": 17,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LTTTATTPA",
+        "start_0based": 0,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTTATTPAA",
+        "start_0based": 1,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTATTPAAT",
+        "start_0based": 2,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TATTPAATI",
+        "start_0based": 3,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATTPAATIS",
+        "start_0based": 4,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTPAATIST",
+        "start_0based": 5,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPAATISTV",
+        "start_0based": 6,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PAATISTVT",
+        "start_0based": 7,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AATISTVTP",
+        "start_0based": 8,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATISTVTPS",
+        "start_0based": 9,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TISTVTPSS",
+        "start_0based": 10,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ISTVTPSSA",
+        "start_0based": 11,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "STVTPSSAL",
+        "start_0based": 12,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TVTPSSALG",
+        "start_0based": 13,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "VTPSSALGT",
+        "start_0based": 14,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TPSSALGTT",
+        "start_0based": 15,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PSSALGTTH",
+        "start_0based": 16,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LTTTATTPAA",
+        "start_0based": 0,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTTATTPAAT",
+        "start_0based": 1,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTATTPAATI",
+        "start_0based": 2,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TATTPAATIS",
+        "start_0based": 3,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATTPAATIST",
+        "start_0based": 4,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTPAATISTV",
+        "start_0based": 5,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPAATISTVT",
+        "start_0based": 6,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PAATISTVTP",
+        "start_0based": 7,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AATISTVTPS",
+        "start_0based": 8,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATISTVTPSS",
+        "start_0based": 9,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TISTVTPSSA",
+        "start_0based": 10,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ISTVTPSSAL",
+        "start_0based": 11,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "STVTPSSALG",
+        "start_0based": 12,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TVTPSSALGT",
+        "start_0based": 13,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "VTPSSALGTT",
+        "start_0based": 14,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TPSSALGTTH",
+        "start_0based": 15,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LTTTATTPAAT",
+        "start_0based": 0,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTTATTPAATI",
+        "start_0based": 1,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTATTPAATIS",
+        "start_0based": 2,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TATTPAATIST",
+        "start_0based": 3,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATTPAATISTV",
+        "start_0based": 4,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTPAATISTVT",
+        "start_0based": 5,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPAATISTVTP",
+        "start_0based": 6,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PAATISTVTPS",
+        "start_0based": 7,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "AATISTVTPSS",
+        "start_0based": 8,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ATISTVTPSSA",
+        "start_0based": 9,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TISTVTPSSAL",
+        "start_0based": 10,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ISTVTPSSALG",
+        "start_0based": 11,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "STVTPSSALGT",
+        "start_0based": 12,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TVTPSSALGTT",
+        "start_0based": 13,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "VTPSSALGTTH",
+        "start_0based": 14,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      }
+    ],
+    "broad_reference_full_window_hit": null,
+    "target_peptides_after_broad_reference_and_personal_self_exclusion": [
+      "ATTPAATI",
+      "ATTPAATIS",
+      "ATTPAATIST",
+      "ATTPAATISTV",
+      "PAATISTV",
+      "PAATISTVT",
+      "PAATISTVTP",
+      "PAATISTVTPS",
+      "TATTPAATI",
+      "TATTPAATIS",
+      "TATTPAATIST",
+      "TPAATIST",
+      "TPAATISTV",
+      "TPAATISTVT",
+      "TPAATISTVTP",
+      "TTATTPAATI",
+      "TTATTPAATIS",
+      "TTPAATIS",
+      "TTPAATIST",
+      "TTPAATISTV",
+      "TTPAATISTVT",
+      "TTTATTPAATI"
+    ]
+  },
+  {
+    "sequence": "TSQPTTITPSSVGFSGSLPMMTDLT",
+    "coding_sequence": "ACCTCACAACCAACAACCATCACTCCCTCATCCGTGGGCTTCAGTGGTTCATTACCTATGATGACAGACCTCACC",
+    "start_nt_relative_to_join": -55,
+    "junction_nt_offset": 55,
+    "target_start_in_window": 18,
+    "target_end_in_window": 19,
+    "target_mode": "junction_codon",
+    "genomic_positions_0based": [
+      100954236,
+      100954237,
+      100954238,
+      100954239,
+      100954240,
+      100954241,
+      100954242,
+      100954243,
+      100954244,
+      100954245,
+      100954246,
+      100954247,
+      100954248,
+      100954249,
+      100954250,
+      100954251,
+      100954252,
+      100954253,
+      100954254,
+      100954255,
+      100954256,
+      100954257,
+      100954258,
+      100954259,
+      100954260,
+      100954261,
+      100954262,
+      100954263,
+      100954264,
+      100954265,
+      100954266,
+      100954267,
+      100954268,
+      100954269,
+      100954270,
+      100954271,
+      100954272,
+      100954273,
+      100954274,
+      100954275,
+      100954276,
+      100954277,
+      100954278,
+      100954279,
+      100954280,
+      100954281,
+      100954282,
+      100954283,
+      100954284,
+      100954285,
+      100954286,
+      100954287,
+      100954288,
+      100954289,
+      100954290,
+      100956550,
+      100956551,
+      100956552,
+      100956553,
+      100956554,
+      100956555,
+      100956556,
+      100956557,
+      100956558,
+      100956559,
+      100956560,
+      100956561,
+      100956562,
+      100956563,
+      100956564,
+      100956565,
+      100956566,
+      100956567,
+      100956568,
+      100956569
+    ],
+    "window_id": "RNA_SPLICE_49004aed5179e0249c1b",
+    "context_phase": 1,
+    "source": "SPLICE",
+    "event_id": "ENSG00000169894:E2.1_100954291-E2.1_100956551",
+    "gene_id": "ENSG00000169894",
+    "gene": "MUC3A",
+    "coordinates": "chr7:100954291-100956551(+)",
+    "fragment_count": 3,
+    "fragment_names": [
+      "A01238:602:H33L5DSXF:2:1611:23972:14857",
+      "A01238:602:H33L5DSXF:2:1611:24008:11882",
+      "A01238:602:H33L5DSXF:2:2611:27914:5243"
+    ],
+    "genomic_path_support": [
+      {
+        "genomic_positions_0based": [
+          100954236,
+          100954237,
+          100954238,
+          100954239,
+          100954240,
+          100954241,
+          100954242,
+          100954243,
+          100954244,
+          100954245,
+          100954246,
+          100954247,
+          100954248,
+          100954249,
+          100954250,
+          100954251,
+          100954252,
+          100954253,
+          100954254,
+          100954255,
+          100954256,
+          100954257,
+          100954258,
+          100954259,
+          100954260,
+          100954261,
+          100954262,
+          100954263,
+          100954264,
+          100954265,
+          100954266,
+          100954267,
+          100954268,
+          100954269,
+          100954270,
+          100954271,
+          100954272,
+          100954273,
+          100954274,
+          100954275,
+          100954276,
+          100954277,
+          100954278,
+          100954279,
+          100954280,
+          100954281,
+          100954282,
+          100954283,
+          100954284,
+          100954285,
+          100954286,
+          100954287,
+          100954288,
+          100954289,
+          100954290,
+          100956550,
+          100956551,
+          100956552,
+          100956553,
+          100956554,
+          100956555,
+          100956556,
+          100956557,
+          100956558,
+          100956559,
+          100956560,
+          100956561,
+          100956562,
+          100956563,
+          100956564,
+          100956565,
+          100956566,
+          100956567,
+          100956568,
+          100956569
+        ],
+        "fragment_names": [
+          "A01238:602:H33L5DSXF:2:1611:23972:14857",
+          "A01238:602:H33L5DSXF:2:1611:24008:11882",
+          "A01238:602:H33L5DSXF:2:2611:27914:5243"
+        ],
+        "upstream_frame_anchors": [
+          {
+            "transcript_id": "ENST00000379458.9",
+            "upstream_query_offset": -75,
+            "upstream_CDS_index_0based": 2437,
+            "anchor_bases": 75,
+            "first_complete_codon_query_offset": -73,
+            "upstream_coding_sequence": "GTGAGTACAGGTATCCCTACCTCACAACCAACAACCATCACTCCCTCATCCGTGGGCTTCAGTGGTTCATTA",
+            "upstream_coding_positions_0based": [
+              100954218,
+              100954219,
+              100954220,
+              100954221,
+              100954222,
+              100954223,
+              100954224,
+              100954225,
+              100954226,
+              100954227,
+              100954228,
+              100954229,
+              100954230,
+              100954231,
+              100954232,
+              100954233,
+              100954234,
+              100954235,
+              100954236,
+              100954237,
+              100954238,
+              100954239,
+              100954240,
+              100954241,
+              100954242,
+              100954243,
+              100954244,
+              100954245,
+              100954246,
+              100954247,
+              100954248,
+              100954249,
+              100954250,
+              100954251,
+              100954252,
+              100954253,
+              100954254,
+              100954255,
+              100954256,
+              100954257,
+              100954258,
+              100954259,
+              100954260,
+              100954261,
+              100954262,
+              100954263,
+              100954264,
+              100954265,
+              100954266,
+              100954267,
+              100954268,
+              100954269,
+              100954270,
+              100954271,
+              100954272,
+              100954273,
+              100954274,
+              100954275,
+              100954276,
+              100954277,
+              100954278,
+              100954279,
+              100954280,
+              100954281,
+              100954282,
+              100954283,
+              100954284,
+              100954285,
+              100954286,
+              100954287,
+              100954288,
+              100954289
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:2:1611:23972:14857",
+              "A01238:602:H33L5DSXF:2:1611:24008:11882",
+              "A01238:602:H33L5DSXF:2:2611:27914:5243"
+            ]
+          },
+          {
+            "transcript_id": "ENST00000483366.5",
+            "upstream_query_offset": -75,
+            "upstream_CDS_index_0based": 2437,
+            "anchor_bases": 75,
+            "first_complete_codon_query_offset": -73,
+            "upstream_coding_sequence": "GTGAGTACAGGTATCCCTACCTCACAACCAACAACCATCACTCCCTCATCCGTGGGCTTCAGTGGTTCATTA",
+            "upstream_coding_positions_0based": [
+              100954218,
+              100954219,
+              100954220,
+              100954221,
+              100954222,
+              100954223,
+              100954224,
+              100954225,
+              100954226,
+              100954227,
+              100954228,
+              100954229,
+              100954230,
+              100954231,
+              100954232,
+              100954233,
+              100954234,
+              100954235,
+              100954236,
+              100954237,
+              100954238,
+              100954239,
+              100954240,
+              100954241,
+              100954242,
+              100954243,
+              100954244,
+              100954245,
+              100954246,
+              100954247,
+              100954248,
+              100954249,
+              100954250,
+              100954251,
+              100954252,
+              100954253,
+              100954254,
+              100954255,
+              100954256,
+              100954257,
+              100954258,
+              100954259,
+              100954260,
+              100954261,
+              100954262,
+              100954263,
+              100954264,
+              100954265,
+              100954266,
+              100954267,
+              100954268,
+              100954269,
+              100954270,
+              100954271,
+              100954272,
+              100954273,
+              100954274,
+              100954275,
+              100954276,
+              100954277,
+              100954278,
+              100954279,
+              100954280,
+              100954281,
+              100954282,
+              100954283,
+              100954284,
+              100954285,
+              100954286,
+              100954287,
+              100954288,
+              100954289
+            ],
+            "fragment_names": [
+              "A01238:602:H33L5DSXF:2:1611:23972:14857",
+              "A01238:602:H33L5DSXF:2:1611:24008:11882",
+              "A01238:602:H33L5DSXF:2:2611:27914:5243"
+            ]
+          }
+        ]
+      }
+    ],
+    "genomic_path_count": 1,
+    "upstream_frame_anchors": [
+      {
+        "transcript_id": "ENST00000379458.9",
+        "upstream_query_offset": -75,
+        "upstream_CDS_index_0based": 2437,
+        "anchor_bases": 75,
+        "first_complete_codon_query_offset": -73,
+        "upstream_coding_sequence": "GTGAGTACAGGTATCCCTACCTCACAACCAACAACCATCACTCCCTCATCCGTGGGCTTCAGTGGTTCATTA",
+        "upstream_coding_positions_0based": [
+          100954218,
+          100954219,
+          100954220,
+          100954221,
+          100954222,
+          100954223,
+          100954224,
+          100954225,
+          100954226,
+          100954227,
+          100954228,
+          100954229,
+          100954230,
+          100954231,
+          100954232,
+          100954233,
+          100954234,
+          100954235,
+          100954236,
+          100954237,
+          100954238,
+          100954239,
+          100954240,
+          100954241,
+          100954242,
+          100954243,
+          100954244,
+          100954245,
+          100954246,
+          100954247,
+          100954248,
+          100954249,
+          100954250,
+          100954251,
+          100954252,
+          100954253,
+          100954254,
+          100954255,
+          100954256,
+          100954257,
+          100954258,
+          100954259,
+          100954260,
+          100954261,
+          100954262,
+          100954263,
+          100954264,
+          100954265,
+          100954266,
+          100954267,
+          100954268,
+          100954269,
+          100954270,
+          100954271,
+          100954272,
+          100954273,
+          100954274,
+          100954275,
+          100954276,
+          100954277,
+          100954278,
+          100954279,
+          100954280,
+          100954281,
+          100954282,
+          100954283,
+          100954284,
+          100954285,
+          100954286,
+          100954287,
+          100954288,
+          100954289
+        ]
+      },
+      {
+        "transcript_id": "ENST00000483366.5",
+        "upstream_query_offset": -75,
+        "upstream_CDS_index_0based": 2437,
+        "anchor_bases": 75,
+        "first_complete_codon_query_offset": -73,
+        "upstream_coding_sequence": "GTGAGTACAGGTATCCCTACCTCACAACCAACAACCATCACTCCCTCATCCGTGGGCTTCAGTGGTTCATTA",
+        "upstream_coding_positions_0based": [
+          100954218,
+          100954219,
+          100954220,
+          100954221,
+          100954222,
+          100954223,
+          100954224,
+          100954225,
+          100954226,
+          100954227,
+          100954228,
+          100954229,
+          100954230,
+          100954231,
+          100954232,
+          100954233,
+          100954234,
+          100954235,
+          100954236,
+          100954237,
+          100954238,
+          100954239,
+          100954240,
+          100954241,
+          100954242,
+          100954243,
+          100954244,
+          100954245,
+          100954246,
+          100954247,
+          100954248,
+          100954249,
+          100954250,
+          100954251,
+          100954252,
+          100954253,
+          100954254,
+          100954255,
+          100954256,
+          100954257,
+          100954258,
+          100954259,
+          100954260,
+          100954261,
+          100954262,
+          100954263,
+          100954264,
+          100954265,
+          100954266,
+          100954267,
+          100954268,
+          100954269,
+          100954270,
+          100954271,
+          100954272,
+          100954273,
+          100954274,
+          100954275,
+          100954276,
+          100954277,
+          100954278,
+          100954279,
+          100954280,
+          100954281,
+          100954282,
+          100954283,
+          100954284,
+          100954285,
+          100954286,
+          100954287,
+          100954288,
+          100954289
+        ]
+      }
+    ],
+    "supporting_transcripts": "ENST00000379458.9;ENST00000483366.5",
+    "supplied_transformed_gene_tpm": 656.58214,
+    "native_event_review_tier": "PASS",
+    "native_event_review_score": 100,
+    "native_event_review_flags": [],
+    "motif": "CT-AC",
+    "junction_is_annotated": false,
+    "coordinate_topology": "LINEAR_SPLICE_GAP",
+    "region_id": "REG_d58dfb6f2f0b754ec2b9",
+    "reference_translation_on_recorded_path": "TSQPTTITPSSVGISGSLPMMTDLT",
+    "nucleotide_differences": [
+      {
+        "window_nt_position_1based": 40,
+        "allele": [
+          "chr7",
+          100954276,
+          "A",
+          "T"
+        ],
+        "reference_codon": "ATC",
+        "rna_codon": "TTC",
+        "aa_position_1based": 14,
+        "reference_amino_acid": "I",
+        "rna_inferred_amino_acid": "F",
+        "nonsynonymous": true,
+        "normal": {
+          "classification": "NORMAL_REFERENCE_SUPPORTED",
+          "adequate_qualifying_normal_fragments": true,
+          "target_alternate_normal_fragments": 0,
+          "read_evidence": {
+            "qualifying_fragment_names": 74,
+            "usable_fragment_names": 74,
+            "fragment_counts": {
+              "REF": 74
+            },
+            "quality_passing_observations": {
+              "REF": 114
+            },
+            "quality_assessment_counts": {
+              "passed": 114
+            },
+            "base_quality_policy": {
+              "min_base_quality": 20,
+              "scope": "focal_allele",
+              "empty_allele": "mapped_flanking_anchor_quality_only",
+              "missing": "unassessed",
+              "conflicting_source_allele": "unassessed",
+              "reconstruction_filtered": false,
+              "calibrated_probability": false
+            },
+            "fragment_unit": "Original read names; no UMI molecule claim"
+          },
+          "genotype_evidence": {
+            "status": "NORMAL_TARGET_ALLELE_NOT_CALLED",
+            "high_quality_reference_span_complete": true,
+            "positive_native_genotypes": [],
+            "observations": [
+              {
+                "position": 100954270,
+                "ref": "G",
+                "alts": [
+                  "<NON_REF>"
+                ],
+                "stop": 100954279,
+                "genotype": {
+                  "GT": [
+                    0,
+                    0
+                  ],
+                  "DP": 105,
+                  "GQ": 99,
+                  "MIN_DP": 101,
+                  "PL": [
+                    0,
+                    120,
+                    1800
+                  ]
+                },
+                "native_FILTER": [],
+                "high_quality": true
+              }
+            ],
+            "scatter_conflicts": [],
+            "note": "Reference genotype evidence is conditional on the native model; missing records are not absence"
+          },
+          "no_normal_ALT_call_is_not_a_zero_coverage_rule": true,
+          "healthy_tissue_expression_or_presentation_proven": false
+        },
+        "independent_counts": {
+          "normal": {
+            "fragment_bases": {
+              "A": 74
+            },
+            "qualifying_names": 74,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_DNA": {
+            "fragment_bases": {
+              "A": 243
+            },
+            "qualifying_names": 243,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          },
+          "tumour_RNA": {
+            "fragment_bases": {
+              "A": 141,
+              "T": 3
+            },
+            "qualifying_names": 144,
+            "unit": "Fragment names, not UMI-confirmed independent molecules",
+            "policy": "MQ>=20, focal BQ>=20; exclude unmapped, secondary, supplementary, duplicate and QC-fail reads; NH=1 when present"
+          }
+        }
+      }
+    ],
+    "peptide_occurrences": [
+      {
+        "peptide": "TSQPTTIT",
+        "start_0based": 0,
+        "end_0based_exclusive": 8,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SQPTTITP",
+        "start_0based": 1,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "QPTTITPS",
+        "start_0based": 2,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PTTITPSS",
+        "start_0based": 3,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTITPSSV",
+        "start_0based": 4,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TITPSSVG",
+        "start_0based": 5,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "ITPSSVGF",
+        "start_0based": 6,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPSSVGFS",
+        "start_0based": 7,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PSSVGFSG",
+        "start_0based": 8,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSVGFSGS",
+        "start_0based": 9,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SVGFSGSL",
+        "start_0based": 10,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "VGFSGSLP",
+        "start_0based": 11,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GFSGSLPM",
+        "start_0based": 12,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSGSLPMM",
+        "start_0based": 13,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SGSLPMMT",
+        "start_0based": 14,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "GSLPMMTD",
+        "start_0based": 15,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPMMTDL",
+        "start_0based": 16,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "LPMMTDLT",
+        "start_0based": 17,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSQPTTITP",
+        "start_0based": 0,
+        "end_0based_exclusive": 9,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SQPTTITPS",
+        "start_0based": 1,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "QPTTITPSS",
+        "start_0based": 2,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PTTITPSSV",
+        "start_0based": 3,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTITPSSVG",
+        "start_0based": 4,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TITPSSVGF",
+        "start_0based": 5,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ITPSSVGFS",
+        "start_0based": 6,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPSSVGFSG",
+        "start_0based": 7,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PSSVGFSGS",
+        "start_0based": 8,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSVGFSGSL",
+        "start_0based": 9,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SVGFSGSLP",
+        "start_0based": 10,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "VGFSGSLPM",
+        "start_0based": 11,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GFSGSLPMM",
+        "start_0based": 12,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSGSLPMMT",
+        "start_0based": 13,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SGSLPMMTD",
+        "start_0based": 14,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "GSLPMMTDL",
+        "start_0based": 15,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SLPMMTDLT",
+        "start_0based": 16,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSQPTTITPS",
+        "start_0based": 0,
+        "end_0based_exclusive": 10,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SQPTTITPSS",
+        "start_0based": 1,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "QPTTITPSSV",
+        "start_0based": 2,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PTTITPSSVG",
+        "start_0based": 3,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TTITPSSVGF",
+        "start_0based": 4,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TITPSSVGFS",
+        "start_0based": 5,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ITPSSVGFSG",
+        "start_0based": 6,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPSSVGFSGS",
+        "start_0based": 7,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PSSVGFSGSL",
+        "start_0based": 8,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSVGFSGSLP",
+        "start_0based": 9,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SVGFSGSLPM",
+        "start_0based": 10,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "VGFSGSLPMM",
+        "start_0based": 11,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GFSGSLPMMT",
+        "start_0based": 12,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSGSLPMMTD",
+        "start_0based": 13,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SGSLPMMTDL",
+        "start_0based": 14,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "GSLPMMTDLT",
+        "start_0based": 15,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "TSQPTTITPSS",
+        "start_0based": 0,
+        "end_0based_exclusive": 11,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "SQPTTITPSSV",
+        "start_0based": 1,
+        "end_0based_exclusive": 12,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "QPTTITPSSVG",
+        "start_0based": 2,
+        "end_0based_exclusive": 13,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": false
+      },
+      {
+        "peptide": "PTTITPSSVGF",
+        "start_0based": 3,
+        "end_0based_exclusive": 14,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TTITPSSVGFS",
+        "start_0based": 4,
+        "end_0based_exclusive": 15,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TITPSSVGFSG",
+        "start_0based": 5,
+        "end_0based_exclusive": 16,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "ITPSSVGFSGS",
+        "start_0based": 6,
+        "end_0based_exclusive": 17,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "TPSSVGFSGSL",
+        "start_0based": 7,
+        "end_0based_exclusive": 18,
+        "overlaps_recorded_target": false,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "PSSVGFSGSLP",
+        "start_0based": 8,
+        "end_0based_exclusive": 19,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SSVGFSGSLPM",
+        "start_0based": 9,
+        "end_0based_exclusive": 20,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SVGFSGSLPMM",
+        "start_0based": 10,
+        "end_0based_exclusive": 21,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "VGFSGSLPMMT",
+        "start_0based": 11,
+        "end_0based_exclusive": 22,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "GFSGSLPMMTD",
+        "start_0based": 12,
+        "end_0based_exclusive": 23,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "FSGSLPMMTDL",
+        "start_0based": 13,
+        "end_0based_exclusive": 24,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": true
+      },
+      {
+        "peptide": "SGSLPMMTDLT",
+        "start_0based": 14,
+        "end_0based_exclusive": 25,
+        "overlaps_recorded_target": true,
+        "overlaps_nonsynonymous_RNA_difference": false
+      }
+    ],
+    "broad_reference_full_window_hit": null,
+    "target_peptides_after_broad_reference_and_personal_self_exclusion": [
+      "FSGSLPMM",
+      "FSGSLPMMT",
+      "FSGSLPMMTD",
+      "FSGSLPMMTDL",
+      "GFSGSLPM",
+      "GFSGSLPMM",
+      "GFSGSLPMMT",
+      "GFSGSLPMMTD",
+      "PSSVGFSGSLP",
+      "SSVGFSGSLP",
+      "SSVGFSGSLPM",
+      "SVGFSGSLP",
+      "SVGFSGSLPM",
+      "SVGFSGSLPMM",
+      "VGFSGSLP",
+      "VGFSGSLPM",
+      "VGFSGSLPMM",
+      "VGFSGSLPMMT"
+    ]
+  }
+]

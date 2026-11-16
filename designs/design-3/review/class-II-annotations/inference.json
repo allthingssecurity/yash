@@ -1,0 +1,40 @@
+{
+  "GPU_name": "NVIDIA A10",
+  "GPU_used": true,
+  "all_upstream_model_files_verified": true,
+  "caphla_revision": "33ebdd6ce6dadbbb1c66b026ce4b5d81dbf3a831",
+  "device": "cuda",
+  "folds_per_mode": 5,
+  "inference_elapsed_seconds": 14.051381645,
+  "max_reference_smoke_absolute_score_difference": 4.321598052747788e-07,
+  "model_modes": [
+    "BA",
+    "EL"
+  ],
+  "new_inference": true,
+  "output_sha256": {
+    "hla-coverage.tsv": "ddeb0f868dc060da74e93dd94e802f88894fccb9b9367839d10ca0961efe715b",
+    "normal-search.json": "6272a141759a5ce36df4fa06f184d92a027c843f3e8d0967e870909d7b2b4a8b",
+    "predictions.tsv.gz": "7fd07d96858b98c0290813d1ec7f86b70e951e6610a093e5f0a676538a9d2053",
+    "reference-matches.json.gz": "56537176340c89031fcd10c2cf80d5bf18b6352fd5f25bf88a34dcd54801373b"
+  },
+  "prediction_rows": 34240,
+  "queries": 3424,
+  "reference_smoke_pairs": 11,
+  "reference_smoke_passed": true,
+  "request_sha256": "9f649b8a8d85f958c60ef27894e3e1c693cbbe33daf3dbabc67413af8feb8241",
+  "status": "COMPLETED",
+  "targets": 10,
+  "total_elapsed_seconds": 25.434994740999997,
+  "upstream_code_or_weights_redistributed": false,
+  "upstream_files": 14,
+  "versions": {
+    "mhcgnomes": "3.64.6",
+    "mhctools": "4.5.0",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "pyahocorasick": "2.2.0",
+    "torch": "2.14.1+cu130"
+  },
+  "worker_sha256": "f9f8e197aca36f6f0b79de63caa3381250c6e9319f12f18dce8ae8ed66c579a4"
+}
